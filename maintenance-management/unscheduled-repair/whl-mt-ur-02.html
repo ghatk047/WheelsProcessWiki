@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Unscheduled Repair & Roadside Management — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-MT-UR-02: Roadside Assistance Dispatch and Tow Coordination — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -422,57 +423,200 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../maintenance-management/index.html">Maintenance Management</a> &rsaquo;
-      Unscheduled Repair & Roadside Management
+      <a href="../../maintenance-management/unscheduled-repair/index.html">Unscheduled Repair & Roadside Management</a> &rsaquo;
+      WHL-MT-UR-02
     </div>
-    <div class="page-title">🔧 Unscheduled Repair & Roadside Management</div>
-    <div class="page-subtitle">1 of 8 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-mt-ur-01.html'>
-  <div class="process-card-id complete">WHL-MT-UR-01</div>
-  <div class="process-card-name">Driver Breakdown or Repair Request Intake</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-MT-UR-02</div>
-  <div class="process-card-name">Roadside Assistance Dispatch and Tow Coordination</div>
-  <div class="process-card-meta">8 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-MT-UR-03</div>
-  <div class="process-card-name">Repair Authorisation and Approved Shop Assignment</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-MT-UR-04</div>
-  <div class="process-card-name">Rental Vehicle Coordination During Repair</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-MT-UR-05</div>
-  <div class="process-card-name">Repair Invoice Audit and Cost Control</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-MT-UR-06</div>
-  <div class="process-card-name">Warranty Claim Identification and Filing</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-MT-UR-07</div>
-  <div class="process-card-name">Vehicle Return-to-Service Confirmation</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-MT-UR-08</div>
-  <div class="process-card-name">Unscheduled Repair Root Cause Analysis</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-MT-UR-02</div>
+      <h1>Roadside Assistance Dispatch and Tow Coordination</h1>
+      <div class="process-meta">
+        <span>🏢 Maintenance Management</span>
+        <span>➡ Unscheduled Repair & Roadside Management</span>
+        <span>📝 8 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">The Roadside Assistance Dispatch and Tow Coordination process at Wheels involves the seamless dispatch of roadside assistance providers to stranded vehicles and coordination of towing services, ensuring minimal downtime and efficient resolution.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">Vehicle Breakdown Alert from Wheels Telematics/IoT Platform</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">Successfully dispatched roadside assistance and towed vehicle to a repair location with minimal delay and accurate billing.</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag fleetview">FleetView</span><span class="sys-tag sap">SAP S/4HANA</span><span class="sys-tag telematics">Wheels Telematics/IoT Platform</span><span class="sys-tag fuel-card">WEX Fuel Card API</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-mt-ur-02.png" data-lightbox="WHL-MT-UR-02">
+          <img src="../../assets/img/whl-mt-ur-02.png" alt="BPMN diagram for WHL-MT-UR-02" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>Response time within 5 minutes</li>
+<li>Ticket creation within 1 minute of alert</li>
+<li>Dispatch time within 2 minutes of incident log</li>
+<li>Incident closure rate > 98%</li>
+<li>Invoice accuracy > 99%</li>
+<li>Payment settlement within 24 hours</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Inadequate provider availability causing delays in dispatch</li>
+<li>Provider response variability affecting on-time arrival</li>
+<li>Inaccurate tow request data leading to inefficient service delivery</li>
+<li>Incomplete or inaccurate resolution data affecting analytics and reporting</li>
+<li>Manual intervention required for billing, increasing processing time</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>Incident Detection - Telematics OPS app - Alert Created</td>
+  <td>Driver Services Agent</td>
+  <td><span class="sys-tag telematics">Wheels Telematics/IoT Platform</span></td>
+  <td class="kpi-cell" style="font-size:10px">Vehicle breakdown detected and alert fired</td>
+  <td>Real-time telematics data (OBD diagnostics)</td>
+  <td>Alert notification in FleetView Mobile App</td>
+  <td class="kpi-cell">Response time within 5 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">False positives leading to unnecessary dispatches</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>Alert Acknowledgment - FleetView Mobile App - Incident Logged</td>
+  <td>Maintenance Coordinator</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Incident logged and assigned for dispatch</td>
+  <td>Driver acknowledgment from FleetView Mobile App</td>
+  <td>Incident ticket in FleetView system</td>
+  <td class="kpi-cell">Ticket creation within 1 minute of alert</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed acknowledgment causing longer response times</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>Dispatch Coordination - FleetView VIM - Provider Assigned</td>
+  <td>Maintenance Coordinator</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Assigns the closest available roadside assistance provider</td>
+  <td>Incident ticket in FleetView system</td>
+  <td>Provider assignment and dispatch instruction sent via FleetView Mobile App</td>
+  <td class="kpi-cell">Dispatch time within 2 minutes of incident log</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inadequate provider availability causing delays</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>Provider Notification - FleetView Mobile App - Job Acceptance Confirmed</td>
+  <td>Roadside Assistance Provider</td>
+  <td><span class="sys-tag fleetview">FleetView Mobile App</span></td>
+  <td class="kpi-cell" style="font-size:10px">Provider accepts the job and confirms route navigation</td>
+  <td>Dispatch instruction from FleetView Mobile App</td>
+  <td>Job acceptance confirmation in FleetView system</td>
+  <td class="kpi-cell">Response time within 1 minute of dispatch notification</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Provider response variability affecting on-time arrival</td>
+</tr>
+<tr>
+  <td class="step-num">2.3</td>
+  <td>Tow Coordination - FleetView - Tow Request Created</td>
+  <td>Maintenance Coordinator</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Creates a tow request in the system</td>
+  <td>Incident ticket and provider confirmation in FleetView</td>
+  <td>Tow request with location details</td>
+  <td class="kpi-cell">Tow request creation within 2 minutes of incident log</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inaccurate tow request data leading to delays</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>Incident Closure - FleetView - Incident Ticket Updated</td>
+  <td>Maintenance Coordinator</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Updates incident ticket with resolution details and provider feedback</td>
+  <td>Completion report from provider via FleetView Mobile App</td>
+  <td>Closed incident ticket in FleetView system</td>
+  <td class="kpi-cell">Incident closure rate > 98%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Incomplete or inaccurate resolution data affecting analytics</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>Billing Process - SAP S/4HANA - Invoice Generation</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Generates invoice based on service and towing charges</td>
+  <td>Completed incident ticket with details in FleetView</td>
+  <td>Invoice generated in SAP S/4HANA system</td>
+  <td class="kpi-cell">Invoice accuracy > 99%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Manual intervention causing delayed billing</td>
+</tr>
+<tr>
+  <td class="step-num">3.3</td>
+  <td>Payment Processing - WEX Fuel Card API - Transaction Settled</td>
+  <td>Fuel Programme Manager</td>
+  <td><span class="sys-tag wex">WEX Fuel Card API</span></td>
+  <td class="kpi-cell" style="font-size:10px">Processes payment transaction and settles charges</td>
+  <td>Invoice generated in SAP S/4HANA system</td>
+  <td>Payment confirmation from WEX Fuel Card API</td>
+  <td class="kpi-cell">Payment settlement within 24 hours</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Payment failures affecting fleet financials</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
