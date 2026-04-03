@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Unscheduled Repair & Roadside Management — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-MT-UR-05: Repair Invoice Audit and Cost Control — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -425,57 +426,215 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../maintenance-management/index.html">Maintenance Management</a> &rsaquo;
-      Unscheduled Repair & Roadside Management
+      <a href="../../maintenance-management/unscheduled-repair/index.html">Unscheduled Repair & Roadside Management</a> &rsaquo;
+      WHL-MT-UR-05
     </div>
-    <div class="page-title">🔧 Unscheduled Repair & Roadside Management</div>
-    <div class="page-subtitle">4 of 8 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-mt-ur-01.html'>
-  <div class="process-card-id complete">WHL-MT-UR-01</div>
-  <div class="process-card-name">Driver Breakdown or Repair Request Intake</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-mt-ur-02.html'>
-  <div class="process-card-id complete">WHL-MT-UR-02</div>
-  <div class="process-card-name">Roadside Assistance Dispatch and Tow Coordination</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-mt-ur-03.html'>
-  <div class="process-card-id complete">WHL-MT-UR-03</div>
-  <div class="process-card-name">Repair Authorisation and Approved Shop Assignment</div>
-  <div class="process-card-meta">7 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-mt-ur-04.html'>
-  <div class="process-card-id complete">WHL-MT-UR-04</div>
-  <div class="process-card-name">Rental Vehicle Coordination During Repair</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-MT-UR-05</div>
-  <div class="process-card-name">Repair Invoice Audit and Cost Control</div>
-  <div class="process-card-meta">9 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-MT-UR-06</div>
-  <div class="process-card-name">Warranty Claim Identification and Filing</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-MT-UR-07</div>
-  <div class="process-card-name">Vehicle Return-to-Service Confirmation</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-MT-UR-08</div>
-  <div class="process-card-name">Unscheduled Repair Root Cause Analysis</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-MT-UR-05</div>
+      <h1>Repair Invoice Audit and Cost Control</h1>
+      <div class="process-meta">
+        <span>🏢 Maintenance Management</span>
+        <span>➡ Unscheduled Repair & Roadside Management</span>
+        <span>📝 9 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">The Repair Invoice Audit and Cost Control process ensures that all unscheduled repair invoices are accurately audited and cost-controlled to maintain high vehicle uptime and invoice accuracy.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">Initiation of an unscheduled repair request by a driver or maintenance coordinator via the Wheels Telematics/IoT Platform.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">Successful completion produces an approved repair invoice with accurate costs, ensuring proper reimbursement and compliance with company policies.</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag fleetview">FleetView</span><span class="sys-tag sap">SAP S/4HANA</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-mt-ur-05.png" data-lightbox="WHL-MT-UR-05">
+          <img src="../../assets/img/whl-mt-ur-05.png" alt="BPMN diagram for WHL-MT-UR-05" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>Vehicle uptime > 95%</li>
+<li>Invoice accuracy > 99%</li>
+<li>Response time for repair requests < 24 hours.</li>
+<li>Estimate request processing time < 2 business days.</li>
+<li>Invoice receipt time < 5 business days.</li>
+<li>Invoice audit accuracy > 99%</li>
+<li>Invoice approval rate > 98%</li>
+<li>Invoice payment processing time < 3 business days.</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Inaccurate diagnostic data leading to incorrect repair estimates.</li>
+<li>Delays in vendor assignment causing further downtime.</li>
+<li>Disputes over repair estimates leading to delays.</li>
+<li>Errors in invoices leading to incorrect payments.</li>
+<li>Delays in approving invoices causing cash flow issues.</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>A1[FleetView - Repair Request Created]</td>
+  <td>Maintenance Coordinator</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Record created for the unscheduled repair request.</td>
+  <td>Driver's report or maintenance coordinator's input via FleetView Mobile App.</td>
+  <td>Repair request record in FleetView database.</td>
+  <td class="kpi-cell">Response time for repair requests < 24 hours.</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Late reporting of repair requests from drivers.</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>A2[Wheels Telematics/IoT Platform - Diagnostics Report]</td>
+  <td>Maintenance Coordinator</td>
+  <td><span class="sys-tag telematics">Wheels Telematics/IoT Platform</span></td>
+  <td class="kpi-cell" style="font-size:10px">Retrieves diagnostic data from the OBD device.</td>
+  <td>Repair request record from FleetView.</td>
+  <td>Diagnostic report attached to the repair request in FleetView.</td>
+  <td class="kpi-cell">Diagnostic report accuracy > 98%.</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inaccurate diagnostic data leading to incorrect repair estimates.</td>
+</tr>
+<tr>
+  <td class="step-num">1.3</td>
+  <td>A3[FleetView - Repair Vendor Selection]</td>
+  <td>Maintenance Coordinator</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Selects the appropriate repair vendor.</td>
+  <td>Diagnostic report and repair request details.</td>
+  <td>Vendor selection record in FleetView database.</td>
+  <td class="kpi-cell">Vendor response time < 48 hours.</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delays in vendor assignment causing further downtime.</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>B1[SAP S/4HANA - Estimate Request]</td>
+  <td>Maintenance Coordinator</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Creates a repair estimate request in SAP.</td>
+  <td>Vendor selection and diagnostic report.</td>
+  <td>Repair estimate request in SAP database.</td>
+  <td class="kpi-cell">Estimate request processing time < 2 business days.</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delays in creating repair estimates affecting driver availability.</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>B2[SAP S/4HANA - Estimate Approved]</td>
+  <td>Account Manager</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Approves the repair estimate in SAP.</td>
+  <td>Repair estimate request and vendor quote.</td>
+  <td>Approved repair estimate in SAP database.</td>
+  <td class="kpi-cell">Estimate approval rate > 95%.</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Disputes over repair estimates leading to delays.</td>
+</tr>
+<tr>
+  <td class="step-num">2.3</td>
+  <td>B3[FleetView - Invoice Received]</td>
+  <td>Maintenance Coordinator</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Receives the repair invoice from the vendor.</td>
+  <td>Approved repair estimate and vendor's invoice.</td>
+  <td>Invoice record in FleetView database.</td>
+  <td class="kpi-cell">Invoice receipt time < 5 business days.</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delays in receiving invoices affecting payment processes.</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>C1[SAP S/4HANA - Invoice Audit]</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Audits the repair invoice for accuracy and compliance.</td>
+  <td>Received repair invoice.</td>
+  <td>Audit report in SAP database.</td>
+  <td class="kpi-cell">Invoice audit accuracy > 99%.</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Errors in invoices leading to incorrect payments.</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>C2[SAP S/4HANA - Invoice Approved]</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Approves the audited repair invoice.</td>
+  <td>Audit report and financial review.</td>
+  <td>Approved invoice in SAP database.</td>
+  <td class="kpi-cell">Invoice approval rate > 98%.</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Delays in approving invoices causing cash flow issues.</td>
+</tr>
+<tr>
+  <td class="step-num">3.3</td>
+  <td>C3[FleetView - Invoice Payment]</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Processes the payment for the approved invoice.</td>
+  <td>Approved repair invoice and financial approval.</td>
+  <td>Payment record in FleetView database.</td>
+  <td class="kpi-cell">Invoice payment processing time < 3 business days.</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delays in payment processing affecting vendor relationships.</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
