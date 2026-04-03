@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Fuel Card Programme Management — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-FE-FC-04: IFTA Mileage-by-Jurisdiction Report Generation — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -432,57 +433,175 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../fuel-ev-management/index.html">Fuel & EV Charging Management</a> &rsaquo;
-      Fuel Card Programme Management
+      <a href="../../fuel-ev-management/fuel-card/index.html">Fuel Card Programme Management</a> &rsaquo;
+      WHL-FE-FC-04
     </div>
-    <div class="page-title">⚡ Fuel Card Programme Management</div>
-    <div class="page-subtitle">3 of 8 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-fe-fc-01.html'>
-  <div class="process-card-id complete">WHL-FE-FC-01</div>
-  <div class="process-card-name">WEX Fuel Card Issuance and Driver Assignment</div>
-  <div class="process-card-meta">7 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-fe-fc-02.html'>
-  <div class="process-card-id complete">WHL-FE-FC-02</div>
-  <div class="process-card-name">Fuel Card Policy Limits and Controls Configuration</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-fe-fc-03.html'>
-  <div class="process-card-id complete">WHL-FE-FC-03</div>
-  <div class="process-card-name">Transaction Monitoring and Fraud Detection via WEX API</div>
-  <div class="process-card-meta">9 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-FC-04</div>
-  <div class="process-card-name">IFTA Mileage-by-Jurisdiction Report Generation</div>
-  <div class="process-card-meta">6 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-FC-05</div>
-  <div class="process-card-name">Fuel Exception Alert Review and Driver Follow-Up</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-FC-06</div>
-  <div class="process-card-name">Fuel Cost Benchmarking and MPG Analysis in FleetView</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-FC-07</div>
-  <div class="process-card-name">Fuel Card Cancellation and Reissuance</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-FC-08</div>
-  <div class="process-card-name">Monthly Fuel Invoice Reconciliation in SAP</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-FE-FC-04</div>
+      <h1>IFTA Mileage-by-Jurisdiction Report Generation</h1>
+      <div class="process-meta">
+        <span>🏢 Fuel & EV Charging Management</span>
+        <span>➡ Fuel Card Programme Management</span>
+        <span>📝 6 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">The IFTA Mileage-by-Jurisdiction Report Generation process at Wheels is designed to compile and generate detailed reports on fuel consumption and mileage data for vehicles operating across various jurisdictions. This information is crucial for compliance with International Fuel Tax Agreement (IFTA) requirements, ensuring accurate reporting for state and federal taxes.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">Monthly end of the billing cycle</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">Completion of the IFTA Mileage-by-Jurisdiction report generation, ensuring all jurisdiction-specific mileage data is accurately captured and ready for tax filing.</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag fleetview">FleetView</span><span class="sys-tag sap">SAP S/4HANA</span><span class="sys-tag informatica">Informatica</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-fe-fc-04.png" data-lightbox="WHL-FE-FC-04">
+          <img src="../../assets/img/whl-fe-fc-04.png" alt="BPMN diagram for WHL-FE-FC-04" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>Data extraction accuracy > 98%</li>
+<li>Data integration success rate > 99%</li>
+<li>Data transformation accuracy > 97%</li>
+<li>Report generation time < 24 hours</li>
+<li>Integration success rate > 98%</li>
+<li>Report approval time < 2 business days</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Inaccurate data extraction leading to reporting errors</li>
+<li>Integration issues causing data loss or corruption</li>
+<li>Inconsistent data formats causing processing delays</li>
+<li>Delays in report generation affecting timely tax filings</li>
+<li>Integration failures impacting data retrieval and auditing</li>
+<li>Delays in review process causing missed compliance deadlines</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>FleetView - Monthly Data Extraction Initiated</td>
+  <td>Fuel Programme Manager</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Trigger monthly data extraction process from FleetView Analytics Portal</td>
+  <td>Monthly cycle trigger</td>
+  <td>Extracted mileage and fuel consumption data for all vehicles</td>
+  <td class="kpi-cell">Data extraction accuracy > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inaccurate data extraction leading to reporting errors</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>SAP S/4HANA - Data Integration Initiated</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Initiate data integration process from SAP to Informatica</td>
+  <td>Extracted mileage and fuel consumption data</td>
+  <td>Integrated data in SAP S/4HANA for further processing</td>
+  <td class="kpi-cell">Data integration success rate > 99%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Integration issues causing data loss or corruption</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>Informatica - Data Transformation Process</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag informatica">Informatica</span></td>
+  <td class="kpi-cell" style="font-size:10px">Transform and clean integrated data for jurisdiction-specific reporting</td>
+  <td>Integrated data from SAP S/4HANA</td>
+  <td>Cleaned and transformed data ready for reporting</td>
+  <td class="kpi-cell">Data transformation accuracy > 97%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inconsistent data formats causing processing delays</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>FleetView - Report Generation Initiated</td>
+  <td>Fuel Programme Manager</td>
+  <td><span class="sys-tag fleetview">FleetView Analytics Portal</span></td>
+  <td class="kpi-cell" style="font-size:10px">Generate IFTA Mileage-by-Jurisdiction report</td>
+  <td>Cleaned and transformed data from Informatica</td>
+  <td>Generated IFTA Mileage-by-Jurisdiction report</td>
+  <td class="kpi-cell">Report generation time < 24 hours</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delays in report generation affecting timely tax filings</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>SAP S/4HANA - Post Report Integration</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Integrate generated report into SAP for record-keeping and archival</td>
+  <td>Generated IFTA Mileage-by-Jurisdiction report</td>
+  <td>Report integrated into SAP system</td>
+  <td class="kpi-cell">Integration success rate > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Integration failures impacting data retrieval and auditing</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>Fuel Programme Manager - Review and Approval</td>
+  <td>Fuel Programme Manager</td>
+  <td><span class="sys-tag fleetview">FleetView Analytics Portal</span></td>
+  <td class="kpi-cell" style="font-size:10px">Review and approve the generated IFTA report for submission</td>
+  <td>Generated IFTA Mileage-by-Jurisdiction report</td>
+  <td>Approved report ready for tax filing</td>
+  <td class="kpi-cell">Report approval time < 2 business days</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delays in review process causing missed compliance deadlines</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
