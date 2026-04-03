@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Fuel Card Programme Management — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-FE-FC-01: WEX Fuel Card Issuance and Driver Assignment — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -429,57 +430,188 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../fuel-ev-management/index.html">Fuel & EV Charging Management</a> &rsaquo;
-      Fuel Card Programme Management
+      <a href="../../fuel-ev-management/fuel-card/index.html">Fuel Card Programme Management</a> &rsaquo;
+      WHL-FE-FC-01
     </div>
-    <div class="page-title">⚡ Fuel Card Programme Management</div>
-    <div class="page-subtitle">0 of 8 processes complete</div>
-    <div class="process-grid"><a class="process-card" >
-  <div class="process-card-id ">WHL-FE-FC-01</div>
-  <div class="process-card-name">WEX Fuel Card Issuance and Driver Assignment</div>
-  <div class="process-card-meta">7 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-FC-02</div>
-  <div class="process-card-name">Fuel Card Policy Limits and Controls Configuration</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-FC-03</div>
-  <div class="process-card-name">Transaction Monitoring and Fraud Detection via WEX API</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-FC-04</div>
-  <div class="process-card-name">IFTA Mileage-by-Jurisdiction Report Generation</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-FC-05</div>
-  <div class="process-card-name">Fuel Exception Alert Review and Driver Follow-Up</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-FC-06</div>
-  <div class="process-card-name">Fuel Cost Benchmarking and MPG Analysis in FleetView</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-FC-07</div>
-  <div class="process-card-name">Fuel Card Cancellation and Reissuance</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-FC-08</div>
-  <div class="process-card-name">Monthly Fuel Invoice Reconciliation in SAP</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-FE-FC-01</div>
+      <h1>WEX Fuel Card Issuance and Driver Assignment</h1>
+      <div class="process-meta">
+        <span>🏢 Fuel & EV Charging Management</span>
+        <span>➡ Fuel Card Programme Management</span>
+        <span>📝 7 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">This process manages the issuance and assignment of WEX fuel cards to drivers within Wheels' fleet. It ensures that drivers have access to necessary fuel card services while maintaining compliance and security.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">A new driver is onboarded or an existing driver's fuel card needs renewal/assignment.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">Drivers are assigned active WEX fuel cards, with all relevant data updated in the system for tracking and compliance.</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag fleetview">FleetView</span><span class="sys-tag sap">SAP S/4HANA</span><span class="sys-tag fuel-card">WEX Fuel Card API</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-fe-fc-01.png" data-lightbox="WHL-FE-FC-01">
+          <img src="../../assets/img/whl-fe-fc-01.png" alt="BPMN diagram for WHL-FE-FC-01" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>{'kpi_name': 'Driver onboarding time < 24 hours', 'target_value': '24 hours'}</li>
+<li>{'kpi_name': 'Discrepancy rate < 1%', 'target_value': '1%'}</li>
+<li>{'kpi_name': 'Fuel card issuance time < 3 business days', 'target_value': '3 business days'}</li>
+<li>{'kpi_name': 'Fuel card assignment accuracy > 99%', 'target_value': '99%'}</li>
+<li>{'kpi_name': 'Case resolution time < 4 business days', 'target_value': '4 business days'}</li>
+<li>{'kpi_name': 'Driver notification response rate > 95%', 'target_value': '95%'}</li>
+<li>{'kpi_name': 'Invoice accuracy > 99%', 'target_value': '99%'}</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Data discrepancies between FleetView and SAP S/4HANA leading to incorrect fuel card assignments.</li>
+<li>Delays in WEX API response affecting driver availability.</li>
+<li>Incorrect invoices posted in SAP S/4HANA causing financial issues.</li>
+<li>Drivers not receiving push notifications from the FleetView Mobile App leading to confusion.</li>
+<li>Security breaches of sensitive data during fuel card issuance.</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>FleetView VIM - Driver Onboarded</td>
+  <td>Fleet Consultant</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Driver record created in the FleetView system.</td>
+  <td>New driver details from HR or Account Manager.</td>
+  <td>Driver profile in FleetView with status 'Onboarded'.</td>
+  <td class="kpi-cell">Driver onboarding time < 24 hours</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delays in driver onboarding affecting fleet operations.</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>SAP S/4HANA - Validate Driver Details</td>
+  <td>Fleet Consultant</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Driver details validated against ERP records.</td>
+  <td>Driver profile from FleetView.</td>
+  <td>Validation report with any discrepancies.</td>
+  <td class="kpi-cell">Discrepancy rate < 1%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Data inconsistencies leading to errors in fuel card issuance.</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>WEX API - Create Fuel Card Request</td>
+  <td>Fuel Programme Manager</td>
+  <td><span class="sys-tag wex">WEX Fuel Card API</span></td>
+  <td class="kpi-cell" style="font-size:10px">API call to create a new fuel card request.</td>
+  <td>Validated driver details from SAP S/4HANA.</td>
+  <td>Fuel card request confirmation from WEX.</td>
+  <td class="kpi-cell">Fuel card issuance time < 3 business days</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delays in fuel card issuance affecting driver availability.</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>FleetView - Assign Fuel Card to Driver</td>
+  <td>Fuel Programme Manager</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Update driver profile with assigned fuel card details.</td>
+  <td>Fuel card confirmation from WEX API.</td>
+  <td>Driver profile updated in FleetView with fuel card number and expiration date.</td>
+  <td class="kpi-cell">Fuel card assignment accuracy > 99%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Incorrect fuel card assignments causing operational disruptions.</td>
+</tr>
+<tr>
+  <td class="step-num">2.3</td>
+  <td>Salesforce - Update Case Status</td>
+  <td>Account Manager</td>
+  <td><span class="sys-tag salesforce">Salesforce</span></td>
+  <td class="kpi-cell" style="font-size:10px">Close the case related to driver fuel card request.</td>
+  <td>Fuel card assignment confirmation from FleetView.</td>
+  <td>Case status updated to 'Closed' in Salesforce.</td>
+  <td class="kpi-cell">Case resolution time < 4 business days</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Unresolved cases leading to customer dissatisfaction.</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>FleetView - Driver Notification</td>
+  <td>Driver Services Agent</td>
+  <td><span class="sys-tag fleetview">FleetView Mobile App</span></td>
+  <td class="kpi-cell" style="font-size:10px">Send notification to driver with fuel card details.</td>
+  <td>Updated driver profile from FleetView.</td>
+  <td>Push notification sent to driver's mobile app.</td>
+  <td class="kpi-cell">Driver notification response rate > 95%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Drivers not receiving notifications leading to confusion.</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>SAP S/4HANA - Post Invoice</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Generate and post fuel card expense invoices.</td>
+  <td>Fuel card transaction data from WEX API.</td>
+  <td>Invoices posted in SAP S/4HANA with status 'Posted'.</td>
+  <td class="kpi-cell">Invoice accuracy > 99%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Incorrect invoices leading to financial discrepancies.</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
