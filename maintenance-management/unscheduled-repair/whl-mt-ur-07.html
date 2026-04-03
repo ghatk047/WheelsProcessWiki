@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Unscheduled Repair & Roadside Management — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-MT-UR-07: Vehicle Return-to-Service Confirmation — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -427,57 +428,243 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../maintenance-management/index.html">Maintenance Management</a> &rsaquo;
-      Unscheduled Repair & Roadside Management
+      <a href="../../maintenance-management/unscheduled-repair/index.html">Unscheduled Repair & Roadside Management</a> &rsaquo;
+      WHL-MT-UR-07
     </div>
-    <div class="page-title">🔧 Unscheduled Repair & Roadside Management</div>
-    <div class="page-subtitle">6 of 8 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-mt-ur-01.html'>
-  <div class="process-card-id complete">WHL-MT-UR-01</div>
-  <div class="process-card-name">Driver Breakdown or Repair Request Intake</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-mt-ur-02.html'>
-  <div class="process-card-id complete">WHL-MT-UR-02</div>
-  <div class="process-card-name">Roadside Assistance Dispatch and Tow Coordination</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-mt-ur-03.html'>
-  <div class="process-card-id complete">WHL-MT-UR-03</div>
-  <div class="process-card-name">Repair Authorisation and Approved Shop Assignment</div>
-  <div class="process-card-meta">7 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-mt-ur-04.html'>
-  <div class="process-card-id complete">WHL-MT-UR-04</div>
-  <div class="process-card-name">Rental Vehicle Coordination During Repair</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-mt-ur-05.html'>
-  <div class="process-card-id complete">WHL-MT-UR-05</div>
-  <div class="process-card-name">Repair Invoice Audit and Cost Control</div>
-  <div class="process-card-meta">9 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-mt-ur-06.html'>
-  <div class="process-card-id complete">WHL-MT-UR-06</div>
-  <div class="process-card-name">Warranty Claim Identification and Filing</div>
-  <div class="process-card-meta">10 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-MT-UR-07</div>
-  <div class="process-card-name">Vehicle Return-to-Service Confirmation</div>
-  <div class="process-card-meta">11 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-MT-UR-08</div>
-  <div class="process-card-name">Unscheduled Repair Root Cause Analysis</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-MT-UR-07</div>
+      <h1>Vehicle Return-to-Service Confirmation</h1>
+      <div class="process-meta">
+        <span>🏢 Maintenance Management</span>
+        <span>➡ Unscheduled Repair & Roadside Management</span>
+        <span>📝 11 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">The Vehicle Return-to-Service Confirmation process ensures that vehicles are safely returned to service after unscheduled repairs or roadside assistance. This process involves verifying the vehicle's condition, updating maintenance records, and communicating with relevant stakeholders.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">Completion of an unscheduled repair or roadside assistance by a third-party vendor</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">Vehicle is confirmed ready for return to regular service, maintenance records are updated, and all relevant parties are notified.</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag fleetview">FleetView</span><span class="sys-tag sap">SAP S/4HANA</span><span class="sys-tag outsystems">OutSystems Platform</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-mt-ur-07.png" data-lightbox="WHL-MT-UR-07">
+          <img src="../../assets/img/whl-mt-ur-07.png" alt="BPMN diagram for WHL-MT-UR-07" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>Vehicle downtime < 48 hours</li>
+<li>Inspection accuracy > 98%</li>
+<li>Invoice accuracy > 99%</li>
+<li>Vehicle readiness confirmation within 24 hours of inspection completion</li>
+<li>Average payment processing time < 3 days</li>
+<li>Maintenance record accuracy > 95%</li>
+<li>Client notification response rate > 90%</li>
+<li>GL accuracy > 98%</li>
+<li>Client satisfaction score > 85%</li>
+<li>Vehicle uptime > 95%</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Delayed third-party vendor communication leading to prolonged vehicle downtime.</li>
+<li>Errors in invoice validation causing financial discrepancies.</li>
+<li>Inaccurate maintenance records impacting future service planning.</li>
+<li>Poor client notification methods resulting in dissatisfaction and missed opportunities.</li>
+<li>Incorrect GL entries affecting financial reporting accuracy.</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>A1[FleetView Analytics Portal - Repair Completion Notification]</td>
+  <td>Maintenance Coordinator</td>
+  <td><span class="sys-tag fleetview">FleetView Analytics Portal</span></td>
+  <td class="kpi-cell" style="font-size:10px">Alert fired to Maintenance Coordinator upon repair completion</td>
+  <td>Repair completion status from third-party vendor</td>
+  <td>Notification in FleetView Analytics Portal</td>
+  <td class="kpi-cell">Vehicle downtime < 48 hours</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed notifications can lead to confusion and missed deadlines.</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>A2[FleetView VIM - Vehicle Inspection Requested]</td>
+  <td>Maintenance Coordinator</td>
+  <td><span class="sys-tag fleetview">FleetView VIM</span></td>
+  <td class="kpi-cell" style="font-size:10px">Vehicle inspection request sent to third-party vendor</td>
+  <td>Repair completion notification from FleetView Analytics Portal</td>
+  <td>Inspection request in VIM system</td>
+  <td class="kpi-cell">Inspection accuracy > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Incorrect inspection requests can lead to rework and delays.</td>
+</tr>
+<tr>
+  <td class="step-num">1.3</td>
+  <td>B1[SAP S/4HANA - Invoice Validation]</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Invoice validation against approved repair order</td>
+  <td>Repair invoice from third-party vendor</td>
+  <td>Validation status in SAP S/4HANA</td>
+  <td class="kpi-cell">Invoice accuracy > 99%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Incorrect invoices can lead to financial discrepancies and disputes.</td>
+</tr>
+<tr>
+  <td class="step-num">1.4</td>
+  <td>A3[FleetView VIM - Inspection Result Received]</td>
+  <td>Maintenance Coordinator</td>
+  <td><span class="sys-tag fleetview">FleetView VIM</span></td>
+  <td class="kpi-cell" style="font-size:10px">Receiving inspection results from third-party vendor</td>
+  <td>Inspection report from third-party vendor</td>
+  <td>Inspection result in VIM system</td>
+  <td class="kpi-cell">Vehicle readiness confirmation within 24 hours of inspection completion</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Late or missing inspection results can delay vehicle return to service.</td>
+</tr>
+<tr>
+  <td class="step-num">1.5</td>
+  <td>B2[SAP S/4HANA - Invoice Payment Approval]</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Approving payment for validated invoice</td>
+  <td>Validation status from SAP S/4HANA</td>
+  <td>Payment approval in SAP S/4HANA</td>
+  <td class="kpi-cell">Average payment processing time < 3 days</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delays in invoice processing can cause financial bottlenecks.</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>A4[FleetView VIM - Update Maintenance Records]</td>
+  <td>Maintenance Coordinator</td>
+  <td><span class="sys-tag fleetview">FleetView VIM</span></td>
+  <td class="kpi-cell" style="font-size:10px">Updating maintenance records with inspection and repair details</td>
+  <td>Inspection result from FleetView VIM, Repair invoice from third-party vendor</td>
+  <td>Updated maintenance record in VIM system</td>
+  <td class="kpi-cell">Maintenance record accuracy > 95%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inaccurate records can lead to future maintenance issues and delays.</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>C1[OutSystems Platform - Notification to Client]</td>
+  <td>Account Manager</td>
+  <td><span class="sys-tag outsystems">OutSystems Platform</span></td>
+  <td class="kpi-cell" style="font-size:10px">Sending notification to client about vehicle return to service</td>
+  <td>Vehicle readiness confirmation from FleetView VIM</td>
+  <td>Notification sent to client via OutSystems Platform</td>
+  <td class="kpi-cell">Client notification response rate > 90%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Poor notification methods can lead to dissatisfaction and missed follow-ups.</td>
+</tr>
+<tr>
+  <td class="step-num">2.3</td>
+  <td>B3[SAP S/4HANA - GL Journal Entry]</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Creating general ledger journal entry for repair invoice payment</td>
+  <td>Payment approval from SAP S/4HANA</td>
+  <td>GL journal entry in SAP S/4HANA</td>
+  <td class="kpi-cell">GL accuracy > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Incorrect GL entries can lead to accounting discrepancies and errors.</td>
+</tr>
+<tr>
+  <td class="step-num">2.4</td>
+  <td>C2[OutSystems Platform - Client Feedback Request]</td>
+  <td>Client Analytics Analyst</td>
+  <td><span class="sys-tag outsystems">OutSystems Platform</span></td>
+  <td class="kpi-cell" style="font-size:10px">Requesting feedback from client on repair experience</td>
+  <td>Vehicle return to service notification sent to client</td>
+  <td>Feedback request sent to client via OutSystems Platform</td>
+  <td class="kpi-cell">Client satisfaction score > 85%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Lack of feedback can prevent improvement in repair services and customer experience.</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>A5[FleetView VIM - Vehicle Released for Service]</td>
+  <td>Maintenance Coordinator</td>
+  <td><span class="sys-tag fleetview">FleetView VIM</span></td>
+  <td class="kpi-cell" style="font-size:10px">Releasing vehicle for regular service</td>
+  <td>Vehicle readiness confirmation from FleetView VIM, Client feedback received (if applicable)</td>
+  <td>Vehicle status updated to 'In Service' in VIM system</td>
+  <td class="kpi-cell">Vehicle uptime > 95%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed vehicle release can affect operational efficiency and customer expectations.</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>C3[OutSystems Platform - Final Client Communication]</td>
+  <td>Account Manager</td>
+  <td><span class="sys-tag outsystems">OutSystems Platform</span></td>
+  <td class="kpi-cell" style="font-size:10px">Sending final communication to client confirming vehicle return to service</td>
+  <td>Vehicle released for service from FleetView VIM</td>
+  <td>Final confirmation sent to client via OutSystems Platform</td>
+  <td class="kpi-cell">Client satisfaction score > 90%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inconsistent communication can lead to confusion and lower trust in Wheels services.</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
