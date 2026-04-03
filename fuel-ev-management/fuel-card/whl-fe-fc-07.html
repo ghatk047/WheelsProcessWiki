@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Fuel Card Programme Management — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-FE-FC-07: Fuel Card Cancellation and Reissuance — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -435,57 +436,203 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../fuel-ev-management/index.html">Fuel & EV Charging Management</a> &rsaquo;
-      Fuel Card Programme Management
+      <a href="../../fuel-ev-management/fuel-card/index.html">Fuel Card Programme Management</a> &rsaquo;
+      WHL-FE-FC-07
     </div>
-    <div class="page-title">⚡ Fuel Card Programme Management</div>
-    <div class="page-subtitle">6 of 8 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-fe-fc-01.html'>
-  <div class="process-card-id complete">WHL-FE-FC-01</div>
-  <div class="process-card-name">WEX Fuel Card Issuance and Driver Assignment</div>
-  <div class="process-card-meta">7 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-fe-fc-02.html'>
-  <div class="process-card-id complete">WHL-FE-FC-02</div>
-  <div class="process-card-name">Fuel Card Policy Limits and Controls Configuration</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-fe-fc-03.html'>
-  <div class="process-card-id complete">WHL-FE-FC-03</div>
-  <div class="process-card-name">Transaction Monitoring and Fraud Detection via WEX API</div>
-  <div class="process-card-meta">9 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-fe-fc-04.html'>
-  <div class="process-card-id complete">WHL-FE-FC-04</div>
-  <div class="process-card-name">IFTA Mileage-by-Jurisdiction Report Generation</div>
-  <div class="process-card-meta">6 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-fe-fc-05.html'>
-  <div class="process-card-id complete">WHL-FE-FC-05</div>
-  <div class="process-card-name">Fuel Exception Alert Review and Driver Follow-Up</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-fe-fc-06.html'>
-  <div class="process-card-id complete">WHL-FE-FC-06</div>
-  <div class="process-card-name">Fuel Cost Benchmarking and MPG Analysis in FleetView</div>
-  <div class="process-card-meta">7 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-FC-07</div>
-  <div class="process-card-name">Fuel Card Cancellation and Reissuance</div>
-  <div class="process-card-meta">8 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-FC-08</div>
-  <div class="process-card-name">Monthly Fuel Invoice Reconciliation in SAP</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-FE-FC-07</div>
+      <h1>Fuel Card Cancellation and Reissuance</h1>
+      <div class="process-meta">
+        <span>🏢 Fuel & EV Charging Management</span>
+        <span>➡ Fuel Card Programme Management</span>
+        <span>📝 8 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">The Fuel Card Cancellation and Reissuance process manages the cancellation of an existing fuel card and the issuance of a new one to ensure smooth fleet operations.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">A request for fuel card cancellation is initiated by an Account Manager or Fleet Consultant due to employee termination, change in job role, or other valid reasons.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">The successful completion of this process results in the cancellation of the old fuel card and the issuance of a new one with updated information.</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag fleetview">FleetView</span><span class="sys-tag sap">SAP S/4HANA</span><span class="sys-tag fuel-card">WEX Fuel Card API</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-fe-fc-07.png" data-lightbox="WHL-FE-FC-07">
+          <img src="../../assets/img/whl-fe-fc-07.png" alt="BPMN diagram for WHL-FE-FC-07" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>Request processing time < 24 hours</li>
+<li>Successful cancellation rate > 95%</li>
+<li>Data accuracy > 98%</li>
+<li>Form preparation time < 1 hour</li>
+<li>Successful issuance rate > 95%</li>
+<li>Notification delivery rate > 99%</li>
+<li>Acknowledgment rate > 98%</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Delayed cancellation requests affecting fleet operations.</li>
+<li>Failed cancellations leading to manual intervention.</li>
+<li>Incorrect data updates causing financial discrepancies.</li>
+<li>Incomplete forms leading to processing delays.</li>
+<li>Failed issuances requiring manual intervention.</li>
+<li>Undelivered notifications causing driver confusion.</li>
+<li>Unacknowledged notifications leading to potential misuse.</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>Account Manager - Request for Cancellation</td>
+  <td>Account Manager</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Initiate cancellation request in FleetView.</td>
+  <td>Cancellation request form</td>
+  <td>Cancellation request logged in FleetView.</td>
+  <td class="kpi-cell">Request processing time < 24 hours</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed cancellation requests affecting fleet operations.</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>WEX API - Cancel Fuel Card</td>
+  <td>Fleet Consultant</td>
+  <td><span class="sys-tag wex">WEX Fuel Card API</span></td>
+  <td class="kpi-cell" style="font-size:10px">Send API call to cancel the fuel card.</td>
+  <td>Cancellation request from FleetView</td>
+  <td>Fuel card cancelled in WEX system.</td>
+  <td class="kpi-cell">Successful cancellation rate > 95%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Failed cancellations leading to manual intervention.</td>
+</tr>
+<tr>
+  <td class="step-num">1.3</td>
+  <td>SAP S/4HANA - Update Fuel Card Status</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Update the status of the fuel card in SAP.</td>
+  <td>Cancellation confirmation from WEX API</td>
+  <td>Fuel card status updated in SAP S/4HANA.</td>
+  <td class="kpi-cell">Data accuracy > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Incorrect data updates causing financial discrepancies.</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>Account Manager - Prepare New Fuel Card Request</td>
+  <td>Account Manager</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Prepare a new fuel card request with updated driver information.</td>
+  <td>Employee details from HR system</td>
+  <td>New fuel card request form in FleetView.</td>
+  <td class="kpi-cell">Form preparation time < 1 hour</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Incomplete forms leading to processing delays.</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>WEX API - Issue New Fuel Card</td>
+  <td>Fleet Consultant</td>
+  <td><span class="sys-tag wex">WEX Fuel Card API</span></td>
+  <td class="kpi-cell" style="font-size:10px">Send API call to issue a new fuel card.</td>
+  <td>New fuel card request from FleetView</td>
+  <td>New fuel card issued in WEX system.</td>
+  <td class="kpi-cell">Successful issuance rate > 95%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Failed issuances requiring manual intervention.</td>
+</tr>
+<tr>
+  <td class="step-num">2.3</td>
+  <td>SAP S/4HANA - Update New Fuel Card Information</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Update the new fuel card information in SAP.</td>
+  <td>Issuance confirmation from WEX API</td>
+  <td>New fuel card details updated in SAP S/4HANA.</td>
+  <td class="kpi-cell">Data accuracy > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Incorrect data updates causing financial discrepancies.</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>Account Manager - Notify Driver of New Fuel Card</td>
+  <td>Account Manager</td>
+  <td><span class="sys-tag fleetview">FleetView Mobile App</span></td>
+  <td class="kpi-cell" style="font-size:10px">Send push notification to the driver with new fuel card details.</td>
+  <td>New fuel card information from SAP S/4HANA</td>
+  <td>Driver notified of new fuel card.</td>
+  <td class="kpi-cell">Notification delivery rate > 99%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Undelivered notifications causing driver confusion.</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>FleetView - Confirm Driver Acknowledgment</td>
+  <td>Driver Services Agent</td>
+  <td><span class="sys-tag fleetview">FleetView Mobile App</span></td>
+  <td class="kpi-cell" style="font-size:10px">Confirm receipt of the new fuel card details by the driver.</td>
+  <td>Driver acknowledgment from FleetView Mobile App</td>
+  <td>Acknowledgment logged in FleetView.</td>
+  <td class="kpi-cell">Acknowledgment rate > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Unacknowledged notifications leading to potential misuse.</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
