@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Pool Vehicle & Shared Mobility Management — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-FM-PM-07: Pool Vehicle Retirement and Replacement Trigger — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -255,57 +256,221 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../fleet-management/index.html">Fleet Management Services</a> &rsaquo;
-      Pool Vehicle & Shared Mobility Management
+      <a href="../../fleet-management/pool-vehicle/index.html">Pool Vehicle & Shared Mobility Management</a> &rsaquo;
+      WHL-FM-PM-07
     </div>
-    <div class="page-title">🏢 Pool Vehicle & Shared Mobility Management</div>
-    <div class="page-subtitle">6 of 8 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-fm-pm-01.html'>
-  <div class="process-card-id complete">WHL-FM-PM-01</div>
-  <div class="process-card-name">Pool Vehicle Fleet Sizing and Location Planning</div>
-  <div class="process-card-meta">7 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-fm-pm-02.html'>
-  <div class="process-card-id complete">WHL-FM-PM-02</div>
-  <div class="process-card-name">FleetView Shared Mobility Module Configuration</div>
-  <div class="process-card-meta">7 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-fm-pm-03.html'>
-  <div class="process-card-id complete">WHL-FM-PM-03</div>
-  <div class="process-card-name">Driver Reservation and Check-Out Process</div>
-  <div class="process-card-meta">10 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-fm-pm-04.html'>
-  <div class="process-card-id complete">WHL-FM-PM-04</div>
-  <div class="process-card-name">Pool Vehicle Utilisation Monitoring and Reporting</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-fm-pm-05.html'>
-  <div class="process-card-id complete">WHL-FM-PM-05</div>
-  <div class="process-card-name">Pool Vehicle Maintenance Scheduling</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-fm-pm-06.html'>
-  <div class="process-card-id complete">WHL-FM-PM-06</div>
-  <div class="process-card-name">Mileage and Trip Log Capture for Pool Vehicles</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FM-PM-07</div>
-  <div class="process-card-name">Pool Vehicle Retirement and Replacement Trigger</div>
-  <div class="process-card-meta">9 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FM-PM-08</div>
-  <div class="process-card-name">Cost Allocation and Departmental Chargeback</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-FM-PM-07</div>
+      <h1>Pool Vehicle Retirement and Replacement Trigger</h1>
+      <div class="process-meta">
+        <span>🏢 Fleet Management Services</span>
+        <span>➡ Pool Vehicle & Shared Mobility Management</span>
+        <span>📝 9 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">The Pool Vehicle Retirement and Replacement Trigger process at Wheels is responsible for identifying when pool vehicles need to be retired due to age or excessive mileage. Upon retirement, the system triggers the replacement of these vehicles to maintain fleet efficiency and compliance.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">Detection by FleetView Analytics Portal that a vehicle has reached its defined retirement threshold based on age or mileage.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">The successful completion produces the initiation of the vehicle retirement process and the creation of an order for a new vehicle to replace it.</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag fleetview">FleetView</span><span class="sys-tag sap">SAP S/4HANA</span><span class="sys-tag fuel-card">WEX Fuel Card API</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-fm-pm-07.png" data-lightbox="WHL-FM-PM-07">
+          <img src="../../assets/img/whl-fm-pm-07.png" alt="BPMN diagram for WHL-FM-PM-07" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>Vehicle uptime > 95%</li>
+<li>Invoice accuracy > 99%</li>
+<li>Retirement trigger accuracy > 98%</li>
+<li>Timeliness of retirement records > 24 hours</li>
+<li>Order accuracy > 95%</li>
+<li>Data retrieval accuracy > 98%</li>
+<li>Report accuracy > 95%</li>
+<li>Write-off accuracy > 98%</li>
+<li>Approval time > 2 business days</li>
+<li>Integration success rate > 95%</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Incorrect detection of retirement threshold leading to unexpected vehicle downtime.</li>
+<li>Delayed creation of retirement records affecting financial reporting.</li>
+<li>Inaccurate orders causing procurement delays.</li>
+<li>Inaccurate transaction data affecting fleet analysis.</li>
+<li>Inaccurate invoices causing financial discrepancies.</li>
+<li>Inaccurate reports affecting decision-making.</li>
+<li>Incorrect write-offs affecting financial statements.</li>
+<li>Delayed approvals affecting fleet readiness.</li>
+<li>Failed integrations causing procurement delays.</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>FleetView Analytics Portal - Detection Triggered</td>
+  <td>Client Analytics Analyst</td>
+  <td><span class="sys-tag fleetview">FleetView Analytics Portal</span></td>
+  <td class="kpi-cell" style="font-size:10px">Alert fired when a vehicle reaches retirement threshold.</td>
+  <td>Vehicle mileage and age data from FleetView.</td>
+  <td>Retirement alert with vehicle details.</td>
+  <td class="kpi-cell">Retirement trigger accuracy > 98%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Late detection of retirement threshold leading to unexpected downtime.</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>SAP S/4HANA - Retirement Record Created</td>
+  <td>Maintenance Coordinator</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Record created for vehicle retirement in asset accounting.</td>
+  <td>Retirement alert from FleetView.</td>
+  <td>Asset record with retirement status.</td>
+  <td class="kpi-cell">Timeliness of retirement records > 24 hours</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed creation of retirement records affecting financial reporting.</td>
+</tr>
+<tr>
+  <td class="step-num">1.3</td>
+  <td>FleetView VIM - Order Created</td>
+  <td>Account Manager</td>
+  <td><span class="sys-tag fleetview">FleetView VIM</span></td>
+  <td class="kpi-cell" style="font-size:10px">New vehicle order created in the VIM system.</td>
+  <td>Retirement record from SAP S/4HANA.</td>
+  <td>Vehicle order with specifications and budget constraints.</td>
+  <td class="kpi-cell">Order accuracy > 95%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Inaccurate orders leading to procurement delays.</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>WEX Fuel Card API - Transaction Data Retrieved</td>
+  <td>Fuel Programme Manager</td>
+  <td><span class="sys-tag wex">WEX Fuel Card API</span></td>
+  <td class="kpi-cell" style="font-size:10px">Retrieve transaction data for the retired vehicle.</td>
+  <td>Vehicle retirement record from SAP S/4HANA.</td>
+  <td>Transaction report with fuel usage and costs.</td>
+  <td class="kpi-cell">Data retrieval accuracy > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inaccurate or missing transaction data affecting fleet analysis.</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>SAP S/4HANA - Invoice Generation</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Generate invoice for retired vehicle expenses.</td>
+  <td>Transaction report from WEX Fuel Card API.</td>
+  <td>Expense invoice with total costs.</td>
+  <td class="kpi-cell">Invoice accuracy > 99%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Inaccurate invoices leading to financial discrepancies.</td>
+</tr>
+<tr>
+  <td class="step-num">2.3</td>
+  <td>FleetView - Retirement Report Generated</td>
+  <td>Client Analytics Analyst</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Generate retirement report with analysis and recommendations.</td>
+  <td>Retirement alert, transaction data, and invoice from previous steps.</td>
+  <td>Retirement analysis report.</td>
+  <td class="kpi-cell">Report accuracy > 95%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Inaccurate reports affecting decision-making.</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>SAP S/4HANA - Asset Write-Off</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Perform asset write-off in the ERP system.</td>
+  <td>Retirement report from FleetView.</td>
+  <td>Written-off asset record.</td>
+  <td class="kpi-cell">Write-off accuracy > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Incorrect write-offs affecting financial statements.</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>FleetView VIM - Replacement Order Approved</td>
+  <td>Account Manager</td>
+  <td><span class="sys-tag fleetview">FleetView VIM</span></td>
+  <td class="kpi-cell" style="font-size:10px">Approve replacement order for new vehicle.</td>
+  <td>Retirement report and asset write-off record from SAP S/4HANA.</td>
+  <td>Approved replacement order.</td>
+  <td class="kpi-cell">Approval time > 2 business days</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Delayed approvals affecting fleet readiness.</td>
+</tr>
+<tr>
+  <td class="step-num">3.3</td>
+  <td>SAP S/4HANA - Replacement Order Integration</td>
+  <td>Maintenance Coordinator</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Integrate replacement order into procurement process.</td>
+  <td>Approved replacement order from FleetView VIM.</td>
+  <td>Integrated order in procurement system.</td>
+  <td class="kpi-cell">Integration success rate > 95%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Failed integrations causing procurement delays.</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
