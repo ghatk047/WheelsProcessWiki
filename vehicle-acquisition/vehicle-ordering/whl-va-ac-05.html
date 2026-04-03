@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-VA-AC-05: Vehicle Specification and Fleet Policy Enforcement — Wheels Process Wiki</title>
+<link rel="stylesheet" href="../../assets/css/wiki.css">
+</head>
+<body>
+<div class="wiki-topbar">
+  <a class="topbar-logo" href="../../index.html">
+    <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="14" cy="14" r="12" stroke="white" stroke-width="2"/>
+      <circle cx="14" cy="14" r="5" fill="white"/>
+      <line x1="14" y1="2"  x2="14" y2="6"  stroke="white" stroke-width="2"/>
+      <line x1="14" y1="22" x2="14" y2="26" stroke="white" stroke-width="2"/>
+      <line x1="2"  y1="14" x2="6"  y2="14" stroke="white" stroke-width="2"/>
+      <line x1="22" y1="14" x2="26" y2="14" stroke="white" stroke-width="2"/>
+    </svg>
+    <div>
+      <div class="topbar-brand">Wheels Process Wiki</div>
+      <div class="topbar-sub">SAP Consulting Reference</div>
+    </div>
+  </a>
+  <div class="topbar-spacer"></div>
+  <div class="search-wrap">
+    <svg class="search-icon" viewBox="0 0 16 16" fill="none">
+      <circle cx="6.5" cy="6.5" r="4.5" stroke="white" stroke-width="1.5"/>
+      <path d="M10 10l3 3" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    </svg>
+    <input type="text" id="searchBox" placeholder="Search processes… (/)">
+  </div>
+  <a class="topbar-home" href="../../index.html">⌂ Home</a>
+</div>
+<div class="wiki-layout">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
+<details class="nav-domain"  open>
+  <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
+  <details class="nav-l2-group"  open>
+    <summary>Vehicle Acquisition & Ordering<span class="nav-l2-arrow">▶</span></summary>
+    <ul class="nav-process-list">
+      <li><a href="../../vehicle-acquisition/vehicle-ordering/whl-va-ac-01.html">WHL-VA-AC-01: Fleet Policy Review and Vehicle Select</a></li>
+      <li><a href="../../vehicle-acquisition/vehicle-ordering/whl-va-ac-02.html">WHL-VA-AC-02: OEM Factory Order Placement and Tracki</a></li>
+      <li><a href="../../vehicle-acquisition/vehicle-ordering/whl-va-ac-03.html">WHL-VA-AC-03: Emergency and Open-Market Vehicle Proc</a></li>
+      <li><a href="../../vehicle-acquisition/vehicle-ordering/whl-va-ac-04.html">WHL-VA-AC-04: Dealer Allocation and Stock Procuremen</a></li>
+    </ul>
+  </details>
+  <details class="nav-l2-group">
+    <summary>Vehicle Upfitting & Configuration<span class="nav-l2-arrow">▶</span></summary>
+    <ul class="nav-process-list">
+    </ul>
+  </details>
+</details>
+<details class="nav-domain">
+  <summary><span class="nav-domain-icon">💰</span>Fleet Leasing & Financing<span class="nav-domain-arrow">▶</span></summary>
+  <details class="nav-l2-group">
+    <summary>Open-End Lease Management<span class="nav-l2-arrow">▶</span></summary>
+    <ul class="nav-process-list">
+    </ul>
+  </details>
+  <details class="nav-l2-group">
+    <summary>Closed-End Lease and Financing<span class="nav-l2-arrow">▶</span></summary>
+    <ul class="nav-process-list">
+    </ul>
+  </details>
+</details>
+<details class="nav-domain">
+  <summary><span class="nav-domain-icon">🏢</span>Fleet Management Services<span class="nav-domain-arrow">▶</span></summary>
+  <details class="nav-l2-group">
+    <summary>Client Onboarding & Programme Setup<span class="nav-l2-arrow">▶</span></summary>
+    <ul class="nav-process-list">
+    </ul>
+  </details>
+  <details class="nav-l2-group">
+    <summary>Pool Vehicle & Shared Mobility Management<span class="nav-l2-arrow">▶</span></summary>
+    <ul class="nav-process-list">
+    </ul>
+  </details>
+  <details class="nav-l2-group">
+    <summary>Client Service & Account Management<span class="nav-l2-arrow">▶</span></summary>
+    <ul class="nav-process-list">
+    </ul>
+  </details>
+</details>
+<details class="nav-domain">
+  <summary><span class="nav-domain-icon">🔧</span>Maintenance Management<span class="nav-domain-arrow">▶</span></summary>
+  <details class="nav-l2-group">
+    <summary>Preventive Maintenance Management<span class="nav-l2-arrow">▶</span></summary>
+    <ul class="nav-process-list">
+    </ul>
+  </details>
+  <details class="nav-l2-group">
+    <summary>Unscheduled Repair & Roadside Management<span class="nav-l2-arrow">▶</span></summary>
+    <ul class="nav-process-list">
+    </ul>
+  </details>
+</details>
+<details class="nav-domain">
+  <summary><span class="nav-domain-icon">⚡</span>Fuel & EV Charging Management<span class="nav-domain-arrow">▶</span></summary>
+  <details class="nav-l2-group">
+    <summary>Fuel Card Programme Management<span class="nav-l2-arrow">▶</span></summary>
+    <ul class="nav-process-list">
+    </ul>
+  </details>
+  <details class="nav-l2-group">
+    <summary>EV Charging & Electrification Management<span class="nav-l2-arrow">▶</span></summary>
+    <ul class="nav-process-list">
+    </ul>
+  </details>
+</details>
+<details class="nav-domain">
+  <summary><span class="nav-domain-icon">🚨</span>Accident Management<span class="nav-domain-arrow">▶</span></summary>
+  <details class="nav-l2-group">
+    <summary>FNOL & Repair Management<span class="nav-l2-arrow">▶</span></summary>
+    <ul class="nav-process-list">
+    </ul>
+  </details>
+  <details class="nav-l2-group">
+    <summary>Subrogation & Cost Recovery<span class="nav-l2-arrow">▶</span></summary>
+    <ul class="nav-process-list">
+    </ul>
+  </details>
+</details>
+<details class="nav-domain">
+  <summary><span class="nav-domain-icon">🛡️</span>Driver Safety & Compliance<span class="nav-domain-arrow">▶</span></summary>
+  <details class="nav-l2-group">
+    <summary>Driver Safety & MVR Programme<span class="nav-l2-arrow">▶</span></summary>
+    <ul class="nav-process-list">
+    </ul>
+  </details>
+  <details class="nav-l2-group">
+    <summary>CMV Compliance Management<span class="nav-l2-arrow">▶</span></summary>
+    <ul class="nav-process-list">
+    </ul>
+  </details>
+</details>
+<details class="nav-domain">
+  <summary><span class="nav-domain-icon">📋</span>Registration & Title Management<span class="nav-domain-arrow">▶</span></summary>
+  <details class="nav-l2-group">
+    <summary>Vehicle Registration Management<span class="nav-l2-arrow">▶</span></summary>
+    <ul class="nav-process-list">
+    </ul>
+  </details>
+  <details class="nav-l2-group">
+    <summary>Tax and Compliance Reporting<span class="nav-l2-arrow">▶</span></summary>
+    <ul class="nav-process-list">
+    </ul>
+  </details>
+</details>
+<details class="nav-domain">
+  <summary><span class="nav-domain-icon">🔄</span>Remarketing & Vehicle Disposal<span class="nav-domain-arrow">▶</span></summary>
+  <details class="nav-l2-group">
+    <summary>Surplus Vehicle Management<span class="nav-l2-arrow">▶</span></summary>
+    <ul class="nav-process-list">
+    </ul>
+  </details>
+  <details class="nav-l2-group">
+    <summary>Vehicle Return and Redelivery<span class="nav-l2-arrow">▶</span></summary>
+    <ul class="nav-process-list">
+    </ul>
+  </details>
+</details>
+<details class="nav-domain">
+  <summary><span class="nav-domain-icon">📊</span>Fleet Analytics & Reporting<span class="nav-domain-arrow">▶</span></summary>
+  <details class="nav-l2-group">
+    <summary>Standard Reporting and Analytics<span class="nav-l2-arrow">▶</span></summary>
+    <ul class="nav-process-list">
+    </ul>
+  </details>
+  <details class="nav-l2-group">
+    <summary>Client Analytics and Consulting<span class="nav-l2-arrow">▶</span></summary>
+    <ul class="nav-process-list">
+    </ul>
+  </details>
+</details>
+<details class="nav-domain">
+  <summary><span class="nav-domain-icon">🧾</span>Mileage Reimbursement & Tax<span class="nav-domain-arrow">▶</span></summary>
+  <details class="nav-l2-group">
+    <summary>FAVR and Mileage Reimbursement Programmes<span class="nav-l2-arrow">▶</span></summary>
+    <ul class="nav-process-list">
+    </ul>
+  </details>
+  <details class="nav-l2-group">
+    <summary>Driver Tax Compliance Management<span class="nav-l2-arrow">▶</span></summary>
+    <ul class="nav-process-list">
+    </ul>
+  </details>
+</details>
+<details class="nav-domain">
+  <summary><span class="nav-domain-icon">🌍</span>Global Fleet & Alliance Management<span class="nav-domain-arrow">▶</span></summary>
+  <details class="nav-l2-group">
+    <summary>Ayvens Alliance and Global Account Management<span class="nav-l2-arrow">▶</span></summary>
+    <ul class="nav-process-list">
+    </ul>
+  </details>
+  <details class="nav-l2-group">
+    <summary>Sustainability and ESG Fleet Reporting<span class="nav-l2-arrow">▶</span></summary>
+    <ul class="nav-process-list">
+    </ul>
+  </details>
+</details>
+<details class="nav-domain nav-ea-section">
+  <summary><span class="nav-domain-icon">🗺️</span>Enterprise Architecture<span class="nav-domain-arrow">▶</span></summary>
+  <ul class="nav-ea-list">
+    <li><a href="../../ea/ea-01.html">EA-01</a></li>
+    <li><a href="../../ea/ea-02.html">EA-02</a></li>
+    <li><a href="../../ea/ea-03.html">EA-03</a></li>
+    <li><a href="../../ea/ea-04.html">EA-04</a></li>
+    <li><a href="../../ea/ea-05.html">EA-05</a></li>
+    <li><a href="../../ea/ea-06.html">EA-06</a></li>
+    <li><a href="../../ea/ea-07.html">EA-07</a></li>
+    <li><a href="../../ea/ea-08.html">EA-08</a></li>
+  </ul>
+</details>
+</nav>
+
+  </aside>
+  <button class="sidebar-toggle" id="sidebarToggle">◄</button>
+  <main class="wiki-main">
+    <div class="breadcrumb">
+      <a href="../../index.html">Home</a> &rsaquo;
+      <a href="../../vehicle-acquisition/index.html">Vehicle Acquisition & Upfitting</a> &rsaquo;
+      <a href="../../vehicle-acquisition/vehicle-ordering/index.html">Vehicle Acquisition & Ordering</a> &rsaquo;
+      WHL-VA-AC-05
+    </div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-VA-AC-05</div>
+      <h1>Vehicle Specification and Fleet Policy Enforcement</h1>
+      <div class="process-meta">
+        <span>🏢 Vehicle Acquisition & Upfitting</span>
+        <span>➡ Vehicle Acquisition & Ordering</span>
+        <span>📝 10 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">The Vehicle Specification and Fleet Policy Enforcement process ensures that all vehicle acquisitions comply with fleet policies, specifications, and regulatory requirements. It involves the creation of detailed vehicle orders, validation against company policies, and tracking of order status.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">Initiated by a new vehicle acquisition request from an account manager or fleet consultant based on client needs and policy guidelines.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">Successful completion produces a fully specified and approved vehicle order that aligns with corporate policies and is ready for procurement and delivery.</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag fleetview">FleetView</span><span class="sys-tag sap">SAP S/4HANA</span><span class="sys-tag fuel-card">WEX Fuel Card API</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-va-ac-05.png" data-lightbox="WHL-VA-AC-05">
+          <img src="../../assets/img/whl-va-ac-05.png" alt="BPMN diagram for WHL-VA-AC-05" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>Order creation time < 2 hours</li>
+<li>Policy validation accuracy > 98%</li>
+<li>Compatibility check accuracy > 95%</li>
+<li>Plan update time < 30 minutes</li>
+<li>Notification delivery time < 5 minutes</li>
+<li>Order review accuracy > 97%</li>
+<li>Invoice posting time < 10 minutes</li>
+<li>Report generation time < 10 minutes</li>
+<li>Order closure time < 5 minutes</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Policy changes not reflecting in the validation system.</li>
+<li>WEX fuel card network issues leading to compatibility problems.</li>
+<li>Data inconsistencies between SAP S/4HANA and FleetView systems.</li>
+<li>Notification failures causing communication breakdowns.</li>
+<li>Invoice posting errors due to system malfunctions.</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>FleetView VIM - Order Created</td>
+  <td>Account Manager</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Vehicle order record is created in the FleetView system.</td>
+  <td>Client request form with vehicle specifications</td>
+  <td>Vehicle order record in FleetView</td>
+  <td class="kpi-cell">Order creation time < 2 hours</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delays in creating vehicle orders due to manual data entry errors.</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>SAP S/4HANA - Validate Policy Compliance</td>
+  <td>Compliance Officer</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Order details are validated against fleet policies and regulatory requirements.</td>
+  <td>Vehicle order record from FleetView</td>
+  <td>Policy compliance status</td>
+  <td class="kpi-cell">Policy validation accuracy > 98%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Missed policy violations due to outdated or misinterpreted guidelines.</td>
+</tr>
+<tr>
+  <td class="step-num">1.3</td>
+  <td>FleetView Analytics Portal - Generate Specification Report</td>
+  <td>Client Analytics Analyst</td>
+  <td><span class="sys-tag fleetview">FleetView Analytics Portal</span></td>
+  <td class="kpi-cell" style="font-size:10px">Generate a specification report for the vehicle order.</td>
+  <td>Policy compliance status from SAP S/4HANA</td>
+  <td>Specification report</td>
+  <td class="kpi-cell">Report generation time < 15 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Slow report generation affecting decision-making times.</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>WEX Fuel Card API - Verify Fuel Compatibility</td>
+  <td>Fuel Programme Manager</td>
+  <td><span class="sys-tag wex">WEX Fuel Card API</span></td>
+  <td class="kpi-cell" style="font-size:10px">Verify if the vehicle's fuel type is compatible with the WEX fuel card network.</td>
+  <td>Vehicle specifications from FleetView</td>
+  <td>Fuel compatibility status</td>
+  <td class="kpi-cell">Compatibility check accuracy > 95%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Incompatibility issues leading to additional costs and delays.</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>SAP S/4HANA - Update Procurement Plan</td>
+  <td>Procurement Specialist</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Update the procurement plan based on validated specifications and compliance.</td>
+  <td>Fuel compatibility status from WEX API</td>
+  <td>Updated procurement plan in SAP S/4HANA</td>
+  <td class="kpi-cell">Plan update time < 30 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed procurement updates affecting vehicle acquisition timelines.</td>
+</tr>
+<tr>
+  <td class="step-num">2.3</td>
+  <td>FleetView Mobile App - Notify Stakeholders</td>
+  <td>Account Manager</td>
+  <td><span class="sys-tag fleetview">FleetView Mobile App</span></td>
+  <td class="kpi-cell" style="font-size:10px">Send push notifications to relevant stakeholders about the order status.</td>
+  <td>Updated procurement plan from SAP S/4HANA</td>
+  <td>Push notification sent</td>
+  <td class="kpi-cell">Notification delivery time < 5 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Failed notifications causing missed updates and confusion.</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>FleetView VIM - Final Order Review</td>
+  <td>Account Manager</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Conduct a final review of the vehicle order to ensure all specifications and policies are met.</td>
+  <td>Push notification from FleetView Mobile App</td>
+  <td>Final order approval or rejection</td>
+  <td class="kpi-cell">Order review accuracy > 97%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Errors in final order review leading to non-compliant vehicle acquisitions.</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>SAP S/4HANA - Post Invoice</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Post the invoice for the approved vehicle order in SAP.</td>
+  <td>Final order approval from FleetView VIM</td>
+  <td>Posted invoice record in SAP S/4HANA</td>
+  <td class="kpi-cell">Invoice posting time < 10 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Invoice posting errors causing financial discrepancies.</td>
+</tr>
+<tr>
+  <td class="step-num">3.3</td>
+  <td>FleetView Analytics Portal - Generate Invoice Report</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag fleetview">FleetView Analytics Portal</span></td>
+  <td class="kpi-cell" style="font-size:10px">Generate a report summarizing the invoice details.</td>
+  <td>Posted invoice from SAP S/4HANA</td>
+  <td>Invoice summary report</td>
+  <td class="kpi-cell">Report generation time < 10 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Slow or inaccurate invoice reports affecting financial reconciliation.</td>
+</tr>
+<tr>
+  <td class="step-num">3.4</td>
+  <td>FleetView - Close Order Cycle</td>
+  <td>Account Manager</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Mark the vehicle acquisition order cycle as complete.</td>
+  <td>Invoice summary report from FleetView Analytics Portal</td>
+  <td>Closed order record in FleetView</td>
+  <td class="kpi-cell">Order closure time < 5 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed closure of orders impacting subsequent processes.</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+</div>
+<div id="lightbox">
+  <div class="lb-controls">
+    <button class="lb-btn" id="lbZoomIn">+</button>
+    <button class="lb-btn" id="lbZoomOut">−</button>
+    <button class="lb-btn" id="lbReset">↺</button>
+    <span id="lbScale">100%</span>
+    <button class="lb-btn" id="lbClose">✕</button>
+  </div>
+  <img id="lightboxImg" src="" alt="">
+</div>
+<script src="../../assets/js/wiki.js"></script>
+</body>
+</html>
