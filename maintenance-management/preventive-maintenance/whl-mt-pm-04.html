@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Preventive Maintenance Management — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-MT-PM-04: Work Order Creation and Repair Authorisation — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -268,57 +269,176 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../maintenance-management/index.html">Maintenance Management</a> &rsaquo;
-      Preventive Maintenance Management
+      <a href="../../maintenance-management/preventive-maintenance/index.html">Preventive Maintenance Management</a> &rsaquo;
+      WHL-MT-PM-04
     </div>
-    <div class="page-title">🔧 Preventive Maintenance Management</div>
-    <div class="page-subtitle">3 of 8 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-mt-pm-01.html'>
-  <div class="process-card-id complete">WHL-MT-PM-01</div>
-  <div class="process-card-name">Preventive Maintenance Schedule Configuration in FleetView</div>
-  <div class="process-card-meta">9 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-mt-pm-02.html'>
-  <div class="process-card-id complete">WHL-MT-PM-02</div>
-  <div class="process-card-name">Driver PM Alert and Appointment Notification</div>
-  <div class="process-card-meta">6 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-mt-pm-03.html'>
-  <div class="process-card-id complete">WHL-MT-PM-03</div>
-  <div class="process-card-name">Service Provider Network Selection and Authorisation</div>
-  <div class="process-card-meta">7 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-MT-PM-04</div>
-  <div class="process-card-name">Work Order Creation and Repair Authorisation</div>
-  <div class="process-card-meta">6 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-MT-PM-05</div>
-  <div class="process-card-name">Repair Completion Verification and Invoice Review</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-MT-PM-06</div>
-  <div class="process-card-name">Odometer Update and Next PM Trigger Reset</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-MT-PM-07</div>
-  <div class="process-card-name">Recall Identification and Remedy Coordination</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-MT-PM-08</div>
-  <div class="process-card-name">Maintenance Cost Trend Analysis and Reporting</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-MT-PM-04</div>
+      <h1>Work Order Creation and Repair Authorisation</h1>
+      <div class="process-meta">
+        <span>🏢 Maintenance Management</span>
+        <span>➡ Preventive Maintenance Management</span>
+        <span>📝 6 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">The process for creating work orders and authorizing repairs in Wheels' maintenance management system ensures timely vehicle service, minimizes downtime, and maintains high invoice accuracy.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">Detection of a maintenance need based on telematics data or manual reporting from fleet drivers via the FleetView Mobile App.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">A work order is created, repair authorization is granted, and all related records are updated in both SAP S/4HANA and FleetView.</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag fleetview">FleetView</span><span class="sys-tag sap">SAP S/4HANA</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-mt-pm-04.png" data-lightbox="WHL-MT-PM-04">
+          <img src="../../assets/img/whl-mt-pm-04.png" alt="BPMN diagram for WHL-MT-PM-04" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>Vehicle uptime > 95%</li>
+<li>Invoice accuracy > 99%</li>
+<li>Response time to maintenance alerts < 2 hours</li>
+<li>Work order creation accuracy > 98%</li>
+<li>Data synchronization accuracy > 99%</li>
+<li>Authorization response time < 2 days</li>
+<li>Authorization approval rate > 95%</li>
+<li>Status update accuracy > 98%</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Late detection of maintenance needs leading to unexpected vehicle downtime.</li>
+<li>Inaccurate work order creation causing delays in repair scheduling.</li>
+<li>Synchronization issues between FleetView and SAP S/4HANA resulting in financial discrepancies.</li>
+<li>Delays in repair authorization process affecting vehicle availability.</li>
+<li>Denials of repair authorizations impacting fleet maintenance needs.</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>FleetView Telematics OPS - Maintenance Need Detected</td>
+  <td>Maintenance Coordinator</td>
+  <td><span class="sys-tag telematics">Telematics OPS app</span></td>
+  <td class="kpi-cell" style="font-size:10px">Alerts generated based on telematics data or driver reporting.</td>
+  <td>Telematics data, driver reports</td>
+  <td>Alert in Telematics OPS app</td>
+  <td class="kpi-cell">Response time to maintenance alerts < 2 hours</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed response times can lead to unnecessary vehicle downtime.</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>FleetView - Work Order Created</td>
+  <td>Maintenance Coordinator</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Work order record created in FleetView.</td>
+  <td>Alert from Telematics OPS app</td>
+  <td>Work order in FleetView</td>
+  <td class="kpi-cell">Work order creation accuracy > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Incorrect work order details can delay repair scheduling.</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>SAP S/4HANA - Post Work Order to ERP</td>
+  <td>Maintenance Coordinator</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Work order details posted to SAP ERP system.</td>
+  <td>Work order from FleetView</td>
+  <td>Work order in SAP S/4HANA</td>
+  <td class="kpi-cell">Data synchronization accuracy > 99%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inaccurate data synchronization can lead to financial discrepancies.</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>FleetView - Repair Authorization Requested</td>
+  <td>Maintenance Coordinator</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Repair authorization request sent.</td>
+  <td>Work order in SAP S/4HANA</td>
+  <td>Authorization request in FleetView</td>
+  <td class="kpi-cell">Authorization response time < 2 days</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delays in repair authorization can cause extended vehicle downtime.</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>SAP S/4HANA - Repair Authorization Approved</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Repair authorization approved and recorded.</td>
+  <td>Authorization request from FleetView</td>
+  <td>Approved authorization in SAP S/4HANA</td>
+  <td class="kpi-cell">Authorization approval rate > 95%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Denials of repair authorizations can lead to unresolved maintenance needs.</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>FleetView - Work Order Status Updated</td>
+  <td>Maintenance Coordinator</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Work order status updated to 'Authorized'.</td>
+  <td>Approved authorization from SAP S/4HANA</td>
+  <td>Updated work order in FleetView</td>
+  <td class="kpi-cell">Status update accuracy > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Incorrect status updates can confuse maintenance teams.</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
