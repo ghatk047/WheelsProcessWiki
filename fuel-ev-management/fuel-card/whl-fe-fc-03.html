@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Fuel Card Programme Management — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-FE-FC-03: Transaction Monitoring and Fraud Detection via WEX API — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -431,57 +432,219 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../fuel-ev-management/index.html">Fuel & EV Charging Management</a> &rsaquo;
-      Fuel Card Programme Management
+      <a href="../../fuel-ev-management/fuel-card/index.html">Fuel Card Programme Management</a> &rsaquo;
+      WHL-FE-FC-03
     </div>
-    <div class="page-title">⚡ Fuel Card Programme Management</div>
-    <div class="page-subtitle">2 of 8 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-fe-fc-01.html'>
-  <div class="process-card-id complete">WHL-FE-FC-01</div>
-  <div class="process-card-name">WEX Fuel Card Issuance and Driver Assignment</div>
-  <div class="process-card-meta">7 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-fe-fc-02.html'>
-  <div class="process-card-id complete">WHL-FE-FC-02</div>
-  <div class="process-card-name">Fuel Card Policy Limits and Controls Configuration</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-FC-03</div>
-  <div class="process-card-name">Transaction Monitoring and Fraud Detection via WEX API</div>
-  <div class="process-card-meta">9 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-FC-04</div>
-  <div class="process-card-name">IFTA Mileage-by-Jurisdiction Report Generation</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-FC-05</div>
-  <div class="process-card-name">Fuel Exception Alert Review and Driver Follow-Up</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-FC-06</div>
-  <div class="process-card-name">Fuel Cost Benchmarking and MPG Analysis in FleetView</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-FC-07</div>
-  <div class="process-card-name">Fuel Card Cancellation and Reissuance</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-FC-08</div>
-  <div class="process-card-name">Monthly Fuel Invoice Reconciliation in SAP</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-FE-FC-03</div>
+      <h1>Transaction Monitoring and Fraud Detection via WEX API</h1>
+      <div class="process-meta">
+        <span>🏢 Fuel & EV Charging Management</span>
+        <span>➡ Fuel Card Programme Management</span>
+        <span>📝 9 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">Monitors and detects fraudulent transactions using WEX API, ensuring compliance and security in the fuel card programme.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">Real-time transaction data from WEX Fuel Card API</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">Fraudulent transactions are flagged for review, preventing financial losses.</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag fleetview">FleetView</span><span class="sys-tag sap">SAP S/4HANA</span><span class="sys-tag fuel-card">WEX Fuel Card API</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-fe-fc-03.png" data-lightbox="WHL-FE-FC-03">
+          <img src="../../assets/img/whl-fe-fc-03.png" alt="BPMN diagram for WHL-FE-FC-03" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>Transaction latency < 2 minutes</li>
+<li>Accuracy of GL postings > 99%</li>
+<li>Detection rate of fraudulent transactions > 90%</li>
+<li>Response time to fraud alerts < 30 minutes</li>
+<li>Completion rate of fraud investigations > 80%</li>
+<li>Accuracy of fraud reversal > 95%</li>
+<li>Reporting accuracy of fraud > 98%</li>
+<li>Dashboard accuracy and relevance > 97%</li>
+<li>Report delivery on time > 95%</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Inaccurate transaction data leading to financial misstatements</li>
+<li>Missed fraudulent transactions resulting in financial losses</li>
+<li>Slow response to fraud alerts increasing exposure</li>
+<li>Incomplete investigations failing to identify fraud</li>
+<li>Inaccurate fraud reversal affecting financial integrity</li>
+<li>Incomplete reporting to WEX systems</li>
+<li>Outdated dashboards failing to provide actionable insights</li>
+<li>Delayed or incomplete reports affecting stakeholder communication</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>WEX API - Transaction Data Received</td>
+  <td>Fuel Programme Manager</td>
+  <td><span class="sys-tag wex">WEX Fuel Card API</span></td>
+  <td class="kpi-cell" style="font-size:10px">Transmit transaction data to SAP S/4HANA</td>
+  <td>Transaction details from WEX Fuel Card API</td>
+  <td>Transaction records in SAP S/4HANA</td>
+  <td class="kpi-cell">Transaction latency < 2 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed transaction processing affecting financial reporting</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>SAP S/4HANA - Transaction Records Created</td>
+  <td>Fleet Consultant</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Create transaction records in GL module</td>
+  <td>Transaction data from WEX API</td>
+  <td>GL entries for transactions</td>
+  <td class="kpi-cell">Accuracy of GL postings > 99%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inaccurate GL postings leading to financial discrepancies</td>
+</tr>
+<tr>
+  <td class="step-num">1.3</td>
+  <td>WEX API - Fraud Detection Engine Activated</td>
+  <td>Compliance Officer</td>
+  <td><span class="sys-tag wex">WEX Fuel Card API</span></td>
+  <td class="kpi-cell" style="font-size:10px">Run fraud detection algorithms on transaction data</td>
+  <td>Transaction records from SAP S/4HANA</td>
+  <td>Fraud alerts and reports</td>
+  <td class="kpi-cell">Detection rate of fraudulent transactions > 90%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Missed fraud detection leading to financial losses</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>WEX API - Fraud Alert Fired</td>
+  <td>Fuel Programme Manager</td>
+  <td><span class="sys-tag wex">WEX Fuel Card API</span></td>
+  <td class="kpi-cell" style="font-size:10px">Generate alert for potential fraud</td>
+  <td>Fraud detection results from WEX API</td>
+  <td>Fraud alert in FleetView Analytics Portal</td>
+  <td class="kpi-cell">Response time to fraud alerts < 30 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed response to fraud alerts increasing exposure</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>FleetView Analytics Portal - Fraud Alert Reviewed</td>
+  <td>Compliance Officer</td>
+  <td><span class="sys-tag fleetview">FleetView Analytics Portal</span></td>
+  <td class="kpi-cell" style="font-size:10px">Review and investigate fraud alerts</td>
+  <td>Fraud alert from WEX API</td>
+  <td>Investigation report</td>
+  <td class="kpi-cell">Completion rate of fraud investigations > 80%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Incomplete investigations failing to identify fraud</td>
+</tr>
+<tr>
+  <td class="step-num">2.3</td>
+  <td>SAP S/4HANA - Fraudulent Transactions Reversed</td>
+  <td>Fleet Consultant</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Reverse fraudulent transactions in GL module</td>
+  <td>Investigation report from FleetView Analytics Portal</td>
+  <td>Reversal of fraudulent transaction entries</td>
+  <td class="kpi-cell">Accuracy of fraud reversal > 95%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inaccurate fraud reversal affecting financial integrity</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>WEX API - Fraudulent Transactions Reported</td>
+  <td>Fuel Programme Manager</td>
+  <td><span class="sys-tag wex">WEX Fuel Card API</span></td>
+  <td class="kpi-cell" style="font-size:10px">Report fraudulent transactions to WEX systems</td>
+  <td>Reversal report from SAP S/4HANA</td>
+  <td>Fraudulent transaction records in WEX system</td>
+  <td class="kpi-cell">Reporting accuracy of fraud > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Incomplete reporting to WEX systems</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>FleetView Analytics Portal - Fraud Management Dashboard Updated</td>
+  <td>Client Analytics Analyst</td>
+  <td><span class="sys-tag fleetview">FleetView Analytics Portal</span></td>
+  <td class="kpi-cell" style="font-size:10px">Update fraud management dashboard with latest data</td>
+  <td>Fraudulent transaction records from WEX API</td>
+  <td>Updated fraud management dashboard</td>
+  <td class="kpi-cell">Dashboard accuracy and relevance > 97%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Outdated dashboards failing to provide actionable insights</td>
+</tr>
+<tr>
+  <td class="step-num">3.3</td>
+  <td>FleetView - Fraud Summary Report Generated</td>
+  <td>Account Manager</td>
+  <td><span class="sys-tag fleetview">FleetView Analytics Portal</span></td>
+  <td class="kpi-cell" style="font-size:10px">Generate summary report for stakeholders</td>
+  <td>Fraudulent transaction records from WEX API</td>
+  <td>Monthly fraud summary report</td>
+  <td class="kpi-cell">Report delivery on time > 95%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed or incomplete reports affecting stakeholder communication</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
