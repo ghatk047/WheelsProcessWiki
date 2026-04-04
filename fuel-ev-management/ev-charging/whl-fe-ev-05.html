@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>EV Charging & Electrification Management — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-FE-EV-05: ChargePoint Public and Depot Charging Network Setup — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -439,57 +440,199 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../fuel-ev-management/index.html">Fuel & EV Charging Management</a> &rsaquo;
-      EV Charging & Electrification Management
+      <a href="../../fuel-ev-management/ev-charging/index.html">EV Charging & Electrification Management</a> &rsaquo;
+      WHL-FE-EV-05
     </div>
-    <div class="page-title">⚡ EV Charging & Electrification Management</div>
-    <div class="page-subtitle">2 of 8 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-fe-ev-01.html'>
-  <div class="process-card-id complete">WHL-FE-EV-01</div>
-  <div class="process-card-name">EcoWheels EV Assessment Tool Execution</div>
-  <div class="process-card-meta">6 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-fe-ev-02.html'>
-  <div class="process-card-id complete">WHL-FE-EV-02</div>
-  <div class="process-card-name">EV Suitability Analysis from Telematics and Fuel Data</div>
-  <div class="process-card-meta">6 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-EV-03</div>
-  <div class="process-card-name">EV Vehicle Selector and OEM Order Placement</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-EV-04</div>
-  <div class="process-card-name">Qmerit At-Home Charger Installation Coordination</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-EV-05</div>
-  <div class="process-card-name">ChargePoint Public and Depot Charging Network Setup</div>
-  <div class="process-card-meta">8 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-EV-06</div>
-  <div class="process-card-name">EV Driver Education and Change Management Programme</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-EV-07</div>
-  <div class="process-card-name">EV Charging Cost Capture and Reimbursement Processing</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-EV-08</div>
-  <div class="process-card-name">EV Fleet Carbon and ESG Reporting via Ayvens Portal</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-FE-EV-05</div>
+      <h1>ChargePoint Public and Depot Charging Network Setup</h1>
+      <div class="process-meta">
+        <span>🏢 Fuel & EV Charging Management</span>
+        <span>➡ EV Charging & Electrification Management</span>
+        <span>📝 8 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">This process outlines the steps involved in setting up ChargePoint public and depot charging networks for electric vehicle (EV) fleets at Wheels. It includes actions such as ordering chargers, integrating with ChargePoint's consolidated billing cloud software, and ensuring compliance with GHG reporting.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">Client requests the setup of a new EV charging network or expansion of an existing one.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">A fully functional public and depot charging network is established for the client's EV fleet, including integrated billing and GHG reporting capabilities.</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag fleetview">FleetView</span><span class="sys-tag chargepoint">ChargePoint</span><span class="sys-tag sap">SAP S/4HANA</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-fe-ev-05.png" data-lightbox="WHL-FE-EV-05">
+          <img src="../../assets/img/whl-fe-ev-05.png" alt="BPMN diagram for WHL-FE-EV-05" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>Vehicle uptime > 95%</li>
+<li>Invoice accuracy > 99%</li>
+<li>Network availability > 95%</li>
+<li>Financial setup completion time < 1 business day after network activation</li>
+<li>Accurate GHG data reported monthly</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Inadequate site survey leading to installation delays</li>
+<li>Delays in charger delivery affecting fleet operations</li>
+<li>Improper billing integration causing financial discrepancies</li>
+<li>Network downtime due to inadequate configuration</li>
+<li>Inaccurate or delayed GHG reports affecting compliance</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>FleetView - Request Submitted</td>
+  <td>EV Consultant</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Client request for EV charging network setup is logged and tracked.</td>
+  <td>Client request form</td>
+  <td>Request record in FleetView</td>
+  <td class="kpi-cell">Time to initial request acknowledgment < 2 business days</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inconsistent handling of client requests leading to delays.</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>FleetView - Site Survey Scheduling</td>
+  <td>Maintenance Coordinator</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Schedule a site survey for the proposed charging network locations.</td>
+  <td>Request record from FleetView</td>
+  <td>Site survey appointment in FleetView</td>
+  <td class="kpi-cell">Site surveys completed within 1 week of request submission</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Overlooking critical site factors such as power availability and accessibility.</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>ChargePoint API - Charger Order Created</td>
+  <td>EV Consultant</td>
+  <td><span class="sys-tag chargepoint">ChargePoint</span></td>
+  <td class="kpi-cell" style="font-size:10px">Create an order for the required number of chargers.</td>
+  <td>Site survey report from FleetView</td>
+  <td>Charger order confirmation from ChargePoint API</td>
+  <td class="kpi-cell">Chargers delivered within 4 weeks of order placement</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delays in charger delivery affecting fleet operations.</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>ChargePoint API - Charger Installation Scheduling</td>
+  <td>Maintenance Coordinator</td>
+  <td><span class="sys-tag chargepoint">ChargePoint</span></td>
+  <td class="kpi-cell" style="font-size:10px">Schedule the installation of chargers at the designated sites.</td>
+  <td>Charger order confirmation from ChargePoint API</td>
+  <td>Installation appointment in ChargePoint system</td>
+  <td class="kpi-cell">Installations completed within 2 weeks of charger delivery</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inadequate planning leading to installation delays.</td>
+</tr>
+<tr>
+  <td class="step-num">2.3</td>
+  <td>ChargePoint API - Billing Integration Setup</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag chargepoint">ChargePoint</span></td>
+  <td class="kpi-cell" style="font-size:10px">Integrate with ChargePoint's consolidated billing cloud software for seamless financial transactions.</td>
+  <td>Installation appointment from ChargePoint system</td>
+  <td>Billing integration confirmation from ChargePoint API</td>
+  <td class="kpi-cell">Invoice accuracy > 99%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Financial discrepancies due to improper billing integration.</td>
+</tr>
+<tr>
+  <td class="step-num">2.4</td>
+  <td>ChargePoint API - GHG Reporting Setup</td>
+  <td>Compliance Officer</td>
+  <td><span class="sys-tag chargepoint">ChargePoint</span></td>
+  <td class="kpi-cell" style="font-size:10px">Set up GHG reporting for the newly installed charging network.</td>
+  <td>Billing integration confirmation from ChargePoint API</td>
+  <td>GHG reporting configuration in ChargePoint system</td>
+  <td class="kpi-cell">Accurate GHG data reported monthly</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inaccurate or delayed GHG reports affecting compliance.</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>FleetView - Network Activation</td>
+  <td>EV Consultant</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Activate the charging network in FleetView for client usage.</td>
+  <td>GHG reporting configuration from ChargePoint API</td>
+  <td>Active network status in FleetView</td>
+  <td class="kpi-cell">Network availability > 95%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Network downtime affecting fleet operations.</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>SAP S/4HANA - Post Configuration</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Configure financial parameters in SAP S/4HANA for the new charging network.</td>
+  <td>Active network status from FleetView</td>
+  <td>Financial configuration record in SAP S/4HANA</td>
+  <td class="kpi-cell">Financial setup completed within 1 business day after network activation</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delays in financial setup leading to billing discrepancies.</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
