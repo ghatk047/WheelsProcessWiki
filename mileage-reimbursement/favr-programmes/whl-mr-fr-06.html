@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>FAVR and Mileage Reimbursement Programmes — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-MR-FR-06: FAVR Payment Calculation and Payroll Integration — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -528,57 +529,199 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../mileage-reimbursement/index.html">Mileage Reimbursement & Tax</a> &rsaquo;
-      FAVR and Mileage Reimbursement Programmes
+      <a href="../../mileage-reimbursement/favr-programmes/index.html">FAVR and Mileage Reimbursement Programmes</a> &rsaquo;
+      WHL-MR-FR-06
     </div>
-    <div class="page-title">🧾 FAVR and Mileage Reimbursement Programmes</div>
-    <div class="page-subtitle">5 of 8 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-mr-fr-01.html'>
-  <div class="process-card-id complete">WHL-MR-FR-01</div>
-  <div class="process-card-name">FAVR Programme Design and IRS Compliance Review</div>
-  <div class="process-card-meta">9 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-mr-fr-02.html'>
-  <div class="process-card-id complete">WHL-MR-FR-02</div>
-  <div class="process-card-name">Driver Enrolment and Vehicle Documentation Collection</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-mr-fr-03.html'>
-  <div class="process-card-id complete">WHL-MR-FR-03</div>
-  <div class="process-card-name">Monthly Fixed Cost Component Calculation Insurance Depreciation</div>
-  <div class="process-card-meta">6 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-mr-fr-04.html'>
-  <div class="process-card-id complete">WHL-MR-FR-04</div>
-  <div class="process-card-name">Variable Cost Rate Setting Fuel Maintenance</div>
-  <div class="process-card-meta">9 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-mr-fr-05.html'>
-  <div class="process-card-id complete">WHL-MR-FR-05</div>
-  <div class="process-card-name">Driver Mileage Log Collection via Mobile Assistant App</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-MR-FR-06</div>
-  <div class="process-card-name">FAVR Payment Calculation and Payroll Integration</div>
-  <div class="process-card-meta">8 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-MR-FR-07</div>
-  <div class="process-card-name">IRS Accountable Plan Documentation and Reporting</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-MR-FR-08</div>
-  <div class="process-card-name">Programme Annual Review and Rate Update</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-MR-FR-06</div>
+      <h1>FAVR Payment Calculation and Payroll Integration</h1>
+      <div class="process-meta">
+        <span>🏢 Mileage Reimbursement & Tax</span>
+        <span>➡ FAVR and Mileage Reimbursement Programmes</span>
+        <span>📝 8 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">The FAVR Payment Calculation and Payroll Integration process at Wheels involves calculating mileage reimbursement based on FAVR policies and integrating the data with SAP S/4HANA for payroll processing.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">Submission of mileage reports via FleetView Mobile App or manual entry in FleetView Analytics Portal</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">Successful calculation of FAVR payments and integration into SAP S/4HANA payroll system, leading to accurate reimbursement and payroll entries.</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag fleetview">FleetView</span><span class="sys-tag sap">SAP S/4HANA</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-mr-fr-06.png" data-lightbox="WHL-MR-FR-06">
+          <img src="../../assets/img/whl-mr-fr-06.png" alt="BPMN diagram for WHL-MR-FR-06" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>Vehicle uptime > 95%</li>
+<li>Invoice accuracy > 99%</li>
+<li>Driver notification accuracy > 95%</li>
+<li>Report archiving rate > 98%</li>
+<li>Reconciliation success rate > 98%</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Data discrepancies between FAVR payments and payroll records</li>
+<li>Integration errors between FleetView and SAP S/4HANA</li>
+<li>Manual intervention required for reconciliation errors</li>
+<li>Late processing of invoices affecting payroll timelines</li>
+<li>Inaccurate mileage reporting due to manual data entry errors</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>FleetView - Mileage Report Submitted</td>
+  <td>Driver Services Agent</td>
+  <td><span class="sys-tag fleetview">FleetView Mobile App or FleetView Analytics Portal</span></td>
+  <td class="kpi-cell" style="font-size:10px">User submits mileage report with required details</td>
+  <td>Mileage data, trip details</td>
+  <td>Mileage report record in FleetView database</td>
+  <td class="kpi-cell">Mileage report accuracy > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inaccurate mileage reporting due to manual data entry errors</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>FleetView - Validate Mileage Report</td>
+  <td>Driver Services Agent</td>
+  <td><span class="sys-tag fleetview">FleetView Mobile App or FleetView Analytics Portal</span></td>
+  <td class="kpi-cell" style="font-size:10px">System validates mileage report against FAVR policies</td>
+  <td>Mileage report record in FleetView database</td>
+  <td>Validation result</td>
+  <td class="kpi-cell">Validation success rate > 95%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Complex validation rules causing delays</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>SAP S/4HANA - Create Payroll Entry</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">System creates a payroll entry based on validated mileage report</td>
+  <td>Validation result from FleetView</td>
+  <td>Payroll entry in SAP S/4HANA</td>
+  <td class="kpi-cell">Payroll entry accuracy > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Integration errors between FleetView and SAP S/4HANA</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>SAP S/4HANA - Post Invoice</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">System posts the FAVR payment as an invoice in SAP S/4HANA</td>
+  <td>Payroll entry in SAP S/4HANA</td>
+  <td>Posted invoice in SAP S/4HANA</td>
+  <td class="kpi-cell">Invoice posting accuracy > 99%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Late processing of invoices affecting payroll timelines</td>
+</tr>
+<tr>
+  <td class="step-num">2.3</td>
+  <td>SAP S/4HANA - Update Payroll Record</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">System updates the payroll record with FAVR payment details</td>
+  <td>Posted invoice in SAP S/4HANA</td>
+  <td>Updated payroll record in SAP S/4HANA</td>
+  <td class="kpi-cell">Payroll record update accuracy > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Data discrepancies between FAVR payments and payroll records</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>FleetView - Notify Driver of Payment</td>
+  <td>Driver Services Agent</td>
+  <td><span class="sys-tag fleetview">FleetView Mobile App or FleetView Analytics Portal</span></td>
+  <td class="kpi-cell" style="font-size:10px">System sends notification to driver regarding payment status</td>
+  <td>Updated payroll record in SAP S/4HANA</td>
+  <td>Notification sent to driver</td>
+  <td class="kpi-cell">Driver notification accuracy > 95%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Drivers not receiving timely notifications about payments</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>FleetView - Archive Mileage Report</td>
+  <td>Driver Services Agent</td>
+  <td><span class="sys-tag fleetview">FleetView Mobile App or FleetView Analytics Portal</span></td>
+  <td class="kpi-cell" style="font-size:10px">System archives the mileage report for record-keeping purposes</td>
+  <td>Updated payroll record in SAP S/4HANA</td>
+  <td>Archived mileage report in FleetView database</td>
+  <td class="kpi-cell">Report archiving rate > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Loss of historical mileage data due to improper archiving</td>
+</tr>
+<tr>
+  <td class="step-num">3.3</td>
+  <td>SAP S/4HANA - Reconcile Payroll Records</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">System reconciles payroll records with FAVR payment data for accuracy checks</td>
+  <td>Archived mileage report in FleetView database and updated payroll record in SAP S/4HANA</td>
+  <td>Reconciliation result</td>
+  <td class="kpi-cell">Reconciliation success rate > 98%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Manual intervention required for reconciliation errors</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
