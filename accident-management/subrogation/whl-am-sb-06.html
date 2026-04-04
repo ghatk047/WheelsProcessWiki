@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Subrogation & Cost Recovery — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-AM-SB-06: Recovery Proceeds Posting in SAP and FleetView — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -456,57 +457,215 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../accident-management/index.html">Accident Management</a> &rsaquo;
-      Subrogation & Cost Recovery
+      <a href="../../accident-management/subrogation/index.html">Subrogation & Cost Recovery</a> &rsaquo;
+      WHL-AM-SB-06
     </div>
-    <div class="page-title">🚨 Subrogation & Cost Recovery</div>
-    <div class="page-subtitle">5 of 8 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-am-sb-01.html'>
-  <div class="process-card-id complete">WHL-AM-SB-01</div>
-  <div class="process-card-name">Third-Party Liability Identification at FNOL</div>
-  <div class="process-card-meta">10 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-am-sb-02.html'>
-  <div class="process-card-id complete">WHL-AM-SB-02</div>
-  <div class="process-card-name">Evidence and Documentation Package Assembly</div>
-  <div class="process-card-meta">9 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-am-sb-03.html'>
-  <div class="process-card-id complete">WHL-AM-SB-03</div>
-  <div class="process-card-name">Demand Letter Issuance to At-Fault Party or Insurer</div>
-  <div class="process-card-meta">9 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-am-sb-04.html'>
-  <div class="process-card-id complete">WHL-AM-SB-04</div>
-  <div class="process-card-name">Negotiation and Settlement with Third-Party Carrier</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-am-sb-05.html'>
-  <div class="process-card-id complete">WHL-AM-SB-05</div>
-  <div class="process-card-name">Arbitration Filing for Disputed Claims</div>
-  <div class="process-card-meta">10 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-AM-SB-06</div>
-  <div class="process-card-name">Recovery Proceeds Posting in SAP and FleetView</div>
-  <div class="process-card-meta">9 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-AM-SB-07</div>
-  <div class="process-card-name">Salvage Vehicle Processing and Disposal</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-AM-SB-08</div>
-  <div class="process-card-name">Subrogation Recovery KPI Reporting</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-AM-SB-06</div>
+      <h1>Recovery Proceeds Posting in SAP and FleetView</h1>
+      <div class="process-meta">
+        <span>🏢 Accident Management</span>
+        <span>➡ Subrogation & Cost Recovery</span>
+        <span>📝 9 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">The Recovery Proceeds Posting in SAP and FleetView process involves the posting of subrogation recovery proceeds into both SAP S/4HANA for financial record keeping and FleetView for visibility to fleet management teams. This ensures accurate tracking and reporting on subrogation outcomes.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">Successful closure of a subrogation case, where recovery proceeds are finalized and confirmed.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">Recovery proceeds are accurately posted in both SAP S/4HANA and FleetView, with all associated financial records updated accordingly.</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag accident-mgmt">Wheels Accident Management Platform</span><span class="sys-tag sap">SAP S/4HANA</span><span class="sys-tag fleetview">FleetView</span><span class="sys-tag fuel-card">WEX Fuel Card API</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-am-sb-06.png" data-lightbox="WHL-AM-SB-06">
+          <img src="../../assets/img/whl-am-sb-06.png" alt="BPMN diagram for WHL-AM-SB-06" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>Case closure rate > 98%</li>
+<li>Invoice accuracy > 99%</li>
+<li>Vehicle uptime > 95%</li>
+<li>Payment posting accuracy > 98%</li>
+<li>Transaction verification accuracy > 95%</li>
+<li>Compliance rate > 98%</li>
+<li>Report generation accuracy > 96%</li>
+<li>Stakeholder notification rate > 95%</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Delays in subrogation case closure affecting recovery postings.</li>
+<li>Incorrect invoicing leading to financial discrepancies.</li>
+<li>Missing or incorrect financial data impacting fleet operations.</li>
+<li>Delayed payment postings hindering financial reconciliation.</li>
+<li>Inaccurate transaction tracking leading to operational delays.</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>Accident Management Platform - Subrogation Case Closed</td>
+  <td>Accident Management Specialist</td>
+  <td><span class="sys-tag accident-mgmt">Wheels Accident Management Platform</span></td>
+  <td class="kpi-cell" style="font-size:10px">Subrogation case is marked as closed with final recovery amount.</td>
+  <td>Closed subrogation case details</td>
+  <td>Marked case in the Wheels Accident Management Platform</td>
+  <td class="kpi-cell">Case closure rate > 98%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Late closure of subrogation cases leading to delayed recovery postings.</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>SAP S/4HANA - Post Invoice</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Create an invoice document for the recovery proceeds.</td>
+  <td>Final recovery amount from the closed subrogation case</td>
+  <td>Invoice document created in SAP S/4HANA</td>
+  <td class="kpi-cell">Invoice accuracy > 99%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Incorrect invoicing leading to financial discrepancies.</td>
+</tr>
+<tr>
+  <td class="step-num">1.3</td>
+  <td>FleetView - Update Financial Records</td>
+  <td>Account Manager</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Update the vehicle's financial records with the recovery proceeds.</td>
+  <td>Invoice details from SAP S/4HANA</td>
+  <td>Updated financial record in FleetView</td>
+  <td class="kpi-cell">Vehicle uptime > 95%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Missing or incorrect financial data affecting fleet operations.</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>SAP S/4HANA - Post Payment</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Post the payment against the created invoice.</td>
+  <td>Payment details from the recovery proceeds</td>
+  <td>Posted payment in SAP S/4HANA</td>
+  <td class="kpi-cell">Payment posting accuracy > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed payment postings affecting financial reconciliation.</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>FleetView - Update Payment Status</td>
+  <td>Maintenance Coordinator</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Update the payment status in FleetView.</td>
+  <td>Payment details from SAP S/4HANA</td>
+  <td>Updated payment status in FleetView</td>
+  <td class="kpi-cell">Payment tracking accuracy > 97%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inaccurate payment tracking leading to operational delays.</td>
+</tr>
+<tr>
+  <td class="step-num">2.3</td>
+  <td>WEX Fuel Card API - Verify Transactions</td>
+  <td>Fuel Programme Manager</td>
+  <td><span class="sys-tag wex">WEX Fuel Card API</span></td>
+  <td class="kpi-cell" style="font-size:10px">Verify transactions related to the recovery proceeds.</td>
+  <td>Transaction details from WEX Fuel Card API</td>
+  <td>Verified transaction records</td>
+  <td class="kpi-cell">Transaction verification accuracy > 95%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Unverified transactions leading to fraud risks.</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>SAP S/4HANA - Finalize Financial Records</td>
+  <td>Compliance Officer</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Finalize the financial records for compliance.</td>
+  <td>All verified transaction and payment details</td>
+  <td>Finalized financial records in SAP S/4HANA</td>
+  <td class="kpi-cell">Compliance rate > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Non-compliant financial records leading to audits.</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>FleetView - Generate Financial Reports</td>
+  <td>Client Analytics Analyst</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Generate financial reports for the recovery proceeds.</td>
+  <td>Finalized financial records from SAP S/4HANA</td>
+  <td>Financial reports in FleetView</td>
+  <td class="kpi-cell">Report generation accuracy > 96%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inaccurate or delayed report generation affecting client insights.</td>
+</tr>
+<tr>
+  <td class="step-num">3.3</td>
+  <td>FleetView - Notify Stakeholders</td>
+  <td>Account Manager</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Notify relevant stakeholders of the recovery proceeds posting.</td>
+  <td>Financial reports and finalized records</td>
+  <td>Notifications sent to stakeholders via FleetView</td>
+  <td class="kpi-cell">Stakeholder notification rate > 95%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Failure in notifying stakeholders leading to missed opportunities.</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
