@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>FNOL & Repair Management — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-AM-FN-02: FNOL Data Capture and Case Creation in FleetView — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -444,57 +445,173 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../accident-management/index.html">Accident Management</a> &rsaquo;
-      FNOL & Repair Management
+      <a href="../../accident-management/accident-fnol/index.html">FNOL & Repair Management</a> &rsaquo;
+      WHL-AM-FN-02
     </div>
-    <div class="page-title">🚨 FNOL & Repair Management</div>
-    <div class="page-subtitle">1 of 8 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-am-fn-01.html'>
-  <div class="process-card-id complete">WHL-AM-FN-01</div>
-  <div class="process-card-name">Driver Accident Report Intake via FleetView or Phone</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-AM-FN-02</div>
-  <div class="process-card-name">FNOL Data Capture and Case Creation in FleetView</div>
-  <div class="process-card-meta">6 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-AM-FN-03</div>
-  <div class="process-card-name">Tow and Rental Vehicle Coordination</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-AM-FN-04</div>
-  <div class="process-card-name">Repair Shop Assignment from Approved Network</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-AM-FN-05</div>
-  <div class="process-card-name">I-CAR Certified Adjuster Damage Review and Estimate</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-AM-FN-06</div>
-  <div class="process-card-name">Repair Authorisation and Work Order Issuance</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-AM-FN-07</div>
-  <div class="process-card-name">Repair Progress Monitoring and Driver Communication</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-AM-FN-08</div>
-  <div class="process-card-name">Repair Completion, Invoice Audit, and Case Closure</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-AM-FN-02</div>
+      <h1>FNOL Data Capture and Case Creation in FleetView</h1>
+      <div class="process-meta">
+        <span>🏢 Accident Management</span>
+        <span>➡ FNOL & Repair Management</span>
+        <span>📝 6 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">This process describes how accident management FNOL (First Notice of Loss) data is captured and a case is created in FleetView for Wheels.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">Detection of an accident by the telematics system or manual reporting by a driver</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">A fully populated FNOL case in FleetView with all necessary details for repair management.</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag fleetview">FleetView</span><span class="sys-tag sap">SAP S/4HANA</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-am-fn-02.png" data-lightbox="WHL-AM-FN-02">
+          <img src="../../assets/img/whl-am-fn-02.png" alt="BPMN diagram for WHL-AM-FN-02" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>Vehicle uptime > 95%</li>
+<li>Invoice accuracy > 99%</li>
+<li>FNOL case creation time < 5 minutes</li>
+<li>Case assignment time < 2 minutes</li>
+<li>Asset accounting accuracy > 99%</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Potential for false positives in accident detection leading to unnecessary alerts.</li>
+<li>Delays in FNOL case creation affecting repair management timelines.</li>
+<li>Overlooked case assignments resulting in delayed repairs.</li>
+<li>Incorrect asset accounting entries causing financial discrepancies.</li>
+<li>Delayed case closures impacting fleet management efficiency.</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>Wheels Telematics/IoT Platform - Accident Detection Triggered</td>
+  <td>Accident Management Specialist</td>
+  <td><span class="sys-tag telematics">Wheels Telematics/IoT Platform</span></td>
+  <td class="kpi-cell" style="font-size:10px">Detects an accident based on telematics data and triggers an alert.</td>
+  <td>Telematics data from the vehicle's OBD device</td>
+  <td>Accident detection alert in Wheels Telematics/IoT Platform</td>
+  <td class="kpi-cell">Accident detection accuracy > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">False positives from telematics data causing unnecessary alerts.</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>Wheels Telematics/IoT Platform - Accident Details Captured</td>
+  <td>Accident Management Specialist</td>
+  <td><span class="sys-tag telematics">Wheels Telematics/IoT Platform</span></td>
+  <td class="kpi-cell" style="font-size:10px">Captures detailed accident information such as timestamp, location, and severity.</td>
+  <td>Accident detection alert</td>
+  <td>Accident details in Wheels Telematics/IoT Platform</td>
+  <td class="kpi-cell">Complete accident data capture rate > 95%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Lack of detailed telematics information leading to incomplete case creation.</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>FleetView - FNOL Case Created</td>
+  <td>Accident Management Specialist</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Creates a new FNOL case in FleetView using the captured accident details.</td>
+  <td>Accident details from Wheels Telematics/IoT Platform</td>
+  <td>FNOL case record in FleetView</td>
+  <td class="kpi-cell">FNOL case creation time < 5 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delays in creating FNOL cases affecting repair management timelines.</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>FleetView - Case Assignment and Notification</td>
+  <td>Accident Management Specialist</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Assigns the FNOL case to a Maintenance Coordinator and sends notifications.</td>
+  <td>FNOL case record in FleetView</td>
+  <td>Assignment record and notification sent</td>
+  <td class="kpi-cell">Case assignment time < 2 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Overlooked case assignments leading to delayed repairs.</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>SAP S/4HANA - Asset Accounting Integration</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Integrates FNOL case data into asset accounting for record-keeping.</td>
+  <td>FNOL case details from FleetView</td>
+  <td>Asset accounting entry in SAP S/4HANA</td>
+  <td class="kpi-cell">Asset accounting accuracy > 99%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Incorrect asset accounting entries causing financial discrepancies.</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>FleetView - Case Closure and Reporting</td>
+  <td>Accident Management Specialist</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Closes the FNOL case after repairs are completed and generates a final report.</td>
+  <td>Repair completion confirmation from Maintenance Coordinator</td>
+  <td>Closed FNOL case record and final repair report in FleetView</td>
+  <td class="kpi-cell">FNOL case closure time < 30 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed case closures affecting fleet management efficiency.</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
