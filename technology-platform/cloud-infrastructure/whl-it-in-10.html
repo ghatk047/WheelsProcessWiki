@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Infrastructure, Cloud & DevOps — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-IT-IN-10: AWS CloudWatch Monitoring Alerting and Runbook Automation — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -576,67 +577,212 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../technology-platform/index.html">Technology & Digital Platform</a> &rsaquo;
-      Infrastructure, Cloud & DevOps
+      <a href="../../technology-platform/cloud-infrastructure/index.html">Infrastructure, Cloud & DevOps</a> &rsaquo;
+      WHL-IT-IN-10
     </div>
-    <div class="page-title">💻 Infrastructure, Cloud & DevOps</div>
-    <div class="page-subtitle">9 of 10 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-it-in-01.html'>
-  <div class="process-card-id complete">WHL-IT-IN-01</div>
-  <div class="process-card-name">AWS Account Structure and Landing Zone Management</div>
-  <div class="process-card-meta">11 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-it-in-02.html'>
-  <div class="process-card-id complete">WHL-IT-IN-02</div>
-  <div class="process-card-name">AWS EKS Kubernetes Cluster Provisioning and Scaling</div>
-  <div class="process-card-meta">6 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-it-in-03.html'>
-  <div class="process-card-id complete">WHL-IT-IN-03</div>
-  <div class="process-card-name">CI CD Pipeline Design and Jenkins or GitHub Actions Management</div>
-  <div class="process-card-meta">10 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-it-in-04.html'>
-  <div class="process-card-id complete">WHL-IT-IN-04</div>
-  <div class="process-card-name">Infrastructure as Code Terraform Module Governance</div>
-  <div class="process-card-meta">7 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-it-in-05.html'>
-  <div class="process-card-id complete">WHL-IT-IN-05</div>
-  <div class="process-card-name">AWS Cost Management FinOps Reserved Instance Planning</div>
-  <div class="process-card-meta">9 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-it-in-06.html'>
-  <div class="process-card-id complete">WHL-IT-IN-06</div>
-  <div class="process-card-name">Disaster Recovery and RTO RPO Testing Programme</div>
-  <div class="process-card-meta">12 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-it-in-07.html'>
-  <div class="process-card-id complete">WHL-IT-IN-07</div>
-  <div class="process-card-name">AWS S3 and RDS Backup Policy and Restore Validation</div>
-  <div class="process-card-meta">10 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-it-in-08.html'>
-  <div class="process-card-id complete">WHL-IT-IN-08</div>
-  <div class="process-card-name">Network Security VPC Peering WAF and CloudFront Configuration</div>
-  <div class="process-card-meta">6 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-it-in-09.html'>
-  <div class="process-card-id complete">WHL-IT-IN-09</div>
-  <div class="process-card-name">Container Image Scanning and Vulnerability Remediation</div>
-  <div class="process-card-meta">9 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-IN-10</div>
-  <div class="process-card-name">AWS CloudWatch Monitoring Alerting and Runbook Automation</div>
-  <div class="process-card-meta">9 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-IT-IN-10</div>
+      <h1>AWS CloudWatch Monitoring Alerting and Runbook Automation</h1>
+      <div class="process-meta">
+        <span>🏢 Technology & Digital Platform</span>
+        <span>➡ Infrastructure, Cloud & DevOps</span>
+        <span>📝 9 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">Process for setting up and maintaining AWS CloudWatch monitoring, alerting, and runbook automation at Wheels.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">Deployment of new applications or system changes that require enhanced monitoring and alerting.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">Established AWS CloudWatch metrics, alarms, and automated response workflows to ensure continuous monitoring and quick resolution of issues.</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag aws">AWS CloudWatch</span><span class="sys-tag sap">SAP S/4HANA</span><span class="sys-tag fleetview">FleetView</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-it-in-10.png" data-lightbox="WHL-IT-IN-10">
+          <img src="../../assets/img/whl-it-in-10.png" alt="BPMN diagram for WHL-IT-IN-10" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>Vehicle uptime > 95%</li>
+<li>Invoice accuracy > 99%</li>
+<li>Alarm optimization rate > 90%</li>
+<li>Notification delivery success rate > 98%</li>
+<li>Deployment effectiveness score > 85%</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Incorrect metric configuration leading to monitoring gaps.</li>
+<li>False positives or missed alerts due to incorrect threshold settings.</li>
+<li>Manual intervention required for common issues due to missing runbooks.</li>
+<li>Notifications not being delivered or delayed due to configuration issues.</li>
+<li>Stale or outdated monitoring tools affecting operational efficiency.</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>AWS CloudFormation - Template Deployment</td>
+  <td>DevOps Engineer</td>
+  <td><span class="sys-tag aws">AWS CloudFormation</span></td>
+  <td class="kpi-cell" style="font-size:10px">Deploy CloudWatch template for monitoring and alerting.</td>
+  <td>CloudFormation template with AWS CloudWatch resources.</td>
+  <td>Deployed CloudFormation stack with CloudWatch metrics, alarms, and dashboards.</td>
+  <td class="kpi-cell">Deployment success rate > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Manual configuration errors leading to monitoring gaps.</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>AWS CloudWatch - Metric Creation</td>
+  <td>DevOps Engineer</td>
+  <td><span class="sys-tag aws">AWS CloudWatch</span></td>
+  <td class="kpi-cell" style="font-size:10px">Define custom metrics for critical system components.</td>
+  <td>List of critical system components and metrics to be monitored.</td>
+  <td>Custom CloudWatch metrics configured for FleetView, SAP S/4HANA, and other key systems.</td>
+  <td class="kpi-cell">Metric coverage > 95%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Incomplete metric configuration affecting monitoring effectiveness.</td>
+</tr>
+<tr>
+  <td class="step-num">1.3</td>
+  <td>AWS CloudWatch - Alarm Setup</td>
+  <td>DevOps Engineer</td>
+  <td><span class="sys-tag aws">AWS CloudWatch</span></td>
+  <td class="kpi-cell" style="font-size:10px">Create alarms for critical metrics.</td>
+  <td>Thresholds and notification channels for each alarm.</td>
+  <td>Configured CloudWatch alarms with associated SNS topics and email recipients.</td>
+  <td class="kpi-cell">Alarm accuracy > 95%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">False positives or missed alerts due to incorrect threshold settings.</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>AWS CloudWatch - Dashboard Creation</td>
+  <td>DevOps Engineer</td>
+  <td><span class="sys-tag aws">AWS CloudWatch</span></td>
+  <td class="kpi-cell" style="font-size:10px">Design and publish custom dashboards.</td>
+  <td>Dashboard layout, widgets, and data sources.</td>
+  <td>Custom CloudWatch dashboards for monitoring FleetView, SAP S/4HANA, and other systems.</td>
+  <td class="kpi-cell">Dashboard usage > 80%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Dashboards lacking necessary insights or visualization tools.</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>AWS Systems Manager - Runbook Automation</td>
+  <td>DevOps Engineer</td>
+  <td><span class="sys-tag aws">AWS Systems Manager</span></td>
+  <td class="kpi-cell" style="font-size:10px">Create and publish runbooks for common issues.</td>
+  <td>Runbook content, procedures, and associated IAM roles.</td>
+  <td>Published AWS Systems Manager runbooks with automation scripts.</td>
+  <td class="kpi-cell">Runbook execution success rate > 90%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Manual intervention required for common issues due to missing runbooks.</td>
+</tr>
+<tr>
+  <td class="step-num">2.3</td>
+  <td>AWS CloudWatch - Integration with Chatbot</td>
+  <td>DevOps Engineer</td>
+  <td><span class="sys-tag aws">AWS Chatbot</span></td>
+  <td class="kpi-cell" style="font-size:10px">Configure AWS Chatbot to send alerts and notifications.</td>
+  <td>Chatbot configuration settings and integration details.</td>
+  <td>Configured AWS Chatbot for automated alerting and communication.</td>
+  <td class="kpi-cell">Notification delivery success rate > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Notifications not being delivered or delayed due to configuration issues.</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>DevOps Engineer - Review and Optimize Alarms</td>
+  <td>DevOps Engineer</td>
+  <td><span class="sys-tag aws">AWS CloudWatch</span></td>
+  <td class="kpi-cell" style="font-size:10px">Review and optimize existing alarms.</td>
+  <td>Existing alarm configurations and performance data.</td>
+  <td>Optimized CloudWatch alarms with improved threshold settings and notification strategies.</td>
+  <td class="kpi-cell">Alarm optimization rate > 90%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Inefficient alarm configuration leading to excessive notifications or missed issues.</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>DevOps Engineer - Update Dashboards and Runbooks</td>
+  <td>DevOps Engineer</td>
+  <td><span class="sys-tag aws">AWS CloudWatch, AWS Systems Manager</span></td>
+  <td class="kpi-cell" style="font-size:10px">Update dashboards and runbooks based on new requirements or system changes.</td>
+  <td>New requirements, updated system architectures, and performance data.</td>
+  <td>Updated CloudWatch dashboards and AWS Systems Manager runbooks with latest information.</td>
+  <td class="kpi-cell">Dashboard and runbook update frequency > 3 times per month</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Stale or outdated monitoring tools affecting operational efficiency.</td>
+</tr>
+<tr>
+  <td class="step-num">3.3</td>
+  <td>DevOps Engineer - Conduct Post-Deployment Review</td>
+  <td>DevOps Engineer</td>
+  <td><span class="sys-tag aws">AWS CloudWatch, AWS Systems Manager</span></td>
+  <td class="kpi-cell" style="font-size:10px">Conduct a post-deployment review of monitoring and automation setup.</td>
+  <td>Review checklist, performance data, and user feedback.</td>
+  <td>Post-deployment report with recommendations for further improvements.</td>
+  <td class="kpi-cell">Deployment effectiveness score > 85%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Suboptimal monitoring setup affecting system reliability and performance.</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
