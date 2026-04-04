@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>EV Charging & Electrification Management — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-FE-EV-03: EV Vehicle Selector and OEM Order Placement — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -555,57 +556,230 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../fuel-ev-management/index.html">Fuel & EV Charging Management</a> &rsaquo;
-      EV Charging & Electrification Management
+      <a href="../../fuel-ev-management/ev-charging/index.html">EV Charging & Electrification Management</a> &rsaquo;
+      WHL-FE-EV-03
     </div>
-    <div class="page-title">⚡ EV Charging & Electrification Management</div>
-    <div class="page-subtitle">6 of 8 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-fe-ev-01.html'>
-  <div class="process-card-id complete">WHL-FE-EV-01</div>
-  <div class="process-card-name">EcoWheels EV Assessment Tool Execution</div>
-  <div class="process-card-meta">6 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-fe-ev-02.html'>
-  <div class="process-card-id complete">WHL-FE-EV-02</div>
-  <div class="process-card-name">EV Suitability Analysis from Telematics and Fuel Data</div>
-  <div class="process-card-meta">6 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-EV-03</div>
-  <div class="process-card-name">EV Vehicle Selector and OEM Order Placement</div>
-  <div class="process-card-meta">10 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-EV-04</div>
-  <div class="process-card-name">Qmerit At-Home Charger Installation Coordination</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" href='whl-fe-ev-05.html'>
-  <div class="process-card-id complete">WHL-FE-EV-05</div>
-  <div class="process-card-name">ChargePoint Public and Depot Charging Network Setup</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-fe-ev-06.html'>
-  <div class="process-card-id complete">WHL-FE-EV-06</div>
-  <div class="process-card-name">EV Driver Education and Change Management Programme</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-fe-ev-07.html'>
-  <div class="process-card-id complete">WHL-FE-EV-07</div>
-  <div class="process-card-name">EV Charging Cost Capture and Reimbursement Processing</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-fe-ev-08.html'>
-  <div class="process-card-id complete">WHL-FE-EV-08</div>
-  <div class="process-card-name">EV Fleet Carbon and ESG Reporting via Ayvens Portal</div>
-  <div class="process-card-meta">6 L4 steps &bull; Complete</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-FE-EV-03</div>
+      <h1>EV Vehicle Selector and OEM Order Placement</h1>
+      <div class="process-meta">
+        <span>🏢 Fuel & EV Charging Management</span>
+        <span>➡ EV Charging & Electrification Management</span>
+        <span>📝 10 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">The EV Vehicle Selector and OEM Order Placement process at Wheels involves selecting appropriate electric vehicles for corporate clients based on electrification suitability analysis and placing orders with Original Equipment Manufacturers (OEMs).</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">Client request for vehicle electrification or renewal of existing fleet</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">Successful order placement with the selected OEM, along with a comprehensive electrification plan.</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag fleetview">FleetView</span><span class="sys-tag sap">SAP S/4HANA</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-fe-ev-03.png" data-lightbox="WHL-FE-EV-03">
+          <img src="../../assets/img/whl-fe-ev-03.png" alt="BPMN diagram for WHL-FE-EV-03" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>{'name': 'Vehicle uptime > 95%', 'target': '95%'}</li>
+<li>{'name': 'Invoice accuracy > 99%', 'target': '99%'}</li>
+<li>{'name': 'Request intake accuracy > 98%', 'target': '98%'}</li>
+<li>{'name': 'Client approval rate > 90%', 'target': '90%'}</li>
+<li>{'name': 'Vehicle selection accuracy > 98%', 'target': '98%'}</li>
+<li>{'name': 'Order preparation time < 3 days', 'target': '3'}</li>
+<li>{'name': 'Order placement success rate > 95%', 'target': '95%'}</li>
+<li>{'name': 'Confirmation receipt time < 48 hours', 'target': '48'}</li>
+<li>{'name': 'Communication response time < 24 hours', 'target': '24'}</li>
+<li>{'name': 'Tracking accuracy > 98%', 'target': '98%'}</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Delayed client requests due to inaccurate data entry.</li>
+<li>High client rejection rates impacting business relationships.</li>
+<li>Failed order placements leading to revenue loss.</li>
+<li>Inconsistent vehicle selection criteria causing dissatisfaction.</li>
+<li>Delays in order preparation impacting delivery timelines.</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>FleetView - Client Request Received</td>
+  <td>EV Consultant</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Create request record in FleetView system</td>
+  <td>Client request form</td>
+  <td>Request record in FleetView</td>
+  <td class="kpi-cell">Request intake accuracy > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inaccurate data entry leading to delayed processing</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>FleetView - Electrification Suitability Analysis</td>
+  <td>EV Consultant</td>
+  <td><span class="sys-tag ecowheels">EcoWheels EV Assessment Tool</span></td>
+  <td class="kpi-cell" style="font-size:10px">Run electrification analysis based on client's fleet data and requirements</td>
+  <td>Client fleet data, request form</td>
+  <td>Electrification suitability report</td>
+  <td class="kpi-cell">Analysis completion time < 24 hours</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Long processing times impacting client satisfaction</td>
+</tr>
+<tr>
+  <td class="step-num">1.3</td>
+  <td>FleetView - Proposal Generation</td>
+  <td>EV Consultant</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Generate electrification proposal based on analysis report</td>
+  <td>Electrification suitability report</td>
+  <td>Electrification proposal document</td>
+  <td class="kpi-cell">Proposal accuracy > 95%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Inconsistent proposal formats causing confusion</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>FleetView - Client Approval Received</td>
+  <td>Account Manager</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Update request status to approved in FleetView system</td>
+  <td>Client approval form</td>
+  <td>Approved request record in FleetView</td>
+  <td class="kpi-cell">Client approval rate > 90%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">High client rejection rates</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>FleetView - Vehicle Selection</td>
+  <td>EV Consultant</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Select vehicles based on client's budget and requirements</td>
+  <td>Client approval form, electrification proposal document</td>
+  <td>Selected vehicle list</td>
+  <td class="kpi-cell">Vehicle selection accuracy > 98%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Inconsistent vehicle selection criteria</td>
+</tr>
+<tr>
+  <td class="step-num">2.3</td>
+  <td>SAP S4HANA - Order Placement Preparation</td>
+  <td>Fleet Consultant</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Prepare order placement details in SAP system</td>
+  <td>Selected vehicle list, client approval form</td>
+  <td>Order placement record in SAP S/4HANA</td>
+  <td class="kpi-cell">Order preparation time < 3 days</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delays in order preparation impacting delivery timelines</td>
+</tr>
+<tr>
+  <td class="step-num">2.4</td>
+  <td>SAP S4HANA - Order Placed</td>
+  <td>Fleet Consultant</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Place order with OEM in SAP system</td>
+  <td>Order placement record in SAP S/4HANA</td>
+  <td>Order confirmation from OEM</td>
+  <td class="kpi-cell">Order placement success rate > 95%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Failed order placements due to system errors</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>FleetView - Order Confirmation Received</td>
+  <td>Fleet Consultant</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Update request status to order placed in FleetView system</td>
+  <td>Order confirmation from OEM</td>
+  <td>Order placed record in FleetView</td>
+  <td class="kpi-cell">Confirmation receipt time < 48 hours</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed order confirmations impacting client expectations</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>FleetView - Client Communication</td>
+  <td>Account Manager</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Notify client of order placement and expected delivery date</td>
+  <td>Order confirmation from OEM, request record in FleetView</td>
+  <td>Client communication log</td>
+  <td class="kpi-cell">Communication response time < 24 hours</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Poor client communication leading to dissatisfaction</td>
+</tr>
+<tr>
+  <td class="step-num">3.3</td>
+  <td>SAP S4HANA - Order Tracking</td>
+  <td>Fleet Consultant</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Track order status in SAP system and update FleetView</td>
+  <td>Order placement record in SAP S/4HANA</td>
+  <td>Updated order tracking record in FleetView</td>
+  <td class="kpi-cell">Tracking accuracy > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inaccurate order status updates causing confusion</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
