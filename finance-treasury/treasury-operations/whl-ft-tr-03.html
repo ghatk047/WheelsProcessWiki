@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Treasury, AP AR & Procurement Finance — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-FT-TR-03: Accounts Payable Invoice Processing and Three-Way Match in SAP — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -599,57 +600,225 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../finance-treasury/index.html">Finance & Treasury</a> &rsaquo;
-      Treasury, AP AR & Procurement Finance
+      <a href="../../finance-treasury/treasury-operations/index.html">Treasury, AP AR & Procurement Finance</a> &rsaquo;
+      WHL-FT-TR-03
     </div>
-    <div class="page-title">💵 Treasury, AP AR & Procurement Finance</div>
-    <div class="page-subtitle">2 of 8 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-ft-tr-01.html'>
-  <div class="process-card-id complete">WHL-FT-TR-01</div>
-  <div class="process-card-name">Cash Flow Forecasting and Liquidity Management</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-ft-tr-02.html'>
-  <div class="process-card-id complete">WHL-FT-TR-02</div>
-  <div class="process-card-name">Debt Facility Management and Covenant Compliance Reporting</div>
-  <div class="process-card-meta">7 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FT-TR-03</div>
-  <div class="process-card-name">Accounts Payable Invoice Processing and Three-Way Match in SAP</div>
-  <div class="process-card-meta">10 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FT-TR-04</div>
-  <div class="process-card-name">Accounts Receivable Collections and Ageing Management</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FT-TR-05</div>
-  <div class="process-card-name">Client Payment Reconciliation EFT ACH and Wire Transfers</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FT-TR-06</div>
-  <div class="process-card-name">Capex Budget Management for Fleet Vehicle Acquisitions</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FT-TR-07</div>
-  <div class="process-card-name">Annual Operating Budget Planning and Variance Reporting</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FT-TR-08</div>
-  <div class="process-card-name">Procurement Purchase Order Approval Workflow in SAP MM</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-FT-TR-03</div>
+      <h1>Accounts Payable Invoice Processing and Three-Way Match in SAP</h1>
+      <div class="process-meta">
+        <span>🏢 Finance & Treasury</span>
+        <span>➡ Treasury, AP AR & Procurement Finance</span>
+        <span>📝 10 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">This process involves the Accounts Payable Invoice Processing and Three-Way Match in SAP S/4HANA. It ensures accurate invoice processing by matching purchase orders, receiving documents, and invoices to prevent discrepancies.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">Receipt of an invoice from a vendor</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">Successful posting of the invoice into SAP S/4HANA with three-way match verification</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag fleetview">FleetView</span><span class="sys-tag sap">SAP S/4HANA</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-ft-tr-03.png" data-lightbox="WHL-FT-TR-03">
+          <img src="../../assets/img/whl-ft-tr-03.png" alt="BPMN diagram for WHL-FT-TR-03" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>Invoice accuracy > 99%</li>
+<li>Vehicle uptime > 95%</li>
+<li>Three-way match success rate > 98%</li>
+<li>Payment processing time < 3 days</li>
+<li>Audit trail completeness > 90%</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Inaccurate invoice data entry leading to mismatches</li>
+<li>System failures impacting three-way match and posting</li>
+<li>Delayed payments due to processing errors</li>
+<li>Inconsistent audit trails causing compliance issues</li>
+<li>Vendor discrepancies affecting the matching process</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>FleetView - Invoice Received</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Invoice received and uploaded into the system</td>
+  <td>Vendor invoice document</td>
+  <td>Digital record in FleetView</td>
+  <td class="kpi-cell">Invoice accuracy > 99%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Manual data entry errors</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>FleetView - Three-Way Match Initiation</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Initiate three-way match process</td>
+  <td>Digital invoice record from FleetView</td>
+  <td>Three-way match request to SAP S/4HANA</td>
+  <td class="kpi-cell"></td>
+  <td class="decision-y">Y</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Missing purchase order or receiving document</td>
+</tr>
+<tr>
+  <td class="step-num">1.3</td>
+  <td>SAP S/4HANA - Three-Way Match Execution</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Execute three-way match logic between purchase order, receiving document, and invoice</td>
+  <td>Three-way match request from FleetView</td>
+  <td>Three-way match result (match or mismatch)</td>
+  <td class="kpi-cell"></td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Mismatch between documents</td>
+</tr>
+<tr>
+  <td class="step-num">1.4</td>
+  <td>SAP S/4HANA - Invoice Posting</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Post invoice to GL if three-way match is successful</td>
+  <td>Three-way match result from SAP S/4HANA</td>
+  <td>Posted invoice record in SAP S/4HANA</td>
+  <td class="kpi-cell"></td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Posting errors due to system issues</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>FleetView - Invoice Status Update</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Update invoice status based on SAP S/4HANA posting result</td>
+  <td>Posted invoice record from SAP S/4HANA</td>
+  <td>Updated invoice status in FleetView</td>
+  <td class="kpi-cell"></td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed updates causing confusion</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>SAP S/4HANA - AP Reconciliation</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Reconcile posted invoices with accounts payable module</td>
+  <td>Posted invoice records in SAP S/4HANA</td>
+  <td>Reconciliation report</td>
+  <td class="kpi-cell"></td>
+  <td class="decision-y">Y</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Misreconciled invoices</td>
+</tr>
+<tr>
+  <td class="step-num">2.3</td>
+  <td>FleetView - Reconciliation Report</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Import and display reconciliation report from SAP S/4HANA</td>
+  <td>Reconciliation report from SAP S/4HANA</td>
+  <td>Visible reconciliation status in FleetView</td>
+  <td class="kpi-cell"></td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inaccessible reports</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>SAP S/4HANA - Payment Processing</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Process payments for matched invoices</td>
+  <td>Reconciliation report from SAP S/4HANA</td>
+  <td>Processed payment records in SAP S/4HANA</td>
+  <td class="kpi-cell"></td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Payment processing delays</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>FleetView - Payment Status Update</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Update payment status based on SAP S/4HANA processing result</td>
+  <td>Processed payment records from SAP S/4HANA</td>
+  <td>Updated payment status in FleetView</td>
+  <td class="kpi-cell"></td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Payment status discrepancies</td>
+</tr>
+<tr>
+  <td class="step-num">3.3</td>
+  <td>FleetView - Audit Trail Generation</td>
+  <td>Compliance Officer</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Generate audit trail for invoice processing and payment transactions</td>
+  <td>All relevant records from FleetView and SAP S/4HANA</td>
+  <td>Audit trail report in FleetView</td>
+  <td class="kpi-cell"></td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Incomplete audit trails</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
