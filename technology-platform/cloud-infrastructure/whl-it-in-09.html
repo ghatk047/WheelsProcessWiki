@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Infrastructure, Cloud & DevOps — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-IT-IN-09: Container Image Scanning and Vulnerability Remediation — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -575,67 +576,215 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../technology-platform/index.html">Technology & Digital Platform</a> &rsaquo;
-      Infrastructure, Cloud & DevOps
+      <a href="../../technology-platform/cloud-infrastructure/index.html">Infrastructure, Cloud & DevOps</a> &rsaquo;
+      WHL-IT-IN-09
     </div>
-    <div class="page-title">💻 Infrastructure, Cloud & DevOps</div>
-    <div class="page-subtitle">8 of 10 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-it-in-01.html'>
-  <div class="process-card-id complete">WHL-IT-IN-01</div>
-  <div class="process-card-name">AWS Account Structure and Landing Zone Management</div>
-  <div class="process-card-meta">11 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-it-in-02.html'>
-  <div class="process-card-id complete">WHL-IT-IN-02</div>
-  <div class="process-card-name">AWS EKS Kubernetes Cluster Provisioning and Scaling</div>
-  <div class="process-card-meta">6 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-it-in-03.html'>
-  <div class="process-card-id complete">WHL-IT-IN-03</div>
-  <div class="process-card-name">CI CD Pipeline Design and Jenkins or GitHub Actions Management</div>
-  <div class="process-card-meta">10 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-it-in-04.html'>
-  <div class="process-card-id complete">WHL-IT-IN-04</div>
-  <div class="process-card-name">Infrastructure as Code Terraform Module Governance</div>
-  <div class="process-card-meta">7 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-it-in-05.html'>
-  <div class="process-card-id complete">WHL-IT-IN-05</div>
-  <div class="process-card-name">AWS Cost Management FinOps Reserved Instance Planning</div>
-  <div class="process-card-meta">9 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-it-in-06.html'>
-  <div class="process-card-id complete">WHL-IT-IN-06</div>
-  <div class="process-card-name">Disaster Recovery and RTO RPO Testing Programme</div>
-  <div class="process-card-meta">12 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-it-in-07.html'>
-  <div class="process-card-id complete">WHL-IT-IN-07</div>
-  <div class="process-card-name">AWS S3 and RDS Backup Policy and Restore Validation</div>
-  <div class="process-card-meta">10 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-it-in-08.html'>
-  <div class="process-card-id complete">WHL-IT-IN-08</div>
-  <div class="process-card-name">Network Security VPC Peering WAF and CloudFront Configuration</div>
-  <div class="process-card-meta">6 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-IN-09</div>
-  <div class="process-card-name">Container Image Scanning and Vulnerability Remediation</div>
-  <div class="process-card-meta">9 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-IN-10</div>
-  <div class="process-card-name">AWS CloudWatch Monitoring Alerting and Runbook Automation</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-IT-IN-09</div>
+      <h1>Container Image Scanning and Vulnerability Remediation</h1>
+      <div class="process-meta">
+        <span>🏢 Technology & Digital Platform</span>
+        <span>➡ Infrastructure, Cloud & DevOps</span>
+        <span>📝 9 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">The Container Image Scanning and Vulnerability Remediation process ensures that all container images used in Wheels' infrastructure are scanned for vulnerabilities and remediated to maintain security compliance and system integrity.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">Automated scan scheduled on a daily basis or triggered manually by the IT Security team upon suspected vulnerability introduction.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">All identified vulnerabilities in container images are reported, prioritized, and remediated within defined SLAs, ensuring that no high-severity vulnerabilities remain unaddressed.</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag aws">Kubernetes on AWS EKS</span><span class="sys-tag sys-generic">Trivy</span><span class="sys-tag sys-generic">JIRA</span><span class="sys-tag outsystems">OutSystems Platform</span><span class="sys-tag aws">AWS S3</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-it-in-09.png" data-lightbox="WHL-IT-IN-09">
+          <img src="../../assets/img/whl-it-in-09.png" alt="BPMN diagram for WHL-IT-IN-09" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>Number of scans completed per day > 10</li>
+<li>Time to complete scan < 5 minutes</li>
+<li>Average time to prioritize a ticket < 1 hour</li>
+<li>Time to develop and deploy a script < 4 hours</li>
+<li>Number of artifacts stored per day > 10</li>
+<li>Time to apply all remediations < 6 hours</li>
+<li>Time to complete re-scan < 5 minutes</li>
+<li>Number of tickets closed per day > 5</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Inaccurate vulnerability scanning leading to undetected security risks.</li>
+<li>Delayed or ineffective remediation causing system downtime.</li>
+<li>Loss or corruption of remediation scripts requiring repeated development efforts.</li>
+<li>Overlooked vulnerabilities causing potential data breaches.</li>
+<li>Resource misallocation due to unclear prioritization of vulnerabilities.</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>Kubernetes on AWS EKS - Schedule Daily Scan</td>
+  <td>IT Security Analyst</td>
+  <td><span class="sys-tag aws">Kubernetes on AWS EKS</span></td>
+  <td class="kpi-cell" style="font-size:10px">Initiates a scan of all container images deployed in the Kubernetes cluster.</td>
+  <td>Scheduled scan trigger from the CI/CD pipeline.</td>
+  <td>Scan report detailing identified vulnerabilities.</td>
+  <td class="kpi-cell">Number of scans completed per day > 10</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">False positives causing unnecessary remediation efforts.</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>Trivy - Execute Vulnerability Scan</td>
+  <td>IT Security Analyst</td>
+  <td><span class="sys-tag sys-generic">Trivy</span></td>
+  <td class="kpi-cell" style="font-size:10px">Scans container images for vulnerabilities.</td>
+  <td>Container image manifest from Kubernetes.</td>
+  <td>Detailed vulnerability report with severity levels.</td>
+  <td class="kpi-cell">Time to complete scan < 5 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inaccurate vulnerability detection leading to delayed remediation.</td>
+</tr>
+<tr>
+  <td class="step-num">1.3</td>
+  <td>JIRA - Log Vulnerability Findings</td>
+  <td>IT Security Analyst</td>
+  <td><span class="sys-tag sys-generic">JIRA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Creates tickets for identified vulnerabilities.</td>
+  <td>Vulnerability report from Trivy.</td>
+  <td>JIRA tickets with severity and remediation priority.</td>
+  <td class="kpi-cell">Number of tickets created per scan > 5</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Overlooked or delayed ticket creation affecting incident response times.</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>JIRA - Prioritize Vulnerabilities</td>
+  <td>IT Security Analyst</td>
+  <td><span class="sys-tag sys-generic">JIRA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Assigns priority to vulnerabilities based on severity and potential impact.</td>
+  <td>Vulnerability tickets from JIRA.</td>
+  <td>Prioritized vulnerability list with assigned owners.</td>
+  <td class="kpi-cell">Average time to prioritize a ticket < 1 hour</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Lack of clear prioritization leading to resource misallocation.</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>OutSystems Platform - Remediation Scripts</td>
+  <td>DevOps Engineer</td>
+  <td><span class="sys-tag outsystems">OutSystems Platform</span></td>
+  <td class="kpi-cell" style="font-size:10px">Develops and deploys remediation scripts for identified vulnerabilities.</td>
+  <td>Prioritized vulnerability list with assigned owners.</td>
+  <td>Remediation scripts deployed to the OutSystems environment.</td>
+  <td class="kpi-cell">Time to develop and deploy a script < 4 hours</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Complex remediation tasks causing delays in vulnerability resolution.</td>
+</tr>
+<tr>
+  <td class="step-num">2.3</td>
+  <td>AWS S3 - Store Remediation Artifacts</td>
+  <td>DevOps Engineer</td>
+  <td><span class="sys-tag aws">AWS S3</span></td>
+  <td class="kpi-cell" style="font-size:10px">Uploads remediation scripts and artifacts to AWS S3 for version control and backup.</td>
+  <td>Remediation scripts from OutSystems Platform.</td>
+  <td>Artifacts stored in AWS S3 with versioning enabled.</td>
+  <td class="kpi-cell">Number of artifacts stored per day > 10</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Lost or corrupted remediation scripts leading to repeated development efforts.</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>Kubernetes on AWS EKS - Apply Remediations</td>
+  <td>DevOps Engineer</td>
+  <td><span class="sys-tag aws">Kubernetes on AWS EKS</span></td>
+  <td class="kpi-cell" style="font-size:10px">Applies remediation scripts to container images in the Kubernetes cluster.</td>
+  <td>Remediation artifacts from AWS S3.</td>
+  <td>Container images with resolved vulnerabilities.</td>
+  <td class="kpi-cell">Time to apply all remediations < 6 hours</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Application failures during remediation causing downtime.</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>Trivy - Re-scan Post Remediation</td>
+  <td>IT Security Analyst</td>
+  <td><span class="sys-tag sys-generic">Trivy</span></td>
+  <td class="kpi-cell" style="font-size:10px">Re-scans container images to verify vulnerability resolution.</td>
+  <td>Remediated container images from Kubernetes.</td>
+  <td>Re-scan report confirming resolved vulnerabilities.</td>
+  <td class="kpi-cell">Time to complete re-scan < 5 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Ineffective remediation leading to undetected vulnerabilities.</td>
+</tr>
+<tr>
+  <td class="step-num">3.3</td>
+  <td>JIRA - Close Vulnerability Tickets</td>
+  <td>IT Security Analyst</td>
+  <td><span class="sys-tag sys-generic">JIRA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Closes JIRA tickets for resolved vulnerabilities.</td>
+  <td>Re-scan report from Trivy.</td>
+  <td>Closed JIRA tickets with resolution details.</td>
+  <td class="kpi-cell">Number of tickets closed per day > 5</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Unresolved vulnerabilities causing security risks.</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
