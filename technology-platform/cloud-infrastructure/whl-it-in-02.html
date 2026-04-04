@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Infrastructure, Cloud & DevOps — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-IT-IN-02: AWS EKS Kubernetes Cluster Provisioning and Scaling — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -568,67 +569,172 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../technology-platform/index.html">Technology & Digital Platform</a> &rsaquo;
-      Infrastructure, Cloud & DevOps
+      <a href="../../technology-platform/cloud-infrastructure/index.html">Infrastructure, Cloud & DevOps</a> &rsaquo;
+      WHL-IT-IN-02
     </div>
-    <div class="page-title">💻 Infrastructure, Cloud & DevOps</div>
-    <div class="page-subtitle">1 of 10 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-it-in-01.html'>
-  <div class="process-card-id complete">WHL-IT-IN-01</div>
-  <div class="process-card-name">AWS Account Structure and Landing Zone Management</div>
-  <div class="process-card-meta">11 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-IN-02</div>
-  <div class="process-card-name">AWS EKS Kubernetes Cluster Provisioning and Scaling</div>
-  <div class="process-card-meta">6 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-IN-03</div>
-  <div class="process-card-name">CI CD Pipeline Design and Jenkins or GitHub Actions Management</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-IN-04</div>
-  <div class="process-card-name">Infrastructure as Code Terraform Module Governance</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-IN-05</div>
-  <div class="process-card-name">AWS Cost Management FinOps Reserved Instance Planning</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-IN-06</div>
-  <div class="process-card-name">Disaster Recovery and RTO RPO Testing Programme</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-IN-07</div>
-  <div class="process-card-name">AWS S3 and RDS Backup Policy and Restore Validation</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-IN-08</div>
-  <div class="process-card-name">Network Security VPC Peering WAF and CloudFront Configuration</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-IN-09</div>
-  <div class="process-card-name">Container Image Scanning and Vulnerability Remediation</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-IN-10</div>
-  <div class="process-card-name">AWS CloudWatch Monitoring Alerting and Runbook Automation</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-IT-IN-02</div>
+      <h1>AWS EKS Kubernetes Cluster Provisioning and Scaling</h1>
+      <div class="process-meta">
+        <span>🏢 Technology & Digital Platform</span>
+        <span>➡ Infrastructure, Cloud & DevOps</span>
+        <span>📝 6 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">The process of provisioning and scaling an AWS EKS Kubernetes cluster to support the OutSystems applications at Wheels.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">Increased load on existing infrastructure or need for additional resources to handle new projects.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">A scalable, secure, and efficient Kubernetes cluster is provisioned and ready to host OutSystems applications.</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag outsystems">OutSystems</span><span class="sys-tag aws">AWS EKS</span><span class="sys-tag aws">Kubernetes on AWS EKS</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-it-in-02.png" data-lightbox="WHL-IT-IN-02">
+          <img src="../../assets/img/whl-it-in-02.png" alt="BPMN diagram for WHL-IT-IN-02" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>Provisioning time < 30 minutes</li>
+<li>Deployment success rate > 98%</li>
+<li>Cluster uptime > 99.5%</li>
+<li>Average response time < 200ms</li>
+<li>Resource utilization < 70%</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Inadequate resource allocation leading to performance bottlenecks.</li>
+<li>Deployment failures due to misconfigurations or dependencies.</li>
+<li>Cluster health issues causing downtime and service disruptions.</li>
+<li>Security vulnerabilities in the Kubernetes setup exposing sensitive data.</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>Provisioning Initiated - AWS EKS Cluster</td>
+  <td>DevOps Engineer</td>
+  <td><span class="sys-tag aws">AWS EKS</span></td>
+  <td class="kpi-cell" style="font-size:10px">Create a new EKS cluster configuration file.</td>
+  <td>Cluster specifications and requirements document.</td>
+  <td>EKS cluster configuration file.</td>
+  <td class="kpi-cell">Provisioning time < 30 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Resource allocation for new nodes in existing clusters.</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>Node Group Creation - AWS EKS Cluster</td>
+  <td>DevOps Engineer</td>
+  <td><span class="sys-tag aws">AWS EKS</span></td>
+  <td class="kpi-cell" style="font-size:10px">Create node groups with desired specifications.</td>
+  <td>EKS cluster configuration file.</td>
+  <td>Node group created in the EKS cluster.</td>
+  <td class="kpi-cell">Node creation time < 15 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Scaling existing node groups without downtime.</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>OutSystems App Deployment - Kubernetes</td>
+  <td>FleetView Platform Admin</td>
+  <td><span class="sys-tag outsystems">OutSystems</span></td>
+  <td class="kpi-cell" style="font-size:10px">Deploy the application using Helm charts.</td>
+  <td>Helm chart and deployment configuration files.</td>
+  <td>Application deployed in the Kubernetes cluster.</td>
+  <td class="kpi-cell">Deployment success rate > 98%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Handling application dependencies during deployment.</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>Resource Scaling - Kubernetes Cluster</td>
+  <td>DevOps Engineer</td>
+  <td><span class="sys-tag aws">Kubernetes on AWS EKS</span></td>
+  <td class="kpi-cell" style="font-size:10px">Scale the node group based on load.</td>
+  <td>Load monitoring metrics.</td>
+  <td>Scaled node group with appropriate resources.</td>
+  <td class="kpi-cell">Average response time < 200ms</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Manual intervention required for scaling operations.</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>Cluster Health Check - AWS EKS</td>
+  <td>DevOps Engineer</td>
+  <td><span class="sys-tag aws">AWS EKS</span></td>
+  <td class="kpi-cell" style="font-size:10px">Run health checks on the cluster.</td>
+  <td>Kubernetes API server status.</td>
+  <td>Health check report with findings.</td>
+  <td class="kpi-cell">Cluster uptime > 99.5%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Automated health checks failing to identify critical issues.</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>Cluster Optimization - Kubernetes</td>
+  <td>DevOps Engineer</td>
+  <td><span class="sys-tag aws">Kubernetes on AWS EKS</span></td>
+  <td class="kpi-cell" style="font-size:10px">Optimize cluster configuration based on findings.</td>
+  <td>Health check report and optimization recommendations.</td>
+  <td>Optimized cluster configuration file.</td>
+  <td class="kpi-cell">Resource utilization < 70%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Balancing resource allocation across different environments.</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
