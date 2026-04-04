@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Enterprise Risk Management & Modelling — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-RI-RM-05: Operational Risk Incident Reporting and Root Cause Analysis — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -649,57 +650,203 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../risk-insurance/index.html">Risk & Insurance Management</a> &rsaquo;
-      Enterprise Risk Management & Modelling
+      <a href="../../risk-insurance/enterprise-risk/index.html">Enterprise Risk Management & Modelling</a> &rsaquo;
+      WHL-RI-RM-05
     </div>
-    <div class="page-title">🔐 Enterprise Risk Management & Modelling</div>
-    <div class="page-subtitle">4 of 8 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-ri-rm-01.html'>
-  <div class="process-card-id complete">WHL-RI-RM-01</div>
-  <div class="process-card-name">Enterprise Risk Register Maintenance and Board Reporting</div>
-  <div class="process-card-meta">6 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-ri-rm-02.html'>
-  <div class="process-card-id complete">WHL-RI-RM-02</div>
-  <div class="process-card-name">Fleet Concentration Risk and Single-Client Exposure Analysis</div>
-  <div class="process-card-meta">6 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-ri-rm-03.html'>
-  <div class="process-card-id complete">WHL-RI-RM-03</div>
-  <div class="process-card-name">Residual Value Risk Modelling for Open-End Lease Portfolio</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-ri-rm-04.html'>
-  <div class="process-card-id complete">WHL-RI-RM-04</div>
-  <div class="process-card-name">Cyber Risk Assessment and Quantification</div>
-  <div class="process-card-meta">12 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-RI-RM-05</div>
-  <div class="process-card-name">Operational Risk Incident Reporting and Root Cause Analysis</div>
-  <div class="process-card-meta">8 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-RI-RM-06</div>
-  <div class="process-card-name">Interest Rate and Funding Cost Risk Management</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-RI-RM-07</div>
-  <div class="process-card-name">Climate and ESG Risk Integration into Fleet Risk Framework</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-RI-RM-08</div>
-  <div class="process-card-name">Business Continuity Risk Assessment and Scenario Planning</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-RI-RM-05</div>
+      <h1>Operational Risk Incident Reporting and Root Cause Analysis</h1>
+      <div class="process-meta">
+        <span>🏢 Risk & Insurance Management</span>
+        <span>➡ Enterprise Risk Management & Modelling</span>
+        <span>📝 8 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">The Operational Risk Incident Reporting and Root Cause Analysis process at Wheels is designed to ensure timely identification, reporting, investigation, and resolution of any incidents that could impact fleet operations. This process helps maintain high vehicle uptime and invoice accuracy by systematically analyzing root causes and implementing corrective actions.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">An operational incident or near-miss event is reported by a driver, maintenance staff, or automated monitoring system (such as Wheels Telematics/IoT Platform).</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">A comprehensive report of the incident with detailed analysis of its root cause, along with actionable recommendations to prevent recurrence. The process ensures that corrective actions are implemented and documented.</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag accident-mgmt">Wheels Accident Management Platform</span><span class="sys-tag sap">SAP S/4HANA</span><span class="sys-tag fleetview">FleetView Analytics Portal</span><span class="sys-tag fleetview">FleetView Mobile App</span><span class="sys-tag sys-generic">Wheels Mobile Assistant App</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-ri-rm-05.png" data-lightbox="WHL-RI-RM-05">
+          <img src="../../assets/img/whl-ri-rm-05.png" alt="BPMN diagram for WHL-RI-RM-05" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>{'kpi_name': 'Vehicle uptime', 'target': '> 95%'}</li>
+<li>{'kpi_name': 'Incident reporting accuracy', 'target': '> 95%'}</li>
+<li>{'kpi_name': 'Notification response time', 'target': '< 2 hours'}</li>
+<li>{'kpi_name': 'Analysis completion time', 'target': '< 1 day'}</li>
+<li>{'kpi_name': 'Validation accuracy', 'target': '> 98%'}</li>
+<li>{'kpi_name': 'Action plan development time', 'target': '< 3 days'}</li>
+<li>{'kpi_name': 'Action implementation completion time', 'target': '< 1 week'}</li>
+<li>{'kpi_name': 'Review accuracy', 'target': '> 90%'}</li>
+<li>{'kpi_name': 'Incident closure time', 'target': '< 2 weeks'}</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>{'risk_description': 'Inaccurate incident reporting leading to delayed analysis and resolution.', 'impact': 'Increased vehicle downtime and potential cost overruns.'}</li>
+<li>{'risk_description': 'System integration issues between Wheels platforms and SAP S/4HANA.', 'impact': 'Data inconsistencies and delays in communication.'}</li>
+<li>{'risk_description': 'Complex incidents requiring extensive manual intervention.', 'impact': 'Increased time to implement corrective actions.'}</li>
+<li>{'risk_description': 'Lack of real-time tracking during action implementation.', 'impact': 'Difficulty in monitoring progress and adherence to plans.'}</li>
+<li>{'risk_description': 'Inconsistent reporting leading to inaccurate reviews.', 'impact': 'Suboptimal learnings and reduced effectiveness of corrective actions.'}</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>Incident Report Submission - FleetView</td>
+  <td>Accident Management Specialist</td>
+  <td><span class="sys-tag accident-mgmt">Wheels Accident Management Platform</span></td>
+  <td class="kpi-cell" style="font-size:10px">Incident report is created and submitted through the platform.</td>
+  <td>Driver or maintenance staff report (via mobile app or portal)</td>
+  <td>Incident record in Wheels Accident Management Platform</td>
+  <td class="kpi-cell">Incident reporting accuracy > 95%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Lack of immediate visibility into reported incidents.</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>Incident Notification - SAP S/4HANA</td>
+  <td>Compliance Officer</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Notification of the incident is sent to relevant departments (Finance, Maintenance, etc.).</td>
+  <td>Incident record from Wheels Accident Management Platform</td>
+  <td>Internal notification in SAP S/4HANA</td>
+  <td class="kpi-cell">Notification response time < 2 hours</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delays in internal communication can lead to prolonged resolution times.</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>Root Cause Analysis - FleetView Analytics Portal</td>
+  <td>Client Analytics Analyst</td>
+  <td><span class="sys-tag fleetview">FleetView Analytics Portal</span></td>
+  <td class="kpi-cell" style="font-size:10px">Run predefined analytics reports and custom queries to identify potential root causes.</td>
+  <td>Incident record from Wheels Accident Management Platform</td>
+  <td>Root cause analysis report in FleetView Analytics Portal</td>
+  <td class="kpi-cell">Analysis completion time < 1 day</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Manual data collection and analysis can be time-consuming.</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>Root Cause Validation - SAP S/4HANA</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Cross-reference incident data with ERP records to validate root cause.</td>
+  <td>Root cause analysis report from FleetView Analytics Portal</td>
+  <td>Validated root cause in SAP S/4HANA</td>
+  <td class="kpi-cell">Validation accuracy > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Discrepancies between reporting systems can lead to incorrect conclusions.</td>
+</tr>
+<tr>
+  <td class="step-num">2.3</td>
+  <td>Action Plan Development - FleetView Mobile App</td>
+  <td>Maintenance Coordinator</td>
+  <td><span class="sys-tag fleetview">FleetView Mobile App</span></td>
+  <td class="kpi-cell" style="font-size:10px">Develop and document corrective actions based on root cause analysis.</td>
+  <td>Validated root cause from SAP S/4HANA</td>
+  <td>Action plan in FleetView Mobile App</td>
+  <td class="kpi-cell">Action plan development time < 3 days</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Complex incidents may require extensive discussions and planning.</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>Action Plan Implementation - Wheels Mobile Assistant App</td>
+  <td>Driver Services Agent</td>
+  <td><span class="sys-tag sys-generic">Wheels Mobile Assistant App</span></td>
+  <td class="kpi-cell" style="font-size:10px">Execute corrective actions and update status in the app.</td>
+  <td>Action plan from FleetView Mobile App</td>
+  <td>Implementation status updates in Wheels Mobile Assistant App</td>
+  <td class="kpi-cell">Action implementation completion time < 1 week</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Lack of real-time tracking and communication can hinder execution.</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>Post-Implementation Review - Wheels Accident Management Platform</td>
+  <td>Accident Management Specialist</td>
+  <td><span class="sys-tag accident-mgmt">Wheels Accident Management Platform</span></td>
+  <td class="kpi-cell" style="font-size:10px">Conduct a review to assess the effectiveness of corrective actions.</td>
+  <td>Implementation status updates from Wheels Mobile Assistant App</td>
+  <td>Post-implementation review report in Wheels Accident Management Platform</td>
+  <td class="kpi-cell">Review accuracy > 90%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inconsistent reporting can affect the quality of reviews.</td>
+</tr>
+<tr>
+  <td class="step-num">3.3</td>
+  <td>Incident Closure - SAP S/4HANA</td>
+  <td>Compliance Officer</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Close the incident record in ERP with final status and learnings.</td>
+  <td>Post-implementation review report from Wheels Accident Management Platform</td>
+  <td>Closed incident record in SAP S/4HANA</td>
+  <td class="kpi-cell">Incident closure time < 2 weeks</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed closure can obscure learnings and prevent timely improvements.</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
