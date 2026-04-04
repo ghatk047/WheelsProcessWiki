@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Revenue Accounting & Financial Reporting — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-FT-RA-03: SAP S4HANA Period-End Close and Journal Entry Processing — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -591,57 +592,174 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../finance-treasury/index.html">Finance & Treasury</a> &rsaquo;
-      Revenue Accounting & Financial Reporting
+      <a href="../../finance-treasury/revenue-accounting/index.html">Revenue Accounting & Financial Reporting</a> &rsaquo;
+      WHL-FT-RA-03
     </div>
-    <div class="page-title">💵 Revenue Accounting & Financial Reporting</div>
-    <div class="page-subtitle">2 of 8 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-ft-ra-01.html'>
-  <div class="process-card-id complete">WHL-FT-RA-01</div>
-  <div class="process-card-name">Monthly Lease Revenue Recognition under ASC 842 IFRS 16</div>
-  <div class="process-card-meta">6 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-ft-ra-02.html'>
-  <div class="process-card-id complete">WHL-FT-RA-02</div>
-  <div class="process-card-name">Management Fee Revenue Accrual and Invoice Reconciliation</div>
-  <div class="process-card-meta">12 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FT-RA-03</div>
-  <div class="process-card-name">SAP S4HANA Period-End Close and Journal Entry Processing</div>
-  <div class="process-card-meta">6 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FT-RA-04</div>
-  <div class="process-card-name">Financial Statement Preparation and External Audit Support</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FT-RA-05</div>
-  <div class="process-card-name">Intercompany Eliminations and Consolidation Reporting</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FT-RA-06</div>
-  <div class="process-card-name">Fleet Portfolio Asset Depreciation Run and Reconciliation</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FT-RA-07</div>
-  <div class="process-card-name">Tax Provision Calculation and Deferred Tax Management</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FT-RA-08</div>
-  <div class="process-card-name">Board and Investor Financial Reporting Package Preparation</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-FT-RA-03</div>
+      <h1>SAP S4HANA Period-End Close and Journal Entry Processing</h1>
+      <div class="process-meta">
+        <span>🏢 Finance & Treasury</span>
+        <span>➡ Revenue Accounting & Financial Reporting</span>
+        <span>📝 6 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">This process involves the finalization of financial records and the posting of journal entries in SAP S/4HANA for monthly revenue accounting at Wheels. It ensures accurate reporting and compliance with financial standards.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">End of the fiscal month</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">Completion of period-end close activities and accurate posting of all necessary journal entries in SAP S/4HANA.</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag fleetview">FleetView</span><span class="sys-tag sap">SAP S/4HANA</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-ft-ra-03.png" data-lightbox="WHL-FT-RA-03">
+          <img src="../../assets/img/whl-ft-ra-03.png" alt="BPMN diagram for WHL-FT-RA-03" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>Data extraction accuracy > 98%</li>
+<li>Data import accuracy > 98%</li>
+<li>Journal entry accuracy > 99%</li>
+<li>Report generation time < 2 hours</li>
+<li>Period closure time < 3 hours</li>
+<li>Report distribution accuracy > 99%</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Delayed data extraction from FleetView due to system issues</li>
+<li>Inaccurate data validation in SAP S/4HANA leading to financial misstatements</li>
+<li>Complex journal entry logic causing manual intervention delays</li>
+<li>Slow report generation impacting period-end closure timelines</li>
+<li>Incorrect email addresses resulting in missed client communications</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>FleetView - Data Extraction for Close</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Extracts financial data for the period-end close</td>
+  <td>Monthly reporting period start and end dates</td>
+  <td>Financial data export to CSV</td>
+  <td class="kpi-cell">Data extraction accuracy > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inconsistent data formats from FleetView</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>SAP S/4HANA - Data Import for Close</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Imports financial data from CSV and validates entries</td>
+  <td>Financial data export from FleetView</td>
+  <td>Validated entries in SAP S/4HANA</td>
+  <td class="kpi-cell">Data import accuracy > 98%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Manual intervention required for validation errors</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>SAP S/4HANA - Journal Entry Creation</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Creates journal entries for revenue and expenses</td>
+  <td>Validated entries in SAP S/4HANA</td>
+  <td>Journal entries posted to GL accounts</td>
+  <td class="kpi-cell">Journal entry accuracy > 99%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Complex journal entry logic for multiple clients</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>FleetView - Report Generation for Close</td>
+  <td>Client Analytics Analyst</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Generates financial reports for review</td>
+  <td>Journal entries posted to GL accounts</td>
+  <td>Financial reports in PDF format</td>
+  <td class="kpi-cell">Report generation time < 2 hours</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Slow report generation due to large data volumes</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>SAP S/4HANA - Period-End Close Completion</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Completes the period-end close process and finalizes accounts</td>
+  <td>Financial reports for review</td>
+  <td>Closed period in SAP S/4HANA</td>
+  <td class="kpi-cell">Period closure time < 3 hours</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delays due to data reconciliation issues</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>FleetView - Final Report Distribution</td>
+  <td>Account Manager</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Distributes final financial reports to clients</td>
+  <td>Closed period in SAP S/4HANA</td>
+  <td>Email notifications with PDF reports</td>
+  <td class="kpi-cell">Report distribution accuracy > 99%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Incorrect email addresses leading to undelivered reports</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
