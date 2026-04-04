@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Infrastructure, Cloud & DevOps — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-IT-IN-08: Network Security VPC Peering WAF and CloudFront Configuration — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -574,67 +575,174 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../technology-platform/index.html">Technology & Digital Platform</a> &rsaquo;
-      Infrastructure, Cloud & DevOps
+      <a href="../../technology-platform/cloud-infrastructure/index.html">Infrastructure, Cloud & DevOps</a> &rsaquo;
+      WHL-IT-IN-08
     </div>
-    <div class="page-title">💻 Infrastructure, Cloud & DevOps</div>
-    <div class="page-subtitle">7 of 10 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-it-in-01.html'>
-  <div class="process-card-id complete">WHL-IT-IN-01</div>
-  <div class="process-card-name">AWS Account Structure and Landing Zone Management</div>
-  <div class="process-card-meta">11 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-it-in-02.html'>
-  <div class="process-card-id complete">WHL-IT-IN-02</div>
-  <div class="process-card-name">AWS EKS Kubernetes Cluster Provisioning and Scaling</div>
-  <div class="process-card-meta">6 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-it-in-03.html'>
-  <div class="process-card-id complete">WHL-IT-IN-03</div>
-  <div class="process-card-name">CI CD Pipeline Design and Jenkins or GitHub Actions Management</div>
-  <div class="process-card-meta">10 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-it-in-04.html'>
-  <div class="process-card-id complete">WHL-IT-IN-04</div>
-  <div class="process-card-name">Infrastructure as Code Terraform Module Governance</div>
-  <div class="process-card-meta">7 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-it-in-05.html'>
-  <div class="process-card-id complete">WHL-IT-IN-05</div>
-  <div class="process-card-name">AWS Cost Management FinOps Reserved Instance Planning</div>
-  <div class="process-card-meta">9 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-it-in-06.html'>
-  <div class="process-card-id complete">WHL-IT-IN-06</div>
-  <div class="process-card-name">Disaster Recovery and RTO RPO Testing Programme</div>
-  <div class="process-card-meta">12 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-it-in-07.html'>
-  <div class="process-card-id complete">WHL-IT-IN-07</div>
-  <div class="process-card-name">AWS S3 and RDS Backup Policy and Restore Validation</div>
-  <div class="process-card-meta">10 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-IN-08</div>
-  <div class="process-card-name">Network Security VPC Peering WAF and CloudFront Configuration</div>
-  <div class="process-card-meta">6 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-IN-09</div>
-  <div class="process-card-name">Container Image Scanning and Vulnerability Remediation</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-IN-10</div>
-  <div class="process-card-name">AWS CloudWatch Monitoring Alerting and Runbook Automation</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-IT-IN-08</div>
+      <h1>Network Security VPC Peering WAF and CloudFront Configuration</h1>
+      <div class="process-meta">
+        <span>🏢 Technology & Digital Platform</span>
+        <span>➡ Infrastructure, Cloud & DevOps</span>
+        <span>📝 6 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">The Network Security VPC Peering WAF and CloudFront Configuration process at Wheels is designed to secure the infrastructure by establishing Virtual Private Cloud (VPC) peering between AWS environments, configuring Web Application Firewall (WAF), and setting up Amazon CloudFront for content delivery.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">Initiation of a new environment setup or modification in existing AWS infrastructure requiring enhanced security measures.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">Successfully configured VPC peering for secure communication between AWS environments, deployed WAF to protect against common web exploits, and set up CloudFront for optimized content delivery with improved security and performance.</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag aws">AWS Management Console</span><span class="sys-tag aws">AWS WAF</span><span class="sys-tag aws">AWS CloudFront</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-it-in-08.png" data-lightbox="WHL-IT-IN-08">
+          <img src="../../assets/img/whl-it-in-08.png" alt="BPMN diagram for WHL-IT-IN-08" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>Time to initiate VPC peering < 15 minutes</li>
+<li>Time to accept VPC peering < 10 minutes</li>
+<li>Time to create Web ACL < 5 minutes</li>
+<li>Time to create CloudFront distribution < 10 minutes</li>
+<li>Number of rule updates per month < 10</li>
+<li>Cache hit rate > 90%</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Misconfigured VPC peering leading to connectivity issues.</li>
+<li>Incorrect WAF rules causing false positives or negatives.</li>
+<li>Improper CloudFront configuration resulting in performance degradation.</li>
+<li>Security vulnerabilities due to outdated Web ACL rules.</li>
+<li>Increased costs from inefficient caching strategies.</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>AWS Console - Create VPC Peering Connection Request</td>
+  <td>Cloud Engineer</td>
+  <td><span class="sys-tag aws">AWS Management Console</span></td>
+  <td class="kpi-cell" style="font-size:10px">Initiate a VPC peering connection request from the requester's VPC.</td>
+  <td>VPC ID of the requester and accepter</td>
+  <td>VPC peering connection request initiated</td>
+  <td class="kpi-cell">Time to initiate VPC peering < 15 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Complexity in managing multiple VPCs and ensuring secure connectivity.</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>AWS Console - Accept VPC Peering Connection Request</td>
+  <td>Cloud Engineer</td>
+  <td><span class="sys-tag aws">AWS Management Console</span></td>
+  <td class="kpi-cell" style="font-size:10px">Accept the VPC peering connection request from the accepter's side.</td>
+  <td>VPC peering connection request ID</td>
+  <td>VPC peering connection established</td>
+  <td class="kpi-cell">Time to accept VPC peering < 10 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Potential for misconfiguration leading to connectivity issues.</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>AWS WAF - Create Web ACL</td>
+  <td>Security Engineer</td>
+  <td><span class="sys-tag aws">AWS WAF</span></td>
+  <td class="kpi-cell" style="font-size:10px">Create a new Web ACL with rules to block common web exploits.</td>
+  <td>Web ACL configuration parameters (rules, default action)</td>
+  <td>New Web ACL created and associated with CloudFront distribution</td>
+  <td class="kpi-cell">Time to create Web ACL < 5 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Difficulty in managing complex WAF rules.</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>AWS CloudFront - Create Distribution</td>
+  <td>Cloud Engineer</td>
+  <td><span class="sys-tag aws">AWS CloudFront</span></td>
+  <td class="kpi-cell" style="font-size:10px">Create a new CloudFront distribution with the associated Web ACL.</td>
+  <td>Origin settings, caching behavior, viewer protocol policy</td>
+  <td>New CloudFront distribution created and enabled</td>
+  <td class="kpi-cell">Time to create CloudFront distribution < 10 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inconsistent performance due to incorrect configuration.</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>AWS WAF - Monitor and Update Rules</td>
+  <td>Security Engineer</td>
+  <td><span class="sys-tag aws">AWS WAF</span></td>
+  <td class="kpi-cell" style="font-size:10px">Monitor the performance of Web ACL rules and update as necessary.</td>
+  <td>Monitoring dashboard data</td>
+  <td>Updated Web ACL configuration</td>
+  <td class="kpi-cell">Number of rule updates per month < 10</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Lack of real-time monitoring leading to potential security breaches.</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>AWS CloudFront - Optimize Cache Settings</td>
+  <td>Cloud Engineer</td>
+  <td><span class="sys-tag aws">AWS CloudFront</span></td>
+  <td class="kpi-cell" style="font-size:10px">Optimize cache settings for better performance and cost-effectiveness.</td>
+  <td>Performance metrics, cost analysis</td>
+  <td>Optimized CloudFront distribution configuration</td>
+  <td class="kpi-cell">Cache hit rate > 90%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">High costs due to inefficient caching strategies.</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
