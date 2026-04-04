@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>EV Charging & Electrification Management — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-FE-EV-07: EV Charging Cost Capture and Reimbursement Processing — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -441,57 +442,199 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../fuel-ev-management/index.html">Fuel & EV Charging Management</a> &rsaquo;
-      EV Charging & Electrification Management
+      <a href="../../fuel-ev-management/ev-charging/index.html">EV Charging & Electrification Management</a> &rsaquo;
+      WHL-FE-EV-07
     </div>
-    <div class="page-title">⚡ EV Charging & Electrification Management</div>
-    <div class="page-subtitle">4 of 8 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-fe-ev-01.html'>
-  <div class="process-card-id complete">WHL-FE-EV-01</div>
-  <div class="process-card-name">EcoWheels EV Assessment Tool Execution</div>
-  <div class="process-card-meta">6 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-fe-ev-02.html'>
-  <div class="process-card-id complete">WHL-FE-EV-02</div>
-  <div class="process-card-name">EV Suitability Analysis from Telematics and Fuel Data</div>
-  <div class="process-card-meta">6 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-EV-03</div>
-  <div class="process-card-name">EV Vehicle Selector and OEM Order Placement</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-EV-04</div>
-  <div class="process-card-name">Qmerit At-Home Charger Installation Coordination</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" href='whl-fe-ev-05.html'>
-  <div class="process-card-id complete">WHL-FE-EV-05</div>
-  <div class="process-card-name">ChargePoint Public and Depot Charging Network Setup</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-fe-ev-06.html'>
-  <div class="process-card-id complete">WHL-FE-EV-06</div>
-  <div class="process-card-name">EV Driver Education and Change Management Programme</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-EV-07</div>
-  <div class="process-card-name">EV Charging Cost Capture and Reimbursement Processing</div>
-  <div class="process-card-meta">8 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FE-EV-08</div>
-  <div class="process-card-name">EV Fleet Carbon and ESG Reporting via Ayvens Portal</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-FE-EV-07</div>
+      <h1>EV Charging Cost Capture and Reimbursement Processing</h1>
+      <div class="process-meta">
+        <span>🏢 Fuel & EV Charging Management</span>
+        <span>➡ EV Charging & Electrification Management</span>
+        <span>📝 8 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">The EV Charging Cost Capture and Reimbursement Processing is a critical procedure at Wheels that ensures accurate recording, processing, and reimbursement of electric vehicle charging expenses. This process supports the company's fleet electrification strategy by managing costs effectively and ensuring compliance with regulations.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">Submission of EV charging invoices through the FleetView Mobile App or direct input into the WEX Fuel Card API.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">Successful completion results in accurate cost capture, processing, and reimbursement for electric vehicle charging expenses, enhancing fleet management efficiency and compliance.</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag fleetview">FleetView</span><span class="sys-tag sap">SAP S/4HANA</span><span class="sys-tag fuel-card">WEX Fuel Card API</span><span class="sys-tag chargepoint">ChargePoint</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-fe-ev-07.png" data-lightbox="WHL-FE-EV-07">
+          <img src="../../assets/img/whl-fe-ev-07.png" alt="BPMN diagram for WHL-FE-EV-07" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>Invoice accuracy > 99%</li>
+<li>Fraud detection rate > 95%</li>
+<li>Approval time < 24 hours</li>
+<li>Invoice posting accuracy > 98%</li>
+<li>Reconciliation accuracy > 97%</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Integration issues between FleetView and SAP</li>
+<li>Delays in reimbursement generation affecting fleet operations</li>
+<li>Manual reconciliation being time-consuming and error-prone</li>
+<li>Financial strain due to delays in payment processing</li>
+<li>Confusion among drivers due to inaccurate notifications</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>A1[FleetView Mobile App - Invoice Submission]</td>
+  <td>Driver Services Agent</td>
+  <td><span class="sys-tag fleetview">FleetView Mobile App</span></td>
+  <td class="kpi-cell" style="font-size:10px">Invoice submission through the mobile app, including details such as date, amount, and location.</td>
+  <td>Charging invoice from driver's mobile device</td>
+  <td>Recorded in FleetView system for further processing.</td>
+  <td class="kpi-cell">Invoice accuracy > 99%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Inconsistent data entry leading to errors.</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>A2[WEX Fuel Card API - Invoice Validation]</td>
+  <td>Fuel Programme Manager</td>
+  <td><span class="sys-tag wex">WEX Fuel Card API</span></td>
+  <td class="kpi-cell" style="font-size:10px">API call to validate the submitted invoice for compliance with policies and fraud checks.</td>
+  <td>Invoice record from FleetView</td>
+  <td>Validation status (approved/rejected) returned to FleetView.</td>
+  <td class="kpi-cell">Fraud detection rate > 95%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Delays in fraud validation causing processing delays.</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>B1[FleetView - Invoice Approval]</td>
+  <td>EV Consultant</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Manual review and approval of validated invoices.</td>
+  <td>Validation status from WEX API</td>
+  <td>Approved invoice record in FleetView.</td>
+  <td class="kpi-cell">Approval time < 24 hours</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Manual approval process being prone to errors.</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>B2[SAP S/4HANA - Post Invoice]</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Posting of approved invoices to the financial system for accounting.</td>
+  <td>Approved invoice record from FleetView</td>
+  <td>Posted invoice in SAP S/4HANA ERP.</td>
+  <td class="kpi-cell">Invoice posting accuracy > 98%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Integration issues between FleetView and SAP causing delays.</td>
+</tr>
+<tr>
+  <td class="step-num">2.3</td>
+  <td>B3[ChargePoint - Reconciliation]</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag chargepoint">ChargePoint</span></td>
+  <td class="kpi-cell" style="font-size:10px">Reconciliation of posted invoices with ChargePoint billing records.</td>
+  <td>Posted invoice record from SAP S/4HANA</td>
+  <td>Reconciled status in ChargePoint system.</td>
+  <td class="kpi-cell">Reconciliation accuracy > 97%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Manual reconciliation being time-consuming and error-prone.</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>C1[SAP S/4HANA - Reimbursement Generation]</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Generation of reimbursement payments based on reconciled invoices.</td>
+  <td>Reconciled status from ChargePoint</td>
+  <td>Generated payment request in SAP S/4HANA ERP.</td>
+  <td class="kpi-cell">Payment generation accuracy > 98%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Delays in reimbursement generation affecting fleet operations.</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>C2[ChargePoint - Payment Processing]</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag chargepoint">ChargePoint</span></td>
+  <td class="kpi-cell" style="font-size:10px">Processing of generated payment requests to ensure timely payments.</td>
+  <td>Generated payment request from SAP S/4HANA</td>
+  <td>Processed payment status in ChargePoint system.</td>
+  <td class="kpi-cell">Payment processing time < 5 business days</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Delays in payment processing causing financial strain.</td>
+</tr>
+<tr>
+  <td class="step-num">3.3</td>
+  <td>C3[FleetView - Reimbursement Notification]</td>
+  <td>Driver Services Agent</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Notification of reimbursement status to drivers.</td>
+  <td>Processed payment status from ChargePoint</td>
+  <td>Reimbursement notification sent via FleetView Mobile App.</td>
+  <td class="kpi-cell">Notification accuracy > 95%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Inaccurate notifications causing confusion among drivers.</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
