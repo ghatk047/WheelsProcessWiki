@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Treasury, AP AR & Procurement Finance — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-FT-TR-08: Procurement Purchase Order Approval Workflow in SAP MM — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -604,57 +605,231 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../finance-treasury/index.html">Finance & Treasury</a> &rsaquo;
-      Treasury, AP AR & Procurement Finance
+      <a href="../../finance-treasury/treasury-operations/index.html">Treasury, AP AR & Procurement Finance</a> &rsaquo;
+      WHL-FT-TR-08
     </div>
-    <div class="page-title">💵 Treasury, AP AR & Procurement Finance</div>
-    <div class="page-subtitle">7 of 8 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-ft-tr-01.html'>
-  <div class="process-card-id complete">WHL-FT-TR-01</div>
-  <div class="process-card-name">Cash Flow Forecasting and Liquidity Management</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-ft-tr-02.html'>
-  <div class="process-card-id complete">WHL-FT-TR-02</div>
-  <div class="process-card-name">Debt Facility Management and Covenant Compliance Reporting</div>
-  <div class="process-card-meta">7 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-ft-tr-03.html'>
-  <div class="process-card-id complete">WHL-FT-TR-03</div>
-  <div class="process-card-name">Accounts Payable Invoice Processing and Three-Way Match in SAP</div>
-  <div class="process-card-meta">10 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-ft-tr-04.html'>
-  <div class="process-card-id complete">WHL-FT-TR-04</div>
-  <div class="process-card-name">Accounts Receivable Collections and Ageing Management</div>
-  <div class="process-card-meta">10 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-ft-tr-05.html'>
-  <div class="process-card-id complete">WHL-FT-TR-05</div>
-  <div class="process-card-name">Client Payment Reconciliation EFT ACH and Wire Transfers</div>
-  <div class="process-card-meta">10 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-ft-tr-06.html'>
-  <div class="process-card-id complete">WHL-FT-TR-06</div>
-  <div class="process-card-name">Capex Budget Management for Fleet Vehicle Acquisitions</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-ft-tr-07.html'>
-  <div class="process-card-id complete">WHL-FT-TR-07</div>
-  <div class="process-card-name">Annual Operating Budget Planning and Variance Reporting</div>
-  <div class="process-card-meta">9 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FT-TR-08</div>
-  <div class="process-card-name">Procurement Purchase Order Approval Workflow in SAP MM</div>
-  <div class="process-card-meta">10 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-FT-TR-08</div>
+      <h1>Procurement Purchase Order Approval Workflow in SAP MM</h1>
+      <div class="process-meta">
+        <span>🏢 Finance & Treasury</span>
+        <span>➡ Treasury, AP AR & Procurement Finance</span>
+        <span>📝 10 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">This process automates the approval workflow for procurement purchase orders within SAP MM at Wheels. It ensures that all orders are accurately processed and approved according to company policies and financial regulations.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">Creation of a new purchase order in the FleetView system by a Procurement Specialist</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">Approval or rejection of the purchase order, with notifications sent to relevant stakeholders</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag fleetview">FleetView</span><span class="sys-tag sap">SAP S/4HANA</span><span class="sys-tag fuel-card">WEX Fuel Card API</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-ft-tr-08.png" data-lightbox="WHL-FT-TR-08">
+          <img src="../../assets/img/whl-ft-tr-08.png" alt="BPMN diagram for WHL-FT-TR-08" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>Orders entered within 1 hour of creation > 90%</li>
+<li>Order import accuracy > 95%</li>
+<li>Preliminary review completion within 2 hours > 80%</li>
+<li>Final approval within 24 hours > 75%</li>
+<li>Notification delivery within 30 minutes > 95%</li>
+<li>Final notification delivery within 1 hour > 90%</li>
+<li>Order submission success rate > 98%</li>
+<li>Supplier acknowledgment within 24 hours > 85%</li>
+<li>Order processing completion within 3 days > 90%</li>
+<li>Completion notification delivery within 1 hour > 95%</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Delays in order entry causing procurement bottlenecks</li>
+<li>Errors during order import leading to manual corrections</li>
+<li>Inefficient preliminary reviews slowing down the approval process</li>
+<li>Delays in final approvals impacting fleet operations</li>
+<li>Failed order submissions requiring re-submissions</li>
+<li>Delays in supplier acknowledgments affecting order execution</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>FleetView VIM - Order Created</td>
+  <td>Procurement Specialist</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Purchase order is created and recorded in the FleetView system</td>
+  <td>User input via FleetView portal</td>
+  <td>Order record in FleetView</td>
+  <td class="kpi-cell">Orders entered within 1 hour of creation > 90%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed order entry affecting procurement timelines</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>SAP S/4HANA - Order Imported</td>
+  <td>Procurement Specialist</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Order is imported from FleetView into SAP MM module</td>
+  <td>Purchase order record from FleetView</td>
+  <td>Order record in SAP S/4HANA</td>
+  <td class="kpi-cell">Order import accuracy > 95%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Errors during order import causing delays</td>
+</tr>
+<tr>
+  <td class="step-num">1.3</td>
+  <td>SAP S/4HANA - Preliminary Review</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Preliminary review of the order for budget and compliance checks</td>
+  <td>Order record in SAP S/4HANA</td>
+  <td>Approval or rejection status in SAP S/4HANA</td>
+  <td class="kpi-cell">Preliminary review completion within 2 hours > 80%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Inefficient preliminary reviews delaying order processing</td>
+</tr>
+<tr>
+  <td class="step-num">1.4</td>
+  <td>FleetView - Approval Notification Sent</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Notification sent to the procurement specialist regarding approval status</td>
+  <td>Approval or rejection status from SAP S/4HANA</td>
+  <td>Notification email to procurement specialist</td>
+  <td class="kpi-cell">Notification delivery within 30 minutes > 95%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed notifications affecting further processing</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>SAP S/4HANA - Final Approval</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Final approval of the order by a finance analyst</td>
+  <td>Approval notification from FleetView</td>
+  <td>Approved order record in SAP S/4HANA</td>
+  <td class="kpi-cell">Final approval within 24 hours > 75%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Delays in final approvals causing procurement bottlenecks</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>FleetView - Final Approval Notification Sent</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Final approval notification sent to the procurement specialist and relevant stakeholders</td>
+  <td>Approved order record from SAP S/4HANA</td>
+  <td>Notification email to procurement specialist and stakeholders</td>
+  <td class="kpi-cell">Final notification delivery within 1 hour > 90%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed final notifications affecting order execution</td>
+</tr>
+<tr>
+  <td class="step-num">2.3</td>
+  <td>WEX API - Submit Order to Supplier</td>
+  <td>Procurement Specialist</td>
+  <td><span class="sys-tag wex">WEX Fuel Card API</span></td>
+  <td class="kpi-cell" style="font-size:10px">Order is submitted to the supplier via WEX API</td>
+  <td>Approved order record from SAP S/4HANA</td>
+  <td>Order submission confirmation from WEX API</td>
+  <td class="kpi-cell">Order submission success rate > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Failed order submissions affecting procurement efficiency</td>
+</tr>
+<tr>
+  <td class="step-num">2.4</td>
+  <td>FleetView - Supplier Acknowledgment Received</td>
+  <td>Procurement Specialist</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Acknowledgment from the supplier is received and recorded in FleetView</td>
+  <td>Order submission confirmation from WEX API</td>
+  <td>Supplier acknowledgment record in FleetView</td>
+  <td class="kpi-cell">Supplier acknowledgment within 24 hours > 85%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delays in supplier acknowledgments causing order delays</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>SAP S/4HANA - Order Processing Completed</td>
+  <td>Procurement Specialist</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Order processing is marked as completed in SAP MM</td>
+  <td>Supplier acknowledgment from FleetView</td>
+  <td>Completed order record in SAP S/4HANA</td>
+  <td class="kpi-cell">Order processing completion within 3 days > 90%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed order processing affecting fleet operations</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>FleetView - Completion Notification Sent</td>
+  <td>Procurement Specialist</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Completion notification is sent to all relevant stakeholders</td>
+  <td>Completed order record from SAP S/4HANA</td>
+  <td>Completion notification email to stakeholders</td>
+  <td class="kpi-cell">Completion notification delivery within 1 hour > 95%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed completion notifications affecting fleet management</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
