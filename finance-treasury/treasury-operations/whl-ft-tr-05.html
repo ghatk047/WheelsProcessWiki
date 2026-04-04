@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Treasury, AP AR & Procurement Finance — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-FT-TR-05: Client Payment Reconciliation EFT ACH and Wire Transfers — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -601,57 +602,234 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../finance-treasury/index.html">Finance & Treasury</a> &rsaquo;
-      Treasury, AP AR & Procurement Finance
+      <a href="../../finance-treasury/treasury-operations/index.html">Treasury, AP AR & Procurement Finance</a> &rsaquo;
+      WHL-FT-TR-05
     </div>
-    <div class="page-title">💵 Treasury, AP AR & Procurement Finance</div>
-    <div class="page-subtitle">4 of 8 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-ft-tr-01.html'>
-  <div class="process-card-id complete">WHL-FT-TR-01</div>
-  <div class="process-card-name">Cash Flow Forecasting and Liquidity Management</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-ft-tr-02.html'>
-  <div class="process-card-id complete">WHL-FT-TR-02</div>
-  <div class="process-card-name">Debt Facility Management and Covenant Compliance Reporting</div>
-  <div class="process-card-meta">7 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-ft-tr-03.html'>
-  <div class="process-card-id complete">WHL-FT-TR-03</div>
-  <div class="process-card-name">Accounts Payable Invoice Processing and Three-Way Match in SAP</div>
-  <div class="process-card-meta">10 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-ft-tr-04.html'>
-  <div class="process-card-id complete">WHL-FT-TR-04</div>
-  <div class="process-card-name">Accounts Receivable Collections and Ageing Management</div>
-  <div class="process-card-meta">10 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FT-TR-05</div>
-  <div class="process-card-name">Client Payment Reconciliation EFT ACH and Wire Transfers</div>
-  <div class="process-card-meta">10 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FT-TR-06</div>
-  <div class="process-card-name">Capex Budget Management for Fleet Vehicle Acquisitions</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FT-TR-07</div>
-  <div class="process-card-name">Annual Operating Budget Planning and Variance Reporting</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-FT-TR-08</div>
-  <div class="process-card-name">Procurement Purchase Order Approval Workflow in SAP MM</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-FT-TR-05</div>
+      <h1>Client Payment Reconciliation EFT ACH and Wire Transfers</h1>
+      <div class="process-meta">
+        <span>🏢 Finance & Treasury</span>
+        <span>➡ Treasury, AP AR & Procurement Finance</span>
+        <span>📝 10 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">The Client Payment Reconciliation EFT ACH and Wire Transfers process ensures accurate and timely reconciliation of client payments processed via electronic funds transfers (EFT), Automated Clearing House (ACH), and wire transfers. This process is critical for maintaining financial accuracy, ensuring compliance with payment terms, and facilitating smooth cash flow management.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">Payment receipt through EFT, ACH, or Wire Transfer</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">Accurate reconciliation of payments, updated accounting records in SAP S/4HANA, and confirmation of payment status to clients</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag fleetview">FleetView</span><span class="sys-tag sap">SAP S/4HANA</span><span class="sys-tag informatica">Informatica</span><span class="sys-tag fleetview">FleetView Analytics Portal</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-ft-tr-05.png" data-lightbox="WHL-FT-TR-05">
+          <img src="../../assets/img/whl-ft-tr-05.png" alt="BPMN diagram for WHL-FT-TR-05" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>Payment processing time < 2 hours</li>
+<li>Alert accuracy > 99%</li>
+<li>Initial reconciliation accuracy > 98%</li>
+<li>Data integration time < 1 hour</li>
+<li>Discrepancy detection rate > 95%</li>
+<li>Manual review completion time < 1 day</li>
+<li>Client satisfaction with payment process > 85%</li>
+<li>Final reconciliation accuracy > 99%</li>
+<li>Report generation time < 1 hour</li>
+<li>Compliance audit accuracy > 90%</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Late payment receipts causing delays in reconciliation</li>
+<li>Missed alerts leading to payment discrepancies</li>
+<li>Integration errors causing data inconsistencies</li>
+<li>High number of discrepancies requiring manual review</li>
+<li>Slow resolution process for discrepancies</li>
+<li>Clients receiving inaccurate payment status updates</li>
+<li>Delayed final reconciliation affecting financial reporting</li>
+<li>Slow report generation affecting internal audits</li>
+<li>Non-compliant reports requiring re-audit</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>Payment Received - FleetView Mobile App</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag fleetview">FleetView Mobile App</span></td>
+  <td class="kpi-cell" style="font-size:10px">Records the payment receipt in real-time</td>
+  <td>EFT, ACH, or Wire Transfer details</td>
+  <td>Payment record in FleetView</td>
+  <td class="kpi-cell">Payment processing time < 2 hours</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Late payment receipts causing delays in reconciliation</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>Payment Notification - SAP S/4HANA</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Fires an alert for reconciliation processing</td>
+  <td>Payment record from FleetView</td>
+  <td>Alert in SAP S/4HANA</td>
+  <td class="kpi-cell">Alert accuracy > 99%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Missed alerts leading to payment discrepancies</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>Reconciliation Initiation - SAP S/4HANA</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Initiates the payment reconciliation process</td>
+  <td>Alert from SAP S/4HANA</td>
+  <td>Reconciliation job in SAP S/4HANA</td>
+  <td class="kpi-cell">Initial reconciliation accuracy > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Manual intervention required for discrepancies</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>Data Integration - Informatica</td>
+  <td>Fleet Consultant</td>
+  <td><span class="sys-tag informatica">Informatica</span></td>
+  <td class="kpi-cell" style="font-size:10px">ETL between SAP S/4HANA and external partners for additional data sources</td>
+  <td>Reconciliation job in SAP S/4HANA</td>
+  <td>Integrated data set in Informatica</td>
+  <td class="kpi-cell">Data integration time < 1 hour</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Integration errors causing data inconsistencies</td>
+</tr>
+<tr>
+  <td class="step-num">2.3</td>
+  <td>Discrepancy Detection - SAP S/4HANA</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Identifies discrepancies between received payments and expected amounts</td>
+  <td>Integrated data set from Informatica</td>
+  <td>Discrepancy report in SAP S/4HANA</td>
+  <td class="kpi-cell">Discrepancy detection rate > 95%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">High number of discrepancies requiring manual review</td>
+</tr>
+<tr>
+  <td class="step-num">2.4</td>
+  <td>Manual Review - Finance Analyst</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag fleetview">FleetView Analytics Portal</span></td>
+  <td class="kpi-cell" style="font-size:10px">Reviews and resolves discrepancies manually</td>
+  <td>Discrepancy report from SAP S/4HANA</td>
+  <td>Resolved discrepancy record in FleetView Analytics Portal</td>
+  <td class="kpi-cell">Manual review completion time < 1 day</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Slow resolution process for discrepancies</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>Payment Confirmation - FleetView Mobile App</td>
+  <td>Account Manager</td>
+  <td><span class="sys-tag fleetview">FleetView Mobile App</span></td>
+  <td class="kpi-cell" style="font-size:10px">Notifies client of payment confirmation and status</td>
+  <td>Resolved discrepancy record from FleetView Analytics Portal</td>
+  <td>Payment confirmation notification to client</td>
+  <td class="kpi-cell">Client satisfaction with payment process > 85%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Clients receiving inaccurate payment status updates</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>Final Reconciliation - SAP S/4HANA</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Completes the final reconciliation and updates accounting records</td>
+  <td>Resolved discrepancy record from FleetView Analytics Portal</td>
+  <td>Updated accounting records in SAP S/4HANA</td>
+  <td class="kpi-cell">Final reconciliation accuracy > 99%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed final reconciliation affecting financial reporting</td>
+</tr>
+<tr>
+  <td class="step-num">3.3</td>
+  <td>Reconciliation Report - FleetView Analytics Portal</td>
+  <td>Client Analytics Analyst</td>
+  <td><span class="sys-tag fleetview">FleetView Analytics Portal</span></td>
+  <td class="kpi-cell" style="font-size:10px">Generates a reconciliation report for audit and review</td>
+  <td>Updated accounting records from SAP S/4HANA</td>
+  <td>Reconciliation report in FleetView Analytics Portal</td>
+  <td class="kpi-cell">Report generation time < 1 hour</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Slow report generation affecting internal audits</td>
+</tr>
+<tr>
+  <td class="step-num">3.4</td>
+  <td>Audit Review - Compliance Officer</td>
+  <td>Compliance Officer</td>
+  <td><span class="sys-tag fleetview">FleetView Analytics Portal</span></td>
+  <td class="kpi-cell" style="font-size:10px">Reviews the reconciliation report for compliance with financial standards</td>
+  <td>Reconciliation report from FleetView Analytics Portal</td>
+  <td>Audit review status in FleetView Analytics Portal</td>
+  <td class="kpi-cell">Compliance audit accuracy > 90%</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Non-compliant reports requiring re-audit</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
