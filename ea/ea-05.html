@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>EA-05: Telematics and Connected Vehicle Architecture — Wheels Process Wiki</title>
+<link rel="stylesheet" href="../assets/css/wiki.css">
+</head>
+<body>
+<div class="wiki-topbar">
+  <a class="topbar-logo" href="../index.html">
+    <svg viewBox="0 0 28 28" fill="none">
+      <circle cx="14" cy="14" r="12" stroke="white" stroke-width="2"/>
+      <circle cx="14" cy="14" r="5" fill="white"/>
+      <line x1="14" y1="2"  x2="14" y2="6"  stroke="white" stroke-width="2"/>
+      <line x1="14" y1="22" x2="14" y2="26" stroke="white" stroke-width="2"/>
+      <line x1="2"  y1="14" x2="6"  y2="14" stroke="white" stroke-width="2"/>
+      <line x1="22" y1="14" x2="26" y2="14" stroke="white" stroke-width="2"/>
+    </svg>
+    <div>
+      <div class="topbar-brand">Wheels Process Wiki</div>
+      <div class="topbar-sub">SAP Consulting Reference</div>
+    </div>
+  </a>
+  <div class="topbar-spacer"></div>
+  <div class="search-wrap">
+    <svg class="search-icon" viewBox="0 0 16 16" fill="none">
+      <circle cx="6.5" cy="6.5" r="4.5" stroke="white" stroke-width="1.5"/>
+      <path d="M10 10l3 3" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+    </svg>
+    <input type="text" id="searchBox" placeholder="Search processes… (/)">
+  </div>
+  <a class="topbar-home" href="../index.html">⌂ Home</a>
+</div>
+<div class="wiki-layout">
+  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+<details class="nav-domain" open>
+  <summary><span class="nav-domain-icon">🗺️</span>Enterprise Architecture<span class="nav-domain-arrow">▶</span></summary>
+  <ul class="nav-ea-list">
+    <li><a href="ea-01.html">EA-01: Enterprise System Landscape</a></li>
+    <li><a href="ea-02.html">EA-02: FleetView Platform Architecture</a></li>
+    <li><a href="ea-03.html">EA-03: Vehicle Lifecycle Data Flow</a></li>
+    <li><a href="ea-04.html">EA-04: Accident Management Data Flow</a></li>
+    <li><a href="ea-05.html" class="active">EA-05: Telematics and Connected Vehicle Architecture</a></li>
+    <li><a href="ea-06.html">EA-06: EV Electrification Platform Architecture</a></li>
+    <li><a href="ea-07.html">EA-07: Ayvens Global Alliance Architecture</a></li>
+    <li><a href="ea-08.html">EA-08: Fleet Finance and Lease Lifecycle</a></li>
+  </ul>
+</details>
+</nav>
+</aside>
+  <button class="sidebar-toggle" id="sidebarToggle">◄</button>
+  <main class="wiki-main">
+    <div class="breadcrumb">
+      <a href="../index.html">Home</a> &rsaquo;
+      <a href="index.html">Enterprise Architecture</a> &rsaquo;
+      EA-05
+    </div>
+    <div class="ea-header">
+      <div class="ea-badge">EA-05</div>
+      <h1 style="font-size:22px;font-weight:700;color:#1e293b;margin-bottom:6px">Telematics and Connected Vehicle Architecture</h1>
+      <p class="ea-desc">Full IoT and telematics data pipeline: from OBD plug-in device on the vehicle through cellular transmission, the Wheels IoT Platform, FleetView driver safety scoring, WEX fuel card transaction matching, and onward to FleetView Analytics and CMV compliance reporting.</p>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">🗺️ System Architecture Diagram (4K — click to zoom)</div>
+      <div class="ea-wrap" data-lightbox="true">
+        <a href="../assets/img/ea-05.png" data-lightbox="ea-05">
+          <img src="../assets/img/ea-05.png" alt="Telematics and Connected Vehicle Architecture" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        4K resolution &bull; Click to zoom &amp; pan &bull; Scroll to zoom &bull; Esc to close
+      </p>
+    </div>
+    <div style="display:flex;justify-content:space-between;margin-top:20px;font-size:13px">
+      <div><a href="ea-04.html">&laquo; EA-04</a></div>
+      <a href="index.html" style="color:#4f46e5">All EA Diagrams</a>
+      <div><a href="ea-06.html">EA-06 &raquo;</a></div>
+    </div>
+  </main>
+</div>
+<div id="lightbox">
+  <div class="lb-controls">
+    <button class="lb-btn" id="lbZoomIn">+</button>
+    <button class="lb-btn" id="lbZoomOut">−</button>
+    <button class="lb-btn" id="lbReset">↺</button>
+    <span id="lbScale">100%</span>
+    <button class="lb-btn" id="lbClose">✕</button>
+  </div>
+  <img id="lightboxImg" src="" alt="">
+</div>
+<script src="../assets/js/wiki.js"></script>
+</body>
+</html>
