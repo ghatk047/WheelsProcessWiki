@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Infrastructure, Cloud & DevOps — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-IT-IN-01: AWS Account Structure and Landing Zone Management — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -567,67 +568,244 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../technology-platform/index.html">Technology & Digital Platform</a> &rsaquo;
-      Infrastructure, Cloud & DevOps
+      <a href="../../technology-platform/cloud-infrastructure/index.html">Infrastructure, Cloud & DevOps</a> &rsaquo;
+      WHL-IT-IN-01
     </div>
-    <div class="page-title">💻 Infrastructure, Cloud & DevOps</div>
-    <div class="page-subtitle">0 of 10 processes complete</div>
-    <div class="process-grid"><a class="process-card" >
-  <div class="process-card-id ">WHL-IT-IN-01</div>
-  <div class="process-card-name">AWS Account Structure and Landing Zone Management</div>
-  <div class="process-card-meta">11 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-IN-02</div>
-  <div class="process-card-name">AWS EKS Kubernetes Cluster Provisioning and Scaling</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-IN-03</div>
-  <div class="process-card-name">CI CD Pipeline Design and Jenkins or GitHub Actions Management</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-IN-04</div>
-  <div class="process-card-name">Infrastructure as Code Terraform Module Governance</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-IN-05</div>
-  <div class="process-card-name">AWS Cost Management FinOps Reserved Instance Planning</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-IN-06</div>
-  <div class="process-card-name">Disaster Recovery and RTO RPO Testing Programme</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-IN-07</div>
-  <div class="process-card-name">AWS S3 and RDS Backup Policy and Restore Validation</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-IN-08</div>
-  <div class="process-card-name">Network Security VPC Peering WAF and CloudFront Configuration</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-IN-09</div>
-  <div class="process-card-name">Container Image Scanning and Vulnerability Remediation</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-IN-10</div>
-  <div class="process-card-name">AWS CloudWatch Monitoring Alerting and Runbook Automation</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-IT-IN-01</div>
+      <h1>AWS Account Structure and Landing Zone Management</h1>
+      <div class="process-meta">
+        <span>🏢 Technology & Digital Platform</span>
+        <span>➡ Infrastructure, Cloud & DevOps</span>
+        <span>📝 11 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">This process outlines the structured approach for managing AWS account structures and landing zones within Wheels' technology infrastructure.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">The initiation of a new cloud deployment or the need to restructure existing AWS accounts due to business changes.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">A well-defined AWS account structure with a secure, scalable, and compliant landing zone that supports all fleet management operations.</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag aws">AWS IAM</span><span class="sys-tag aws">AWS Organizations</span><span class="sys-tag aws">AWS S3</span><span class="sys-tag aws">AWS RDS</span><span class="sys-tag aws">AWS EKS</span><span class="sys-tag aws">AWS CloudTrail</span><span class="sys-tag aws">AWS Config</span><span class="sys-tag aws">AWS Security Hub</span><span class="sys-tag aws">AWS Cost Explorer</span><span class="sys-tag aws">AWS Backup</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-it-in-01.png" data-lightbox="WHL-IT-IN-01">
+          <img src="../../assets/img/whl-it-in-01.png" alt="BPMN diagram for WHL-IT-IN-01" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>New account setup time < 2 hours</li>
+<li>Organization setup time < 4 hours</li>
+<li>Role creation time per role < 30 minutes</li>
+<li>Landing zone deployment time < 6 hours</li>
+<li>Bucket creation time < 1 hour per bucket</li>
+<li>Database provisioning time < 3 hours per instance</li>
+<li>Cluster setup time < 5 hours per cluster</li>
+<li>Audit coverage > 95%</li>
+<li>Assessment completion time < 24 hours</li>
+<li>Over budget incidents < 10% per month</li>
+<li>Backup success rate > 98%</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Improper IAM role assignments leading to security breaches.</li>
+<li>Misconfigured landing zone causing compliance issues.</li>
+<li>Data loss due to inadequate backup policies.</li>
+<li>Increased AWS costs from inefficient resource usage.</li>
+<li>Complexity in managing multiple accounts and resources.</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>AWS IAM - Create Root Account</td>
+  <td>FleetView Platform Admin</td>
+  <td><span class="sys-tag aws">AWS IAM</span></td>
+  <td class="kpi-cell" style="font-size:10px">Create and configure the root AWS account with multi-factor authentication (MFA).</td>
+  <td>Organizational chart, business requirements document</td>
+  <td>Root AWS account with MFA enabled.</td>
+  <td class="kpi-cell">New account setup time < 2 hours</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Security concerns during root account creation.</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>AWS Organizations - Create Organization Structure</td>
+  <td>FleetView Platform Admin</td>
+  <td><span class="sys-tag aws">AWS Organizations</span></td>
+  <td class="kpi-cell" style="font-size:10px">Set up the AWS organization structure with management accounts, organizational units (OUs), and member accounts.</td>
+  <td>Business unit mapping, security policies</td>
+  <td>Organizational structure diagram</td>
+  <td class="kpi-cell">Organization setup time < 4 hours</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Complexity in defining the right OUs and accounts.</td>
+</tr>
+<tr>
+  <td class="step-num">1.3</td>
+  <td>AWS IAM - Define Access Roles</td>
+  <td>FleetView Platform Admin</td>
+  <td><span class="sys-tag aws">AWS IAM</span></td>
+  <td class="kpi-cell" style="font-size:10px">Create and assign IAM roles with least privilege access for different teams.</td>
+  <td>Role permissions matrix, team responsibilities</td>
+  <td>IAM role definitions</td>
+  <td class="kpi-cell">Role creation time per role < 30 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Ensuring proper access controls for security and compliance.</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>AWS Landing Zone - Deploy Landing Zone Framework</td>
+  <td>FleetView Platform Admin</td>
+  <td><span class="sys-tag aws">AWS Control Tower</span></td>
+  <td class="kpi-cell" style="font-size:10px">Deploy the AWS landing zone using AWS Control Tower.</td>
+  <td>Landing zone blueprint, compliance requirements</td>
+  <td>Landing zone deployment report</td>
+  <td class="kpi-cell">Landing zone deployment time < 6 hours</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Time-consuming and complex landing zone setup.</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>AWS S3 - Configure Storage Buckets</td>
+  <td>FleetView Platform Admin</td>
+  <td><span class="sys-tag aws">AWS S3</span></td>
+  <td class="kpi-cell" style="font-size:10px">Create and configure S3 buckets for data storage with versioning and encryption.</td>
+  <td>Data storage requirements, compliance standards</td>
+  <td>S3 bucket configuration report</td>
+  <td class="kpi-cell">Bucket creation time < 1 hour per bucket</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Ensuring data integrity and security with S3 configurations.</td>
+</tr>
+<tr>
+  <td class="step-num">2.3</td>
+  <td>AWS RDS - Set Up Database Instances</td>
+  <td>FleetView Platform Admin</td>
+  <td><span class="sys-tag aws">AWS RDS</span></td>
+  <td class="kpi-cell" style="font-size:10px">Provision and configure RDS database instances for FleetView and SAP S/4HANA.</td>
+  <td>Database schema, performance benchmarks</td>
+  <td>RDS instance setup report</td>
+  <td class="kpi-cell">Database provisioning time < 3 hours per instance</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Optimizing database performance and security.</td>
+</tr>
+<tr>
+  <td class="step-num">2.4</td>
+  <td>AWS EKS - Deploy Kubernetes Clusters</td>
+  <td>FleetView Platform Admin</td>
+  <td><span class="sys-tag aws">AWS EKS</span></td>
+  <td class="kpi-cell" style="font-size:10px">Set up EKS clusters for containerized applications like FleetView.</td>
+  <td>Container deployment requirements, networking configurations</td>
+  <td>EKS cluster configuration report</td>
+  <td class="kpi-cell">Cluster setup time < 5 hours per cluster</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Complexity in setting up Kubernetes for OutSystems applications.</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>AWS IAM - Monitor Access Activity</td>
+  <td>FleetView Platform Admin</td>
+  <td><span class="sys-tag aws">AWS CloudTrail and AWS Config</span></td>
+  <td class="kpi-cell" style="font-size:10px">Enable monitoring of access activity and configuration drift using CloudTrail and Config.</td>
+  <td>Audit requirements, compliance policies</td>
+  <td>Monitoring setup report</td>
+  <td class="kpi-cell">Audit coverage > 95%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Ensuring continuous monitoring without performance impact.</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>AWS Security Hub - Enable Automated Assessments</td>
+  <td>FleetView Platform Admin</td>
+  <td><span class="sys-tag aws">AWS Security Hub</span></td>
+  <td class="kpi-cell" style="font-size:10px">Integrate Security Hub to automate security assessments and compliance checks.</td>
+  <td>Compliance frameworks, security policies</td>
+  <td>Security assessment report</td>
+  <td class="kpi-cell">Assessment completion time < 24 hours</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Keeping up with the latest compliance standards.</td>
+</tr>
+<tr>
+  <td class="step-num">3.3</td>
+  <td>AWS Cost Explorer - Set Up Budget Monitoring</td>
+  <td>FleetView Platform Admin</td>
+  <td><span class="sys-tag aws">AWS Cost Explorer</span></td>
+  <td class="kpi-cell" style="font-size:10px">Configure cost monitoring and alerts to track AWS spending.</td>
+  <td>Budget thresholds, financial reports</td>
+  <td>Cost monitoring setup report</td>
+  <td class="kpi-cell">Over budget incidents < 10% per month</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Maintaining cost control in a dynamic cloud environment.</td>
+</tr>
+<tr>
+  <td class="step-num">3.4</td>
+  <td>AWS Backup - Configure Automated Backups</td>
+  <td>FleetView Platform Admin</td>
+  <td><span class="sys-tag aws">AWS Backup</span></td>
+  <td class="kpi-cell" style="font-size:10px">Set up automated backup policies for critical data and applications.</td>
+  <td>Backup frequency, retention periods</td>
+  <td>Backup configuration report</td>
+  <td class="kpi-cell">Backup success rate > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Ensuring reliable backups without impacting performance.</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
