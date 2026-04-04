@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Cybersecurity, Data Governance & Compliance — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-IT-CY-02: SIEM Alert Triage and Incident Response Playbook Execution — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -578,77 +579,216 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../technology-platform/index.html">Technology & Digital Platform</a> &rsaquo;
-      Cybersecurity, Data Governance & Compliance
+      <a href="../../technology-platform/cybersecurity-governance/index.html">Cybersecurity, Data Governance & Compliance</a> &rsaquo;
+      WHL-IT-CY-02
     </div>
-    <div class="page-title">💻 Cybersecurity, Data Governance & Compliance</div>
-    <div class="page-subtitle">1 of 12 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-it-cy-01.html'>
-  <div class="process-card-id complete">WHL-IT-CY-01</div>
-  <div class="process-card-name">Information Security Policy Maintenance and Annual Review</div>
-  <div class="process-card-meta">10 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-CY-02</div>
-  <div class="process-card-name">SIEM Alert Triage and Incident Response Playbook Execution</div>
-  <div class="process-card-meta">9 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-CY-03</div>
-  <div class="process-card-name">Penetration Testing Programme Management Annual and Ad Hoc</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-CY-04</div>
-  <div class="process-card-name">Identity and Access Management IAM Role and Permission Review</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-CY-05</div>
-  <div class="process-card-name">Data Classification and Sensitive Data Inventory Management</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-CY-06</div>
-  <div class="process-card-name">CCPA and Data Privacy Request Handling and Compliance Reporting</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-CY-07</div>
-  <div class="process-card-name">SOC 2 Type II Audit Preparation and Evidence Collection</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-CY-08</div>
-  <div class="process-card-name">Vendor Third-Party Security Assessment and Onboarding</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-CY-09</div>
-  <div class="process-card-name">Phishing Simulation and Employee Security Awareness Training</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-CY-10</div>
-  <div class="process-card-name">Master Data Governance FleetView SAP and Salesforce Data Quality</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-CY-11</div>
-  <div class="process-card-name">Informatica ETL Data Lineage and Data Quality Rule Management</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-IT-CY-12</div>
-  <div class="process-card-name">Business Continuity Plan Testing and Gap Remediation</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-IT-CY-02</div>
+      <h1>SIEM Alert Triage and Incident Response Playbook Execution</h1>
+      <div class="process-meta">
+        <span>🏢 Technology & Digital Platform</span>
+        <span>➡ Cybersecurity, Data Governance & Compliance</span>
+        <span>📝 9 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">The SIEM Alert Triage and Incident Response Playbook Execution process at Wheels is designed to quickly identify, assess, and respond to cybersecurity incidents detected by the Security Information and Event Management (SIEM) system. This ensures minimal impact on fleet operations and compliance with regulatory requirements.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">A security alert is triggered by the SIEM system indicating a potential threat or anomaly in the IT environment.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">The incident is resolved, and all related stakeholders are informed of the actions taken to mitigate the risk. The incident data is documented for future review and improvement of cybersecurity measures.</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag outsystems">OutSystems Platform</span><span class="sys-tag sys-generic">SIEM System</span><span class="sys-tag aws">AWS</span><span class="sys-tag tableau">Tableau</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-it-cy-02.png" data-lightbox="WHL-IT-CY-02">
+          <img src="../../assets/img/whl-it-cy-02.png" alt="BPMN diagram for WHL-IT-CY-02" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>Incident response time < 30 minutes</li>
+<li>90% accuracy in triage classification</li>
+<li>100% adherence to escalation policies</li>
+<li>100% successful containment within 1 hour</li>
+<li>95% successful eradication within 4 hours</li>
+<li>100% review of incident data within 24 hours</li>
+<li>100% implementation of recommended improvements within 7 days</li>
+<li>95% stakeholder satisfaction post-incident communication</li>
+<li>100% accurate closure of all incidents</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Delayed detection and response to security breaches, leading to data loss or system compromise.</li>
+<li>Misclassification of alerts resulting in over- or under-response to threats.</li>
+<li>Failure to contain the incident effectively, causing widespread disruption.</li>
+<li>Persistent vulnerabilities due to delayed patch implementation.</li>
+<li>Inadequate post-incident analysis preventing the identification of root causes.</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>SIEM - Alert Identified</td>
+  <td>IT Security Analyst</td>
+  <td><span class="sys-tag outsystems">OutSystems Platform</span></td>
+  <td class="kpi-cell" style="font-size:10px">Alert fired based on predefined security rules in the SIEM system.</td>
+  <td>Security event logs from OutSystems, AWS, and other monitored systems.</td>
+  <td>SIEM alert notification sent to the IT Security team.</td>
+  <td class="kpi-cell">Incident response time < 30 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed detection of security breaches.</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>IT Security Analyst - Initial Triage</td>
+  <td>IT Security Analyst</td>
+  <td><span class="sys-tag outsystems">SIEM System (OutSystems)</span></td>
+  <td class="kpi-cell" style="font-size:10px">Analyze alert details and categorize the severity of the incident.</td>
+  <td>SIEM alert notification.</td>
+  <td>Triage report with severity level and recommended action plan.</td>
+  <td class="kpi-cell">90% accuracy in triage classification</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Misclassification of alerts leading to delayed response.</td>
+</tr>
+<tr>
+  <td class="step-num">1.3</td>
+  <td>IT Security Analyst - Escalation Decision</td>
+  <td>IT Security Analyst</td>
+  <td><span class="sys-tag outsystems">SIEM System (OutSystems)</span></td>
+  <td class="kpi-cell" style="font-size:10px">Determine if the incident requires escalation to higher management.</td>
+  <td>Triage report.</td>
+  <td>Escalation recommendation and notification.</td>
+  <td class="kpi-cell">100% adherence to escalation policies</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Non-compliance with escalation procedures.</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>IT Security Analyst - Incident Containment</td>
+  <td>IT Security Analyst</td>
+  <td><span class="sys-tag aws">AWS (EC2, RDS)</span></td>
+  <td class="kpi-cell" style="font-size:10px">Implement containment measures to isolate the affected systems.</td>
+  <td>Escalation recommendation.</td>
+  <td>Containment plan executed and system isolation confirmed.</td>
+  <td class="kpi-cell">100% successful containment within 1 hour</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Failure to contain the incident, leading to wider impact.</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>IT Security Analyst - Incident Eradication</td>
+  <td>IT Security Analyst</td>
+  <td><span class="sys-tag outsystems">OutSystems Platform, AWS (EKS/Kubernetes)</span></td>
+  <td class="kpi-cell" style="font-size:10px">Remove or patch vulnerabilities causing the incident.</td>
+  <td>Containment plan.</td>
+  <td>Vulnerability eradicated and system restored to normal operation.</td>
+  <td class="kpi-cell">95% successful eradication within 4 hours</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Persistent vulnerabilities causing repeated incidents.</td>
+</tr>
+<tr>
+  <td class="step-num">2.3</td>
+  <td>IT Security Analyst - Post-Incident Analysis</td>
+  <td>IT Security Analyst</td>
+  <td><span class="sys-tag outsystems">SIEM System (OutSystems), Tableau</span></td>
+  <td class="kpi-cell" style="font-size:10px">Analyze incident data to identify root causes and improve security measures.</td>
+  <td>Incident details, system logs, and performance metrics.</td>
+  <td>Root cause analysis report and security improvement plan.</td>
+  <td class="kpi-cell">100% review of incident data within 24 hours</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Lack of comprehensive post-incident analysis.</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>IT Security Analyst - Implementation of Improvements</td>
+  <td>IT Security Analyst</td>
+  <td><span class="sys-tag outsystems">OutSystems Platform, AWS (EC2, RDS), Informatica</span></td>
+  <td class="kpi-cell" style="font-size:10px">Deploy security patches and enhancements to prevent future incidents.</td>
+  <td>Security improvement plan.</td>
+  <td>Updated security configurations and system changes confirmed.</td>
+  <td class="kpi-cell">100% implementation of recommended improvements within 7 days</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed implementation of security fixes.</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>IT Security Analyst - Communication with Stakeholders</td>
+  <td>IT Security Analyst, Compliance Officer</td>
+  <td><span class="sys-tag fleetview">OutSystems Platform (FleetView Mobile App), Email System</span></td>
+  <td class="kpi-cell" style="font-size:10px">Notify affected users and stakeholders of the incident and actions taken.</td>
+  <td>Root cause analysis report.</td>
+  <td>Communications plan executed with all relevant parties.</td>
+  <td class="kpi-cell">95% stakeholder satisfaction post-incident communication</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inadequate communication leading to confusion and trust issues.</td>
+</tr>
+<tr>
+  <td class="step-num">3.3</td>
+  <td>IT Security Analyst - Review and Close Incident</td>
+  <td>IT Security Analyst, Compliance Officer</td>
+  <td><span class="sys-tag fleetview">SIEM System (OutSystems), OutSystems Platform (FleetView Analytics Portal)</span></td>
+  <td class="kpi-cell" style="font-size:10px">Finalize incident documentation and close the case.</td>
+  <td>Incident closure report and stakeholder feedback.</td>
+  <td>Closed incident record in SIEM system.</td>
+  <td class="kpi-cell">100% accurate closure of all incidents</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Incomplete documentation affecting future audits.</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
