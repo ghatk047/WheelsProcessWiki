@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>FNOL & Repair Management — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-AM-FN-08: Repair Completion, Invoice Audit, and Case Closure — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -450,57 +451,203 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../accident-management/index.html">Accident Management</a> &rsaquo;
-      FNOL & Repair Management
+      <a href="../../accident-management/accident-fnol/index.html">FNOL & Repair Management</a> &rsaquo;
+      WHL-AM-FN-08
     </div>
-    <div class="page-title">🚨 FNOL & Repair Management</div>
-    <div class="page-subtitle">7 of 8 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-am-fn-01.html'>
-  <div class="process-card-id complete">WHL-AM-FN-01</div>
-  <div class="process-card-name">Driver Accident Report Intake via FleetView or Phone</div>
-  <div class="process-card-meta">8 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-am-fn-02.html'>
-  <div class="process-card-id complete">WHL-AM-FN-02</div>
-  <div class="process-card-name">FNOL Data Capture and Case Creation in FleetView</div>
-  <div class="process-card-meta">6 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-am-fn-03.html'>
-  <div class="process-card-id complete">WHL-AM-FN-03</div>
-  <div class="process-card-name">Tow and Rental Vehicle Coordination</div>
-  <div class="process-card-meta">6 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-am-fn-04.html'>
-  <div class="process-card-id complete">WHL-AM-FN-04</div>
-  <div class="process-card-name">Repair Shop Assignment from Approved Network</div>
-  <div class="process-card-meta">10 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-am-fn-05.html'>
-  <div class="process-card-id complete">WHL-AM-FN-05</div>
-  <div class="process-card-name">I-CAR Certified Adjuster Damage Review and Estimate</div>
-  <div class="process-card-meta">6 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-am-fn-06.html'>
-  <div class="process-card-id complete">WHL-AM-FN-06</div>
-  <div class="process-card-name">Repair Authorisation and Work Order Issuance</div>
-  <div class="process-card-meta">9 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-am-fn-07.html'>
-  <div class="process-card-id complete">WHL-AM-FN-07</div>
-  <div class="process-card-name">Repair Progress Monitoring and Driver Communication</div>
-  <div class="process-card-meta">7 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-AM-FN-08</div>
-  <div class="process-card-name">Repair Completion, Invoice Audit, and Case Closure</div>
-  <div class="process-card-meta">8 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-AM-FN-08</div>
+      <h1>Repair Completion, Invoice Audit, and Case Closure</h1>
+      <div class="process-meta">
+        <span>🏢 Accident Management</span>
+        <span>➡ FNOL & Repair Management</span>
+        <span>📝 8 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">This process handles the completion of vehicle repairs, audit of repair invoices, and closure of accident management cases at Wheels.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">Repair completion notification from the Wheels Telematics/IoT Platform</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">Accident case is closed with all repair invoices accurately recorded and processed in SAP S/4HANA</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag fleetview">FleetView</span><span class="sys-tag sap">SAP S/4HANA</span><span class="sys-tag telematics">Wheels Telematics/IoT Platform</span><span class="sys-tag outsystems">OutSystems Platform</span><span class="sys-tag tableau">Tableau</span><span class="sys-tag informatica">Informatica</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-am-fn-08.png" data-lightbox="WHL-AM-FN-08">
+          <img src="../../assets/img/whl-am-fn-08.png" alt="BPMN diagram for WHL-AM-FN-08" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>Vehicle uptime > 95%</li>
+<li>Invoice accuracy > 99%</li>
+<li>Case closure time < 7 days</li>
+<li>Audit trail completeness > 98%</li>
+<li>Report generation time < 1 hour</li>
+<li>Data integration accuracy > 95%</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Delays in repair completion notifications can cause prolonged vehicle downtime.</li>
+<li>Inaccurate or missing repair details can delay invoice generation.</li>
+<li>Incorrectly generated invoices can lead to payment discrepancies.</li>
+<li>Delayed invoice postings can disrupt financial reconciliation.</li>
+<li>Unclosed cases can lead to ongoing administrative overhead.</li>
+<li>Incomplete audit trails can complicate compliance audits.</li>
+<li>Delayed reports can impact compliance timelines.</li>
+<li>Inaccurate data integrations can affect financial reporting.</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>A1[Wheels Telematics/IoT Platform - Repair Completion Notification]</td>
+  <td>Accident Management Specialist</td>
+  <td><span class="sys-tag telematics">Wheels Telematics/IoT Platform</span></td>
+  <td class="kpi-cell" style="font-size:10px">Sends repair completion notification to FleetView Accident Management Platform</td>
+  <td>Repair completion data from telematics devices</td>
+  <td>Notification in FleetView Accident Management Platform</td>
+  <td class="kpi-cell">Vehicle uptime > 95%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed repair notifications can cause prolonged vehicle downtime.</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>A2[FleetView Accident Management Platform - Repair Case Update]</td>
+  <td>Accident Management Specialist</td>
+  <td><span class="sys-tag fleetview">FleetView Accident Management Platform</span></td>
+  <td class="kpi-cell" style="font-size:10px">Updates repair case with completion details and triggers invoice generation</td>
+  <td>Repair completion notification from Wheels Telematics/IoT Platform</td>
+  <td>Updated repair case in FleetView Accident Management Platform</td>
+  <td class="kpi-cell">Case closure time < 7 days</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inaccurate or missing repair details can delay invoice generation.</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>B1[FleetView - Invoice Generation]</td>
+  <td>Finance Analyst</td>
+  <td><span class="sys-tag fleetview">FleetView</span></td>
+  <td class="kpi-cell" style="font-size:10px">Generates repair invoices based on updated case details</td>
+  <td>Updated repair case data from FleetView Accident Management Platform</td>
+  <td>Generated repair invoice in FleetView</td>
+  <td class="kpi-cell">Invoice accuracy > 99%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Incorrectly generated invoices can lead to payment discrepancies.</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>B2[SAP S/4HANA - Invoice Posting]</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Posts the repair invoice to the GL account</td>
+  <td>Generated repair invoice from FleetView</td>
+  <td>Posted invoice in SAP S/4HANA</td>
+  <td class="kpi-cell">Invoice posting time < 2 hours</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed invoice postings can disrupt financial reconciliation.</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>C1[FleetView Accident Management Platform - Case Closure]</td>
+  <td>Accident Management Specialist</td>
+  <td><span class="sys-tag fleetview">FleetView Accident Management Platform</span></td>
+  <td class="kpi-cell" style="font-size:10px">Finalizes the accident case and marks it as closed</td>
+  <td>Posted invoice confirmation from SAP S/4HANA</td>
+  <td>Closed accident case in FleetView Accident Management Platform</td>
+  <td class="kpi-cell">Case closure time < 7 days</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Unclosed cases can lead to ongoing administrative overhead.</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>C2[OutSystems Platform - Case Audit Trail]</td>
+  <td>Client Analytics Analyst</td>
+  <td><span class="sys-tag outsystems">OutSystems Platform</span></td>
+  <td class="kpi-cell" style="font-size:10px">Logs the audit trail for case closure and invoice posting</td>
+  <td>Closed case and posted invoice data from respective systems</td>
+  <td>Audit trail record in OutSystems Platform</td>
+  <td class="kpi-cell">Audit trail completeness > 98%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Incomplete audit trails can complicate compliance audits.</td>
+</tr>
+<tr>
+  <td class="step-num">3.3</td>
+  <td>C3[Tableau - Reporting]</td>
+  <td>Compliance Officer</td>
+  <td><span class="sys-tag tableau">Tableau</span></td>
+  <td class="kpi-cell" style="font-size:10px">Generates a case closure report for internal review</td>
+  <td>Audit trail data from OutSystems Platform</td>
+  <td>Case closure report in Tableau</td>
+  <td class="kpi-cell">Report generation time < 1 hour</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed reports can impact compliance timelines.</td>
+</tr>
+<tr>
+  <td class="step-num">3.4</td>
+  <td>C4[Informatica - Data Integration]</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag informatica">Informatica</span></td>
+  <td class="kpi-cell" style="font-size:10px">Integrates case closure data with SAP S/4HANA for financial reporting</td>
+  <td>Case closure report from Tableau</td>
+  <td>Integrated data in SAP S/4HANA</td>
+  <td class="kpi-cell">Data integration accuracy > 95%</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Inaccurate data integrations can affect financial reporting.</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
