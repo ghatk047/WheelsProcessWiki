@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Business Continuity & Operational Resilience — Wheels Process Wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WHL-OP-BC-03: IT Disaster Recovery Plan Coordination with AWS and OutSystems — Wheels Process Wiki</title>
 <link rel="stylesheet" href="../../assets/css/wiki.css">
 </head>
 <body>
@@ -33,7 +33,8 @@
   <a class="topbar-home" href="../../index.html">⌂ Home</a>
 </div>
 <div class="wiki-layout">
-  <aside class="wiki-sidebar" id="sidebar"><nav class="wiki-nav">
+  <aside class="wiki-sidebar" id="sidebar">
+    <nav class="wiki-nav">
 <details class="nav-domain">
   <summary><span class="nav-domain-icon">🚗</span>Vehicle Acquisition & Upfitting<span class="nav-domain-arrow">▶</span></summary>
   <details class="nav-l2-group">
@@ -727,57 +728,212 @@
   </ul>
 </details>
 </nav>
-</aside>
+
+  </aside>
   <button class="sidebar-toggle" id="sidebarToggle">◄</button>
   <main class="wiki-main">
     <div class="breadcrumb">
       <a href="../../index.html">Home</a> &rsaquo;
       <a href="../../operations-excellence/index.html">Operations & Business Process Mgmt</a> &rsaquo;
-      Business Continuity & Operational Resilience
+      <a href="../../operations-excellence/business-continuity/index.html">Business Continuity & Operational Resilience</a> &rsaquo;
+      WHL-OP-BC-03
     </div>
-    <div class="page-title">⚙️ Business Continuity & Operational Resilience</div>
-    <div class="page-subtitle">2 of 8 processes complete</div>
-    <div class="process-grid"><a class="process-card" href='whl-op-bc-01.html'>
-  <div class="process-card-id complete">WHL-OP-BC-01</div>
-  <div class="process-card-name">Business Impact Analysis BIA for Fleet Services Operations</div>
-  <div class="process-card-meta">6 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" href='whl-op-bc-02.html'>
-  <div class="process-card-id complete">WHL-OP-BC-02</div>
-  <div class="process-card-name">Business Continuity Plan BCP Development and Annual Review</div>
-  <div class="process-card-meta">6 L4 steps &bull; Complete</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-OP-BC-03</div>
-  <div class="process-card-name">IT Disaster Recovery Plan Coordination with AWS and OutSystems</div>
-  <div class="process-card-meta">9 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-OP-BC-04</div>
-  <div class="process-card-name">Crisis Management Team Activation and Command Structure</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-OP-BC-05</div>
-  <div class="process-card-name">BCP Tabletop Exercise and Live Drill Execution</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-OP-BC-06</div>
-  <div class="process-card-name">Third-Party Dependency Mapping and Vendor Continuity Assessment</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-OP-BC-07</div>
-  <div class="process-card-name">Incident Communication Plan and Stakeholder Notification Protocol</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-<a class="process-card" >
-  <div class="process-card-id ">WHL-OP-BC-08</div>
-  <div class="process-card-name">Post-Incident Review and Lessons Learned Incorporation</div>
-  <div class="process-card-meta">0 L4 steps &bull; Queued</div>
-</a>
-</div>
+    <div class="process-header">
+      <div class="pid-badge">WHL-OP-BC-03</div>
+      <h1>IT Disaster Recovery Plan Coordination with AWS and OutSystems</h1>
+      <div class="process-meta">
+        <span>🏢 Operations & Business Process Mgmt</span>
+        <span>➡ Business Continuity & Operational Resilience</span>
+        <span>📝 9 L4 steps</span>
+        <span>✅ Complete</span>
+      </div>
+    </div>
+    <div class="info-cards">
+      <div class="info-card">
+        <div class="info-card-label">Description</div>
+        <div class="info-card-value">The IT Disaster Recovery Plan Coordination with AWS and OutSystems process ensures the seamless recovery of critical IT systems in case of a disaster event, minimizing downtime and data loss. This process involves coordination between Wheels' IT team and AWS cloud services to restore operations quickly.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Trigger</div>
+        <div class="info-card-value">Detection of a major system failure impacting FleetView, SAP S/4HANA, or other critical applications hosted on AWS.</div>
+      </div>
+      <div class="info-card">
+        <div class="info-card-label">Outcome</div>
+        <div class="info-card-value">Successful restoration of all critical IT systems with minimal data loss and downtime. Ensures operational continuity for Wheels' fleet management operations.</div>
+      </div>
+    </div>
+    <div class="sys-tags"><span class="sys-tag fleetview">FleetView</span><span class="sys-tag sap">SAP S/4HANA</span><span class="sys-tag aws">AWS CloudWatch</span><span class="sys-tag outsystems">OutSystems Platform</span></div>
+    <div class="diagram-section">
+      <div class="section-title">📈 BPMN Process Flow (Technology-Focused)</div>
+      <div class="diagram-wrap" data-lightbox="true">
+        <a href="../../assets/img/whl-op-bc-03.png" data-lightbox="WHL-OP-BC-03">
+          <img src="../../assets/img/whl-op-bc-03.png" alt="BPMN diagram for WHL-OP-BC-03" loading="lazy">
+        </a>
+      </div>
+      <p style="font-size:11px;color:#94a3b8;margin-top:8px;text-align:center">
+        Click diagram to zoom &amp; pan &bull; Scroll to zoom &bull; Drag to pan &bull; Esc to close
+      </p>
+    </div>
+    <div class="panels-row">
+      <div class="panel kpi">
+        <div class="panel-title kpi">🎯 KPIs &amp; Performance Targets</div>
+        <ul><li>Vehicle uptime > 95%</li>
+<li>Invoice accuracy > 99%</li>
+<li>Mean Time to Detection (MTTD) < 10 minutes</li>
+<li>Time to acknowledge < 2 minutes</li>
+<li>Cluster restoration time < 20 minutes</li></ul>
+      </div>
+      <div class="panel risk">
+        <div class="panel-title risk">⚠️ Operational Risks</div>
+        <ul><li>Incomplete data backups leading to significant data loss.</li>
+<li>Failure of the Kubernetes cluster restore process causing extended downtime.</li>
+<li>Deployment errors in OutSystems applications disrupting user operations.</li>
+<li>Inaccurate data restoration in SAP S/4HANA affecting financial reporting.</li>
+<li>Delayed communication to clients during and after recovery can damage reputation.</li></ul>
+      </div>
+    </div>
+    <div class="diagram-section">
+      <div class="section-title">📋 L4 Process Steps — System Integration Detail</div>
+      <div class="l4-table-wrap">
+        <table class="l4-table">
+          <thead>
+            <tr>
+              <th>Step</th>
+              <th>Step Name (System)</th>
+              <th>Role</th>
+              <th>System</th>
+              <th>System Action</th>
+              <th>Input</th>
+              <th>Output</th>
+              <th>KPI</th>
+              <th>Decision</th>
+              <th>Exception</th>
+              <th>Pain Point</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+  <td class="step-num">1.1</td>
+  <td>AWS Monitoring - Alert Firing</td>
+  <td>IT Specialist</td>
+  <td><span class="sys-tag aws">AWS CloudWatch</span></td>
+  <td class="kpi-cell" style="font-size:10px">Monitors AWS resources and triggers an alert on system failure.</td>
+  <td>Health checks, resource utilization metrics</td>
+  <td>Alert notification to the IT team.</td>
+  <td class="kpi-cell">Mean Time to Detection (MTTD) < 10 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Delayed detection of system failures can lead to extended downtime.</td>
+</tr>
+<tr>
+  <td class="step-num">1.2</td>
+  <td>IT Team - Acknowledge Alert</td>
+  <td>IT Specialist</td>
+  <td><span class="sys-tag aws">AWS CloudWatch</span></td>
+  <td class="kpi-cell" style="font-size:10px">Acknowledges the alert and initiates recovery procedures.</td>
+  <td>Alert notification from AWS CloudWatch</td>
+  <td>Acknowledged alert in CloudWatch.</td>
+  <td class="kpi-cell">Time to acknowledge < 2 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Lack of immediate response can escalate the impact of a system failure.</td>
+</tr>
+<tr>
+  <td class="step-num">1.3</td>
+  <td>OutSystems - Backup Validation</td>
+  <td>IT Specialist</td>
+  <td><span class="sys-tag outsystems">OutSystems Platform</span></td>
+  <td class="kpi-cell" style="font-size:10px">Validates the availability of recent backups.</td>
+  <td>Backup logs and timestamps</td>
+  <td>Validation report indicating backup integrity.</td>
+  <td class="kpi-cell">Backup validation time < 5 minutes</td>
+  <td class="decision-y">Y</td>
+  <td class="decision-n">N</td>
+  <td class="pain-cell">Inadequate backup can lead to data loss during recovery.</td>
+</tr>
+<tr>
+  <td class="step-num">2.1</td>
+  <td>AWS - Restore EKS/Kubernetes Cluster</td>
+  <td>Cloud Architect</td>
+  <td><span class="sys-tag aws">AWS EKS</span></td>
+  <td class="kpi-cell" style="font-size:10px">Restores the Kubernetes cluster from backup.</td>
+  <td>Backup data for the EKS cluster</td>
+  <td>Active and running EKS cluster.</td>
+  <td class="kpi-cell">Cluster restoration time < 20 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Extended cluster recovery can disrupt operations.</td>
+</tr>
+<tr>
+  <td class="step-num">2.2</td>
+  <td>OutSystems - Deploy Applications from Backup</td>
+  <td>FleetView Platform Admin</td>
+  <td><span class="sys-tag outsystems">OutSystems Platform</span></td>
+  <td class="kpi-cell" style="font-size:10px">Deploys applications from validated backups.</td>
+  <td>Validated backup files for OutSystems applications</td>
+  <td>Active and running OutSystems applications.</td>
+  <td class="kpi-cell">Application deployment time < 30 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Failed application deployment can hinder business continuity.</td>
+</tr>
+<tr>
+  <td class="step-num">2.3</td>
+  <td>SAP S/4HANA - Restart Instances</td>
+  <td>SAP Finance Analyst</td>
+  <td><span class="sys-tag sap">SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Restarts SAP instances using backup data.</td>
+  <td>Backup data for SAP instances</td>
+  <td>Active SAP instance with restored data.</td>
+  <td class="kpi-cell">Instance restart time < 15 minutes</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Extended SAP instance recovery can lead to financial inaccuracies.</td>
+</tr>
+<tr>
+  <td class="step-num">3.1</td>
+  <td>IT Team - System Validation</td>
+  <td>IT Specialist</td>
+  <td><span class="sys-tag outsystems">AWS CloudWatch, OutSystems Platform, SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Validates the restored systems to ensure full functionality.</td>
+  <td>Logs from AWS CloudWatch, deployment status from OutSystems, instance health from SAP</td>
+  <td>Validation report indicating system readiness.</td>
+  <td class="kpi-cell">System validation time < 1 hour</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Incomplete system validation can result in operational issues.</td>
+</tr>
+<tr>
+  <td class="step-num">3.2</td>
+  <td>Client Communication - Notify of Restoration</td>
+  <td>Account Manager</td>
+  <td><span class="sys-tag salesforce">Email, CRM (Salesforce)</span></td>
+  <td class="kpi-cell" style="font-size:10px">Notifies clients about the restoration and estimated time to normal operation.</td>
+  <td>Validation report from IT team</td>
+  <td>Notification sent to affected clients.</td>
+  <td class="kpi-cell">Client notification time < 1 hour post-restoration</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Lack of communication can lead to client dissatisfaction.</td>
+</tr>
+<tr>
+  <td class="step-num">3.3</td>
+  <td>IT Team - Post-Restoration Review</td>
+  <td>Cloud Architect, IT Specialist</td>
+  <td><span class="sys-tag outsystems">AWS CloudWatch, OutSystems Platform, SAP S/4HANA</span></td>
+  <td class="kpi-cell" style="font-size:10px">Conducts a post-restoration review to identify areas for improvement.</td>
+  <td>Validation report and operational logs from the recovery process</td>
+  <td>Post-recovery review document with recommendations.</td>
+  <td class="kpi-cell">Review completion time < 2 days</td>
+  <td class="decision-n">N</td>
+  <td class="decision-y">Y</td>
+  <td class="pain-cell">Improvements not identified can lead to recurring issues.</td>
+</tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 </div>
 <div id="lightbox">
